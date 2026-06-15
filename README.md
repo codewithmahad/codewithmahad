@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="./banner.png" width="100%" alt="Shaikh Mahad Premium Banner" />
+  <img src="./banner.png" width="100%" alt="Shaikh Mahad Banner" />
 </div>
 <br/>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=151515&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Systems+Engineer;%3E_++Stack%3A+Java+%2F+Spring+Boot+%2F+PostgreSQL;%3E_++Native+Android+Developer;%3E_++Stack%3A+Kotlin+%2F+Jetpack+Compose;%3E_++Building+Scalable+Systems..." />
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=202020&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Systems+Engineer;%3E_++Stack%3A+Java+%2F+Spring+Boot+%2F+PostgreSQL;%3E_++Native+Android+Developer;%3E_++Stack%3A+Kotlin+%2F+Jetpack+Compose;%3E_++Building+Scalable+Systems..." />
-      <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=202020&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Systems+Engineer;%3E_++Stack%3A+Java+%2F+Spring+Boot+%2F+PostgreSQL;%3E_++Native+Android+Developer;%3E_++Stack%3A+Kotlin+%2F+Jetpack+Compose;%3E_++Building+Scalable+Systems..." alt="Typing SVG" />
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=151515&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Developer+(Student);%3E_++Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;%3E_++Building+Structured+Services;%3E_++Problem+Solving+(DSA)..." />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=202020&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Developer+(Student);%3E_++Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;%3E_++Building+Structured+Services;%3E_++Problem+Solving+(DSA)..." />
+      <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=202020&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Developer+(Student);%3E_++Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;%3E_++Building+Structured+Services;%3E_++Problem+Solving+(DSA)..." alt="Typing SVG" />
     </picture>
   </a>
 </div>
@@ -27,13 +27,40 @@
   <table width="90%"> 
     <tr>
       <td align="left">
-        I am a Software Engineering undergraduate at <b>UBIT (University of Karachi)</b> with a strong bias toward <b>backend systems, correctness, and performance</b>.
+        I am a Software Engineering student at <b>UBIT (University of Karachi)</b> focused on backend development using Java and Spring Boot.
         <br><br>
-        I enjoy working close to fundamentals — data structures, object-oriented design, and system internals — and I care deeply about <i>why</i> a system is built a certain way, not just <i>how</i> it works.
+        My focus is on building structured backend services and REST APIs, alongside strengthening core computer science fundamentals including Data Structures & Algorithms, Object-Oriented Programming, and database architecture.
         <br><br>
-        Earlier, I worked extensively on <b>Native Android development (Kotlin / Jetpack Compose)</b>. Today, I am channeling that experience into <b>backend engineering with Java and Spring Boot</b>, building clean, scalable, production-grade services.
+        Previously, I explored Native Android development, but my current trajectory is fully centered on <b>backend engineering and robust API design</b>.
         <br><br>
-        Founder of <b>The UBIT Hub</b> — mentoring students in engineering discipline.
+        Founder of <b>The UBIT Hub</b> — a student community of 900+ members focused on academic collaboration and peer learning.
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=F%20E%20A%20T%20U%20R%20E%20D%C2%A0%C2%A0%C2%A0P%20R%20O%20J%20E%20C%20T%20S&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=F%20E%20A%20T%20U%20R%20E%20D%C2%A0%C2%A0%C2%A0P%20R%20O%20J%20E%20C%20T%20S&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=F%20E%20A%20T%20U%20R%20E%20D%C2%A0%C2%A0%C2%A0P%20R%20O%20J%20E%20C%20T%20S&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
+  </picture>
+</div>
+
+<div align="center">
+  <table width="90%" style="border-collapse: collapse; border: none;">
+    <tr>
+      <td width="50%" align="center" style="border: 1px solid #333; padding: 20px;">
+        <h3>🏋️ Fitness Tracker API</h3>
+        <p><i>Structured backend service handling user data, authentication, and relational mapping.</i></p>
+        <p><samp>Java • Spring Boot • PostgreSQL • REST</samp></p>
+      </td>
+      <td width="50%" align="center" style="border: 1px solid #333; padding: 20px;">
+        <h3>⚙️ Spring Boot Architecture Template</h3>
+        <p><i>A scalable boilerplate utilizing modern database migrations and DTO mapping frameworks.</i></p>
+        <p><samp>Spring Boot • Flyway • MapStruct</samp></p>
       </td>
     </tr>
   </table>
@@ -83,11 +110,11 @@
     </td>
     <td align="center" width="96">
       <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/redis" />
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/redis/white" />
-        <img src="https://cdn.simpleicons.org/redis/white" width="48" height="48" alt="Redis" />
+        <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/flyway" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/flyway/white" />
+        <img src="https://cdn.simpleicons.org/flyway/white" width="48" height="48" alt="Flyway" />
       </picture>
-      <br>Redis
+      <br>Flyway
     </td>
     <td align="center" width="96">
       <picture>
@@ -101,22 +128,6 @@
   <tr>
     <td align="center" width="96">
       <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/kotlin" />
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/kotlin/white" />
-        <img src="https://cdn.simpleicons.org/kotlin/white" width="35" height="35" alt="Kotlin" />
-      </picture>
-      <br>Kotlin
-    </td>
-    <td align="center" width="96">
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/jetpackcompose" />
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/jetpackcompose/white" />
-        <img src="https://cdn.simpleicons.org/jetpackcompose/white" width="48" height="48" alt="Compose" />
-      </picture>
-      <br>Compose
-    </td>
-    <td align="center" width="96">
-      <picture>
         <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/docker" />
         <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/docker/white" />
         <img src="https://cdn.simpleicons.org/docker/white" width="48" height="48" alt="Docker" />
@@ -125,11 +136,27 @@
     </td>
     <td align="center" width="96">
       <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/redis" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/redis/white" />
+        <img src="https://cdn.simpleicons.org/redis/white" width="48" height="48" alt="Redis" />
+      </picture>
+      <br>Redis
+    </td>
+    <td align="center" width="96">
+      <picture>
         <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/mongodb" />
         <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/mongodb/white" />
         <img src="https://cdn.simpleicons.org/mongodb/white" width="48" height="48" alt="MongoDB" />
       </picture>
       <br>MongoDB
+    </td>
+    <td align="center" width="96">
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/jsonwebtokens" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/jsonwebtokens/white" />
+        <img src="https://cdn.simpleicons.org/jsonwebtokens/white" width="48" height="48" alt="JWT" />
+      </picture>
+      <br>JWT Auth
     </td>
     <td align="center" width="96">
       <picture>
@@ -172,19 +199,19 @@
   <table align="center" style="border: none;">
     <tr>
       <td width="30">▪️</td>
-      <td><b>System Internals:</b> Deepening understanding of JVM architecture, Concurrency, and Memory Management.</td>
+      <td><b>Backend Architecture:</b> Building scalable REST APIs with Spring Boot (Security, Validation, Caching).</td>
     </tr>
     <tr>
       <td width="30">▪️</td>
-      <td><b>Backend Architecture:</b> Designing scalable REST APIs with Spring Boot (Security, Validation, Caching).</td>
+      <td><b>Database Engineering:</b> Working with PostgreSQL, including indexing and schema design.</td>
     </tr>
     <tr>
       <td width="30">▪️</td>
-      <td><b>Database Engineering:</b> Advanced PostgreSQL (Indexing, Query Optimization, and Schema Design).</td>
+      <td><b>System Fundamentals:</b> Improving backend performance and understanding JVM behavior.</td>
     </tr>
     <tr>
       <td width="30">▪️</td>
-      <td><b>Algorithmic Problem Solving:</b> Consistent grinding on LeetCode/CodeForces to sharpen logic.</td>
+      <td><b>Problem Solving:</b> Consistent practice on platforms like LeetCode and CodeForces to sharpen logic.</td>
     </tr>
   </table>
 </div>
@@ -197,6 +224,10 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=G%20L%20O%20B%20A%20L%C2%A0%C2%A0%C2%A0M%20E%20T%20R%20I%20C%20S&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
     <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=G%20L%20O%20B%20A%20L%C2%A0%C2%A0%C2%A0M%20E%20T%20R%20I%20C%20S&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
   </picture>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" alt="GitHub Stats" />
 </div>
 
 <div align="center">
