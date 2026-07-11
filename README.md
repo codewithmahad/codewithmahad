@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.png" width="100%" alt="Shaikh Mahad Banner" />
+  <img src="./assets/banner.png" width="100%" alt="Shaikh Mahad Banner" />
 </div>
 <br/>
 
@@ -103,8 +103,8 @@
       <td align="center" width="96">
         <picture>
           <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
-          <source media="(prefers-color-scheme: dark)" srcset="./java-white.png" />
-          <img src="./java-white.png" width="75" height="75" alt="Java" />
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/java-white.png" />
+          <img src="./assets/java-white.png" width="75" height="75" alt="Java" />
         </picture>
       </td>
       <td align="center" width="96">
@@ -238,9 +238,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=000000&text_color=555555&icon_color=000000&bg_color=00000000" />
-    <img src="https://github-readme-stats.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=000000&text_color=555555&icon_color=000000&bg_color=00000000" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" alt="GitHub Stats" />
   </picture>
 </div>
 
