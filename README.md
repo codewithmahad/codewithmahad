@@ -233,24 +233,27 @@
 
 <br/>
 
-<div align="center"><h3>G I T H U B &nbsp; A C T I V I T Y</h3></div>
-
-
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=000000&text_color=555555&icon_color=000000&bg_color=00000000" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=codewithmahad&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&bg_color=00000000" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
   </picture>
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=codewithmahad&style=flat-square&color=grey&label=Profile+Views" alt="Profile Views" />
+  <br>
+  <a href="https://www.linkedin.com/in/codewithmahad"><img src="./assets/socials/linkedin.svg" alt="LinkedIn"/></a>
+  <a href="https://shaikhmahad.vercel.app"><img src="./assets/socials/portfolio.svg" alt="Portfolio"/></a>
+  <a href="https://github.com/codewithmahad"><img src="./assets/socials/github.svg" alt="GitHub"/></a>
+  <br/>
+  <a href="https://leetcode.com/u/mahad2006/"><img src="./assets/socials/leetcode.svg" alt="LeetCode"/></a>
+  <a href="https://www.hackerrank.com/codewithmahad"><img src="./assets/socials/hackerrank.svg" alt="HackerRank"/></a>
+  <a href="https://codolio.com/profile/codewithmahad"><img src="./assets/socials/codolio.svg" alt="Codolio"/></a>
+  <br/>
+  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="./assets/socials/geeksforgeeks.svg" alt="GeeksforGeeks"/></a>
+  <a href="mailto:codewithmahad@gmail.com"><img src="./assets/socials/gmail.svg" alt="Gmail"/></a>
 </div>
-
-<br/>
 
 <div align="center">
   <picture>
@@ -263,23 +266,7 @@
 <br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
-  </picture>
-</div>
-
-<div align="center">
-  <br>
-  <a href="https://www.linkedin.com/in/codewithmahad"><img src="https://img.shields.io/badge/LinkedIn-%23252525.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://shaikhmahad.vercel.app"><img src="https://img.shields.io/badge/Portfolio-%23252525.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://github.com/codewithmahad"><img src="https://img.shields.io/badge/GitHub-%23252525.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <br/><br/>
-  <a href="https://leetcode.com/u/mahad2006/"><img src="https://img.shields.io/badge/LeetCode-%23252525.svg?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-  <a href="https://codolio.com/profile/codewithmahad"><img src="https://img.shields.io/badge/Codolio-%23252525.svg?style=for-the-badge&logo=codolio&logoColor=white" alt="Codolio"/></a>
-  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="https://img.shields.io/badge/GeeksforGeeks-%23252525.svg?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks"/></a>
-  <a href="mailto:codewithmahad@gmail.com"><img src="https://img.shields.io/badge/Gmail-%23252525.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <img src="https://komarev.com/ghpvc/?username=codewithmahad&style=flat-square&color=blue&label=Profile+Views" alt="Profile Views" />
 </div>
 
 <br/>
