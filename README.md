@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/dark.svg">
-      <img alt="Shaikh Mahad Ud Din — Backend Developer Profile" src="assets/dark.svg" width="860">
+      <img alt="Shaikh Mahad Ud Din — Backend Developer Profile" src="assets/dark.svg" width="100%">
     </picture>
   </a>
 </div>
