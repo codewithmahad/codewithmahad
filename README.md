@@ -1,288 +1,144 @@
-<div align="center">
-  <img src="./assets/banner.png" width="100%" alt="Shaikh Mahad Banner" />
-</div>
-<br/>
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=151515&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Developer+(Student);%3E_++Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;%3E_++Building+Structured+Services;%3E_++Problem+Solving+(DSA)..." />
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=202020&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Developer+(Student);%3E_++Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;%3E_++Building+Structured+Services;%3E_++Problem+Solving+(DSA)..." />
-      <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=24&duration=2500&pause=1000&color=FFFFFF&background=202020&center=true&vCenter=true&width=800&height=70&cursor=_&lines=%3E_++Backend+Developer+(Student);%3E_++Java+%E2%80%A2+Spring+Boot+%E2%80%A2+REST+APIs;%3E_++Building+Structured+Services;%3E_++Problem+Solving+(DSA)..." alt="Typing SVG" />
-    </picture>
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=A%20B%20O%20U%20T%C2%A0%C2%A0%C2%A0M%20E&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=A%20B%20O%20U%20T%C2%A0%C2%A0%C2%A0M%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=A%20B%20O%20U%20T%C2%A0%C2%A0%C2%A0M%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
-  </picture>
-</div>
-
-<div align="center">
-  <table width="90%">
-    <tr>
-      <td align="left">
-        I am a Software Engineering student at <b>UBIT (University of Karachi)</b>, focused on backend development with Java and Spring Boot.
-        <br><br>
-        My work centers on building structured REST APIs, designing layered backend services, and strengthening core CS fundamentals — Data Structures & Algorithms, Object-Oriented Programming, and database systems.
-        <br><br>
-        Previously explored Native Android development and now focus primarily on backend engineering with Java and Spring Boot.
-        <br><br>
-        Founder of <b>The UBIT Hub</b> — a student community connecting 900+ UBIT students through academic discussion, course support, and peer learning.
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=F%20E%20A%20T%20U%20R%20E%20D%C2%A0%C2%A0%C2%A0P%20R%20O%20J%20E%20C%20T%20S&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=F%20E%20A%20T%20U%20R%20E%20D%C2%A0%C2%A0%C2%A0P%20R%20O%20J%20E%20C%20T%20S&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=F%20E%20A%20T%20U%20R%20E%20D%C2%A0%C2%A0%C2%A0P%20R%20O%20J%20E%20C%20T%20S&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
-  </picture>
-</div>
-
-<div align="center">
-  <table width="90%" style="border-collapse: collapse; border: none;">
-    <tr>
-      <td width="50%" align="center" style="border: 1px solid #333; padding: 24px; vertical-align: top;">
-        <h3>🏋️ Fitness Tracker API</h3>
-        <p><i>A REST API implementing user authentication, role-based access control, and relational data management.</i></p>
-        <p>
-          <code>JWT Authentication</code> &nbsp; <code>RBAC</code><br/>
-          <code>Spring Security</code> &nbsp; <code>MapStruct</code><br/>
-          <code>Pagination & Filtering</code> &nbsp; <code>Global Exception Handling</code>
-        </p>
-        <p><samp>Java · Spring Boot · PostgreSQL · REST</samp></p>
-        <a href="https://github.com/codewithmahad">
-          <img src="https://img.shields.io/badge/View_Repository-252525?style=flat-square&logo=github&logoColor=white" />
-        </a>
-      </td>
-      <td width="50%" align="center" style="border: 1px solid #333; padding: 24px; vertical-align: top;">
-        <h3>⚙️ Spring Boot Architecture Template</h3>
-        <p><i>A reusable Spring Boot baseline with standardised layered architecture and automated DTO mapping.</i></p>
-        <p>
-          <code>Layered Architecture</code> &nbsp; <code>Flyway Migrations</code><br/>
-          <code>MapStruct DTO Mapping</code> &nbsp; <code>Clean Module Separation</code>
-        </p>
-        <p><samp>Spring Boot · Flyway · MapStruct</samp></p>
-        <a href="https://github.com/codewithmahad">
-          <img src="https://img.shields.io/badge/View_Repository-252525?style=flat-square&logo=github&logoColor=white" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=E%20N%20G%20I%20N%20E%20E%20R%20I%20N%20G%C2%A0%C2%A0%C2%A0S%20T%20A%20C%20K&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=E%20N%20G%20I%20N%20E%20E%20R%20I%20N%20G%C2%A0%C2%A0%C2%A0S%20T%20A%20C%20K&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=E%20N%20G%20I%20N%20E%20E%20R%20I%20N%20G%C2%A0%C2%A0%C2%A0S%20T%20A%20C%20K&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
-  </picture>
-</div>
-
-<div align="center">
-  <br>
-  <samp style="font-size: 14px; color: #888;">C O R E &nbsp; A R C H I T E C T U R E</samp>
-</div>
-<br/>
-
-<div align="center">
-  <table align="center" style="border: none;">
-    <tr>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
-          <source media="(prefers-color-scheme: dark)" srcset="./assets/java-white.png" />
-          <img src="./assets/java-white.png" width="75" height="75" alt="Java" />
-        </picture>
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/springboot" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/springboot/white" />
-          <img src="https://cdn.simpleicons.org/springboot/white" width="48" height="48" alt="Spring Boot" />
-        </picture>
-        <br>Spring Boot
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/postgresql" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/postgresql/white" />
-          <img src="https://cdn.simpleicons.org/postgresql/white" width="48" height="48" alt="PostgreSQL" />
-        </picture>
-        <br>PostgreSQL
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/flyway" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/flyway/white" />
-          <img src="https://cdn.simpleicons.org/flyway/white" width="48" height="48" alt="Flyway" />
-        </picture>
-        <br>Flyway
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/springsecurity" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/springsecurity/white" />
-          <img src="https://cdn.simpleicons.org/springsecurity/white" width="48" height="48" alt="Security" />
-        </picture>
-        <br>Security
-      </td>
-    </tr>
-    <tr>
-      <!-- Docker, Redis, MongoDB commented out — add back once used in projects
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/docker" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/docker/white" />
-          <img src="https://cdn.simpleicons.org/docker/white" width="48" height="48" alt="Docker" />
-        </picture>
-        <br>Docker
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/redis" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/redis/white" />
-          <img src="https://cdn.simpleicons.org/redis/white" width="48" height="48" alt="Redis" />
-        </picture>
-        <br>Redis
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/mongodb" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/mongodb/white" />
-          <img src="https://cdn.simpleicons.org/mongodb/white" width="48" height="48" alt="MongoDB" />
-        </picture>
-        <br>MongoDB
-      </td>
-      -->
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/jsonwebtokens" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/jsonwebtokens/white" />
-          <img src="https://cdn.simpleicons.org/jsonwebtokens/white" width="48" height="48" alt="JWT" />
-        </picture>
-        <br>JWT Auth
-      </td>
-      <td align="center" width="96">
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/cplusplus" />
-          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/cplusplus/white" />
-          <img src="https://cdn.simpleicons.org/cplusplus/white" width="48" height="48" alt="C++" />
-        </picture>
-        <br>C++ (DSA)
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<div align="center">
-  <samp style="font-size: 14px; color: #888;">D E V &nbsp; T O O L K I T</samp>
-</div>
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Maven-252525?style=for-the-badge&logo=apachemaven&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-252525?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-252525?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-252525?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/IntelliJ-252525?style=for-the-badge&logo=intellijidea&logoColor=white" />
-</div>
-
-<br/>
-
-<br/>
-
-<div align="center"><h3>T E C H N I C A L &nbsp; F O C U S</h3></div>
-<br/>
-<div align="center">
-  <table align="center" style="border: none;">
-    <tr>
-      <td width="30">▪️</td>
-      <td><b>Backend Architecture:</b> Building REST APIs with Spring Boot — Security, Validation, and layered service structure following clean architecture principles.</td>
-    </tr>
-    <tr>
-      <td width="30">▪️</td>
-      <td><b>Database Engineering:</b> Working with PostgreSQL — indexing, query design, schema modeling, and version-controlled migrations via Flyway.</td>
-    </tr>
-    <tr>
-      <td width="30">▪️</td>
-      <td><b>System Fundamentals:</b> Learning Java internals, OOP design patterns, and application performance fundamentals.</td>
-    </tr>
-    <tr>
-      <td width="30">▪️</td>
-      <td><b>Problem Solving:</b> Consistent DSA practice on LeetCode, Codeforces, and GeeksForGeeks using C++ to sharpen algorithmic thinking.</td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=soft&color=E0E0E0&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=000000&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" />
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000%2C100:252525&height=70&section=header&text=D%20I%20G%20I%20T%20A%20L%C2%A0%C2%A0%C2%A0P%20R%20E%20S%20E%20N%20C%20E&fontSize=25&fontColor=C9C9C9&animation=fadeIn&fontAlignY=55&font=Josefin+Sans" width="100%" />
-  </picture>
-</div>
-
-<div align="center">
-  <br>
-  <a href="https://www.linkedin.com/in/codewithmahad"><img src="./assets/socials/linkedin.svg" alt="LinkedIn"/></a>
-  <a href="https://shaikhmahad.vercel.app"><img src="./assets/socials/portfolio.svg" alt="Portfolio"/></a>
-  <a href="https://github.com/codewithmahad"><img src="./assets/socials/github.svg" alt="GitHub"/></a>
-  <br/>
-  <a href="https://leetcode.com/u/mahad2006/"><img src="./assets/socials/leetcode.svg" alt="LeetCode"/></a>
-  <a href="https://www.hackerrank.com/codewithmahad"><img src="./assets/socials/hackerrank.svg" alt="HackerRank"/></a>
-  <a href="https://codolio.com/profile/codewithmahad"><img src="./assets/socials/codolio.svg" alt="Codolio"/></a>
-  <br/>
-  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="./assets/socials/geeksforgeeks.svg" alt="GeeksforGeeks"/></a>
-  <a href="mailto:codewithmahad@gmail.com"><img src="./assets/socials/gmail.svg" alt="Gmail"/></a>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mahad2006/mahad2006/main/profile-3d-contrib/profile-night-green.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mahad2006/mahad2006/main/profile-3d-contrib/profile-night-green.svg" />
-    <img src="https://raw.githubusercontent.com/mahad2006/mahad2006/main/profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" width="100%" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=codewithmahad&style=flat-square&color=blue&label=Profile+Views" alt="Profile Views" />
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/terminal.svg">
-    <img alt="Terminal Easter Egg" src="assets/terminal.svg" width="100%">
-  </picture>
-</div>
-
-<br/>
+<!-- You opened the source. Nice. The bottom drawer has something for you. -->
+<a id="top"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=B0B0B0&height=120&section=footer" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=B0B0B0&height=120&section=footer" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=B0B0B0&height=120&section=footer" width="100%" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/hero-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
+  <img src="assets/profile/hero-light.svg" width="100%" alt="Hey, I'm Mahad. I like knowing what happens after you click the button. An illustrated workbench in Karachi, Pakistan.">
 </picture>
+
+<p align="center">
+  <a href="#behind-the-button">Projects</a> &nbsp; / &nbsp;
+  <a href="#the-notebook-stays-open">Notebooks</a> &nbsp; / &nbsp;
+  <a href="#some-things-are-better-shared">People</a> &nbsp; / &nbsp;
+  <a href="#lets-talk">Hello</a>
+</p>
+
+<br>
+
+**I’m Shaikh Mahad**, a BS Software Engineering student at **UBIT, University of Karachi**.
+
+I started with native Android apps. These days, I’m more interested in what happens behind the screen: how a request moves through a service, who gets access, and where the data ends up. That’s what brought me to **Java and Spring Boot**.
+
+I want to build backends I can explain all the way down to the database. This GitHub is where I’m working on that, with a few useful detours along the way.
+
+<img src="assets/profile/thread.svg" width="100%" alt="">
+
+<samp>01 / BUILDING</samp>
+
+## Behind the button
+
+<a href="https://github.com/codewithmahad/fitness-tracker-backend">
+  <img src="assets/profile/backend.webp" align="right" width="23%" alt="A little server made of filing drawers, with a brass key for authentication.">
+</a>
+
+### [Fitness Tracker API ↗︎](https://github.com/codewithmahad/fitness-tracker-backend)
+
+A fitness backend where I’m putting the pieces together: workout data, JWT authentication, user roles, validation, and a proper place for each layer of the application.
+
+<sub>Java · Spring Boot · Spring Security · MySQL · MapStruct</sub>
+
+### [Spring Boot Starter ↗︎](https://github.com/codewithmahad/spring-boot-25-enterprise-template)
+
+The setup I want ready when the next idea arrives. A reusable foundation with separated layers, Flyway migrations, DTO mapping, and API documentation. Less time arranging folders; more time building the actual thing.
+
+<sub>Java · Spring Boot · Flyway · MapStruct · OpenAPI</sub>
+
+<br clear="both">
+
+<samp>02 / FIGURING THINGS OUT</samp>
+
+## The notebook stays open
+
+<a href="https://github.com/codewithmahad/LINUX_LAB">
+  <img src="assets/profile/linux-notebook.webp" align="right" width="23%" alt="A curious little penguin reading a Linux notebook, with a coral pencil and a Bash prompt.">
+</a>
+
+**[LINUX_LAB ↗︎](https://github.com/codewithmahad/LINUX_LAB)** started in my Operating Systems lab. I’m keeping it going because I want to understand the machine I’m writing code on.
+
+Commands, permissions, processes, Bash scripts. Try something, see what happens, write down what made it click. If you’re learning too, there’s room in the notebook.
+
+The other notebooks are open as well:
+
+**[Java](https://github.com/codewithmahad/JAVA_LAB)** &nbsp; / &nbsp; **[SQL](https://github.com/codewithmahad/SQL_LAB)** &nbsp; / &nbsp; **[Data structures & algorithms](https://github.com/codewithmahad/DSA_LAB)**
+
+<br clear="both">
+
+### Within arm’s reach
+
+| What I’m working on | What I reach for |
+| :--- | :--- |
+| APIs & services | Java, Spring Boot, Spring Security, JWT |
+| Data & persistence | PostgreSQL, MySQL, SQL, Flyway, MapStruct |
+| The everyday tools | Git, Maven, Linux, Bash, Postman, IntelliJ IDEA |
+| The fundamentals | C++, DSA, OOP, database design |
+
+I’m also working through Java internals, design patterns, query design, and performance fundamentals. Plenty left to understand. That’s the interesting part.
+
+<details>
+<summary>The Android chapter is still on the shelf.</summary>
+
+Before the backend detour, I worked with **Kotlin and Jetpack Compose**. A couple of things from that chapter:
+
+- **[Derivify](https://github.com/codewithmahad/Derivify-Calculus-Toolkit)** — a native Android toolkit for multivariable calculus.
+- **[Quizzler](https://github.com/codewithmahad/Quizzler-App)** — the quiz app I built for my second-semester OOP project.
+
+Different side of the screen. Same curiosity about how it works.
+
+</details>
+
+<br>
+
+<samp>03 / PASSING IT ON</samp>
+
+## Some things are better shared
+
+<a href="https://github.com/codewithmahad/the-ubit-hub-resources">
+  <img src="assets/profile/community.webp" align="right" width="23%" alt="A shared noticeboard with paper notes and a paper airplane carrying an idea onward.">
+</a>
+
+I founded **The UBIT Hub**, a community connecting **900+ UBIT students** through course support, academic discussion, and peer learning.
+
+Good notes shouldn’t disappear into an old group chat after finals. So there’s **[a shared resource shelf](https://github.com/codewithmahad/the-ubit-hub-resources)** for notes, assignments, and lab material that the next student can actually find.
+
+And because the work sometimes needs a screen, there’s the **[UBIT Semester Results Dashboard](https://github.com/codewithmahad/ubit-semester-result-dashboard)**: semester results, GPA calculations, rankings, and PDF exports, built with Next.js and TypeScript.
+
+<br clear="both">
+
+<img src="assets/profile/thread.svg" width="100%" alt="">
+
+## Let’s talk
+
+Learning something similar, building a backend, or making something useful for students? I’d like to hear about it.
+
+**[Portfolio ↗︎](https://shaikhmahad.vercel.app)** &nbsp; / &nbsp; **[LinkedIn ↗︎](https://www.linkedin.com/in/codewithmahad)** &nbsp; / &nbsp; **[Email ↗︎](mailto:codewithmahad@gmail.com)**
+
+<sub>Where I practise: <a href="https://leetcode.com/u/mahad2006/">LeetCode</a> · <a href="https://www.hackerrank.com/codewithmahad">HackerRank</a> · <a href="https://www.geeksforgeeks.org/user/codewithmahad/">GeeksforGeeks</a> · <a href="https://codolio.com/profile/codewithmahad">Codolio</a></sub>
+
+<br>
+
+<a id="the-bottom-drawer"></a>
+<details>
+<summary>Psst. There’s one more drawer.</summary>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/drawer-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/drawer-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/drawer-dark.svg">
+  <img src="assets/profile/drawer-light.svg" width="100%" alt="Secret drawer: you found a tiny penguin, a spare key, and a note. Pick one to choose your next stop.">
+</picture>
+
+**[Follow the penguin →](https://github.com/codewithmahad/LINUX_LAB)** a Linux rabbit hole.<br>
+**[Take the spare key →](https://github.com/codewithmahad/spring-security-jwt-mastery)** a look at authentication.<br>
+**[Pass the note →](https://github.com/codewithmahad/the-ubit-hub-resources)** something useful for the next student.
+
+<!-- Bonus drawer: thanks for reading the small print. See you in the commit history. -->
+
+</details>
+
+<br>
+
+<p align="center"><sub>Made of questions, coursework, and a growing number of repositories.<br>Karachi, Pakistan &nbsp; · &nbsp; <a href="#top">Back to the desk ↑</a></sub></p>
