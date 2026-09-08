@@ -113,20 +113,6 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<details>
-<summary>GitHub activity</summary>
-
-<a href="https://github.com/codewithmahad?tab=overview">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/garden-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/profile/garden-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/garden-dark.svg">
-    <img src="assets/profile/garden-light.svg" width="720" alt="My GitHub contribution calendar for the past year. Open my GitHub activity for the accessible calendar.">
-  </picture>
-</a>
-
-</details>
-
 <h3 id="lets-talk">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">

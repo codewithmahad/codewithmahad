@@ -3,10 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build.mjs && node contributions.mjs",
-    "preview": "node preview.mjs",
-    "contributions": "node contributions.mjs --refresh",
-    "test": "node --test contributions.test.mjs"
+    "build": "node build.mjs",
+    "preview": "node preview.mjs"
   },
   "devDependencies": {
     "fontkit": "^2.0.4",

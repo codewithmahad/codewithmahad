@@ -29,27 +29,6 @@ npm --prefix scripts/profile run preview -- --screenshots
 
 Screenshots use an installed Playwright Chromium browser or Chrome on Windows. Set `PROFILE_BROWSER` to another Chromium executable if needed. Preview files and dependencies are ignored by Git. The published README needs no Node.js, custom CSS, JavaScript, or external image service.
 
-## GitHub activity
-
-The optional **GitHub activity** disclosure displays a dated snapshot from [`contributions.json`](contributions.json). [`../../scripts/profile/contributions.mjs`](../../scripts/profile/contributions.mjs) renders GitHub’s five contribution levels into four `garden-*.svg` files. Desktop uses one calendar; mobile splits the same chronological weeks into two panels. The filenames are retained for compatibility.
-
-```sh
-# Render the saved snapshot.
-node scripts/profile/contributions.mjs
-
-# Fetch current GitHub activity and render it.
-npm --prefix scripts/profile run contributions
-
-# Validate calendar handling.
-npm --prefix scripts/profile test
-```
-
-The updater uses GitHub’s GraphQL calendar with `GH_TOKEN` or `GITHUB_TOKEN`, or reads the public contribution calendar. It checks dates, daily counts, activity levels, and totals before replacing the saved data. Failed fetches leave the previous snapshot intact. Each graphic includes its capture date.
-
-[`../../.github/workflows/contribution-garden.yml`](../../.github/workflows/contribution-garden.yml) requests a refresh daily at **00:17 UTC**, supports manual runs, and runs when its generator changes on `main`. It uses the built-in workflow token and commits only the calendar JSON and four graphics. Scheduled runs become available after the workflow reaches the default branch.
-
-The numbers reflect GitHub contributions, including the profile’s private-contribution visibility settings. They are not hand-authored or a count of commits alone.
-
 ## Artwork and provenance
 
 The original illustrations were generated with the **built-in image_gen tool**. Exact prompts, including the discarded social-tree experiment, are preserved in [`source/prompts.json`](source/prompts.json).

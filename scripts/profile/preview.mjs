@@ -87,7 +87,6 @@ if (process.argv.includes('--screenshots')) {
         }
         if (width === 390 || width === 1200) {
           for (const [label, summary] of [
-            ['activity', 'GitHub activity'],
             ['stack', 'What I use, and what I’m working on'],
             ['drawer', 'Psst. There’s one more drawer.'],
           ]) {
