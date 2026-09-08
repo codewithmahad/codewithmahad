@@ -127,17 +127,22 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<div align="center"><img src="assets/profile/divider-sweep.svg" width="100%" alt="A paper plane crossing a coral line."></div>
+<h3 id="lets-talk">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">
+    <img src="assets/profile/contact-heading-light.svg" width="100%" alt="Say hello">
+  </picture>
+</h3>
 
-<h3 align="center" id="lets-talk">Say hello</h3>
+Working on a backend or untangling Spring Security? Tell me what you’re building—I’d be glad to compare notes.
 
-<p align="center">
-  Working on a backend, untangling Spring Security, or learning something similar?<br>
-  I’d like to compare notes.<br>
-  <a href="mailto:codewithmahad@gmail.com"><strong>Email</strong></a> ·
-  <a href="https://www.linkedin.com/in/codewithmahad"><strong>LinkedIn</strong></a> ·
-  <a href="https://shaikhmahad.vercel.app"><strong>Portfolio</strong></a>
+<p>
+  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/linkedin-dark.svg"><img src="assets/profile/contact/linkedin-light.svg" width="172" height="52" alt="LinkedIn — connect with me"></picture></a>
+  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/portfolio-dark.svg"><img src="assets/profile/contact/portfolio-light.svg" width="172" height="52" alt="Portfolio — see my work"></picture></a>
+  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/email-dark.svg"><img src="assets/profile/contact/email-light.svg" width="172" height="52" alt="Email — write to codewithmahad@gmail.com"></picture></a>
 </p>
+
+I go by **codewithmahad** on most platforms.
 
 <details>
 <summary>Coding profiles & practice</summary>

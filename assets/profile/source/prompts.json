@@ -8,7 +8,7 @@
     "backend": "backend.webp, beside Backend projects",
     "linux": "linux-notebook.webp, beside Learning notes",
     "community": "community.webp, beside The UBIT Hub",
-    "signoff": "signoff-plane.webp, embedded over the closing coral divider before Say hello",
+    "signoff": "signoff-plane.webp, embedded over the coral line in the themed Say hello heading",
     "copyright": "copyright.webp, inside the Copyright & reuse disclosure"
   },
   "prompts": {
@@ -28,6 +28,6 @@
       "Remove the background from the supplied image. Keep only the handmade tree, leaves, three blank cream leaf tags, terracotta pot and notebook. Deliver a clean transparent-background PNG cutout, with an actual alpha channel. Preserve the objects and their composition. There must be empty transparent space between branches and around the entire silhouette."
     ],
     "signoff": "Create a transparent-background PNG cutout illustration for the closing signature of a GitHub README. A lovely ivory paper airplane with visible folded paper fibers, pointing gently up and right, trailing one loose looping coral thread. The thread is tied to a tiny brass key and one small sage leaf below the plane. An elegant, compact physical still life, handcrafted matte paper, warm brass and natural textures. Warm soft editorial studio lighting, delicate dimensional shadows on the folds. Objects only, isolated with real transparent alpha around every edge. Landscape composition with the entire plane and thread fully visible, plenty of breathing space. No background, no text, no logos, no wall or floor. Match the warm ivory, coral, sage and brass materials of the reference workbench, without copying any of its objects.",
-    "note": "The paper plane is embedded over the closing coral divider. Exact historical prompts are retained unchanged; their original placement descriptions do not imply current use."
+    "note": "The paper plane is embedded over the coral line in the themed Say hello heading. Exact historical prompts are retained unchanged; their original placement descriptions do not imply current use."
   }
 }
