@@ -1,16 +1,15 @@
-# Mahad’s workbench
+﻿# Profile artwork
 
-The profile combines transparent, tactile illustrations with real Markdown text. Bone white, sage, coral and brass connect the computer, backend drawers, Linux notebook and student noticeboard. Fraunces supplies the large lettering; Manrope handles the small labels.
+The README pairs short, editable text with a workbench illustration and four smaller cutouts. Ivory, sage, coral, and brass connect the artwork; Fraunces and Manrope supply the hero and calendar lettering.
 
-## Editing
+## Editing and preview
 
-- Edit the profile’s writing and links directly in [`../../README.md`](../../README.md). Nothing generates or overwrites that file.
-- Edit the header, dividers and secret drawer in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs).
-- Full-resolution PNG originals are in [`source/`](source/). Display assets are smaller WebP derivatives with transparency preserved.
-- The four `hero-*.svg` files provide desktop/mobile and light/dark compositions. The four `drawer-*.svg` files do the same for the Easter egg.
-- SVG lettering is converted to paths so it does not depend on a visitor having the fonts installed. The header embeds its artwork, so GitHub does not need to resolve an external image from inside an SVG.
+- Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
+- Edit the four desktop/mobile, light/dark headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
+- The backend, Linux, community, and paper-plane cutouts float inside native HTML headings, overlapping GitHub’s heading rules. Contact links remain normal, selectable text.
+- Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The headers embed their artwork and convert lettering to paths, so they need no remote images or installed fonts.
 
-From the repository root, with Node.js installed:
+From the repository root:
 
 ```sh
 npm --prefix scripts/profile ci
@@ -18,43 +17,49 @@ npm --prefix scripts/profile run build
 npm --prefix scripts/profile run preview
 ```
 
-Open `.preview/profile.html` to review the page using GitHub Markdown CSS. The local preview follows the system’s light/dark preference. Preview files and dependencies are ignored by Git.
-
-To capture light/dark screenshots at 320, 390, 768 and 1200 pixels:
+Open `.preview/profile.html` for a local approximation of GitHub’s layout. To capture both themes at 320, 390, 768, and 1200 pixels:
 
 ```sh
 npm --prefix scripts/profile run preview -- --screenshots
 ```
 
-This uses an installed Playwright Chromium browser, or Chrome on Windows. Set `PROFILE_BROWSER` to an executable path to use another Chromium installation. If needed, install the preview browser with `npm exec --prefix scripts/profile -- playwright-core install chromium`.
+Screenshots use an installed Playwright Chromium browser or Chrome on Windows. Set `PROFILE_BROWSER` to another Chromium executable if needed. Preview files and dependencies are ignored by Git. The published README needs no Node.js, custom CSS, JavaScript, or external image service.
 
-The preview is a local approximation of GitHub’s page layout. During this redesign, the README was also rendered through GitHub’s Markdown API to verify that its HTML survives sanitization. The artwork and page need no Node.js, custom CSS, JavaScript or external image service when viewed on GitHub.
+## GitHub activity
 
-## Artwork and type
+The optional **GitHub activity** disclosure displays a dated snapshot from [`contributions.json`](contributions.json). [`../../scripts/profile/contributions.mjs`](../../scripts/profile/contributions.mjs) renders GitHub’s five contribution levels into four `garden-*.svg` files. Desktop uses one calendar; mobile splits the same chronological weeks into two panels. The filenames are retained for compatibility.
 
-Original illustrations were generated with the **built-in image_gen tool**. The exact prompts are preserved in [`source/prompts.json`](source/prompts.json). The workbench establishes the materials and palette; the other illustrations use it as a style reference. No artwork was copied from the reference READMEs.
+```sh
+# Render the saved snapshot.
+node scripts/profile/contributions.mjs
 
-- `source/workbench.png` → `workbench.webp`, embedded in the four headers.
-- `source/backend.png` → `backend.webp`, beside the backend projects.
-- `source/linux-notebook.png` → `linux-notebook.webp`, beside LINUX_LAB.
-- `source/community.png` → `community.webp`, beside The UBIT Hub.
+# Fetch current GitHub activity and render it.
+npm --prefix scripts/profile run contributions
 
-The Linux illustration is an original stylized penguin, not the official Tux artwork.
+# Validate calendar handling.
+npm --prefix scripts/profile test
+```
 
-[Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) are distributed under the SIL Open Font License. Their font files and individual license notices are retained in `source/`.
+The updater uses GitHub’s GraphQL calendar with `GH_TOKEN` or `GITHUB_TOKEN`, or reads the public contribution calendar. It checks dates, daily counts, activity levels, and totals before replacing the saved data. Failed fetches leave the previous snapshot intact. Each graphic includes its capture date.
 
-## Content references
+[`../../.github/workflows/contribution-garden.yml`](../../.github/workflows/contribution-garden.yml) requests a refresh daily at **00:17 UTC**, supports manual runs, and runs when its generator changes on `main`. It uses the built-in workflow token and commits only the calendar JSON and four graphics. Scheduled runs become available after the workflow reaches the default branch.
 
-The original profile supplied the education, backend focus, prior Android work, community role and 900+ student figure, learning priorities, and contact links. The community figure is the owner’s stated figure, not a live counter.
+The numbers reflect GitHub contributions, including the profile’s private-contribution visibility settings. They are not hand-authored or a count of commits alone.
 
-Public repositories checked for the redesign:
+## Artwork and provenance
 
-- [Fitness Tracker backend](https://github.com/codewithmahad/fitness-tracker-backend) and [Spring Boot starter](https://github.com/codewithmahad/spring-boot-25-enterprise-template).
-- [LINUX_LAB](https://github.com/codewithmahad/LINUX_LAB), [JAVA_LAB](https://github.com/codewithmahad/JAVA_LAB), [SQL_LAB](https://github.com/codewithmahad/SQL_LAB), and [DSA_LAB](https://github.com/codewithmahad/DSA_LAB).
-- [The UBIT Hub resources](https://github.com/codewithmahad/the-ubit-hub-resources) and [semester results dashboard](https://github.com/codewithmahad/ubit-semester-result-dashboard).
+The original illustrations were generated with the **built-in image_gen tool**. Exact prompts, including the discarded social-tree experiment, are preserved in [`source/prompts.json`](source/prompts.json).
 
-The fitness project’s README identifies MySQL, so its project label uses MySQL. PostgreSQL remains in the personal toolkit from the original profile. Tool and project descriptions avoid unverified production, performance or security claims.
+| Original | Display asset | Placement |
+| :--- | :--- | :--- |
+| `source/workbench.png` | `workbench.webp` | Embedded in the four `hero-*.svg` headers |
+| `source/backend.png` | `backend.webp` | Backend projects |
+| `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
+| `source/community.png` | `community.webp` | The UBIT Hub |
+| `source/signoff-plane.png` | `signoff-plane.webp` | Say hello |
 
-The layout takes the image-beside-prose idea from [skydoves’ profile](https://github.com/skydoves) and the personal learning tone from [LINUX_LAB](https://github.com/codewithmahad/LINUX_LAB). The composition, copy and artwork are new.
+The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) use the SIL Open Font License; font files and notices are retained in `source/`.
 
-Existing profile automation writes older, unreferenced assets. The new README is independent of those workflows and uses only the checked-in artwork in this directory.
+The owner’s original profile supplied education, backend focus, Android experience, learning priorities, contacts, and the stated **900+ students** community figure. Project descriptions were checked against the linked repositories. The Fitness Tracker uses MySQL; PostgreSQL comes from the original personal toolkit.
+
+The image-beside-prose layout was inspired by [skydoves’ profile](https://github.com/skydoves), and the personal learning tone by [LINUX_LAB](https://github.com/codewithmahad/LINUX_LAB). No artwork was copied from either reference.

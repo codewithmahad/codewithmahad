@@ -1,0 +1,50 @@
+name: Refresh contribution garden
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/contribution-garden.yml'
+      - 'scripts/profile/**'
+      - 'assets/profile/source/*.ttf'
+
+concurrency:
+  group: contribution-garden
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: scripts/profile/package-lock.json
+      - run: npm ci --prefix scripts/profile
+      - name: Check calendar data guards
+        run: npm --prefix scripts/profile test
+      - name: Fetch activity and render the garden
+        run: node scripts/profile/contributions.mjs --refresh
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Save changed calendar assets
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git add assets/profile/contributions.json assets/profile/garden-*.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh contribution garden [skip ci]'
+          git pull --rebase origin "$DEFAULT_BRANCH"
+          git push origin "HEAD:$DEFAULT_BRANCH"

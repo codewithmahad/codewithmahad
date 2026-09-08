@@ -27,6 +27,7 @@ if (process.argv.includes('--github')) {
   // The API sanitizes markup; GitHub's page layer adds heading anchors afterward.
   body = body.replace(/<h([1-6]) dir="auto">([\s\S]*?)<\/h\1>/g, (_, depth, text) => {
     const slug = text.replace(/<[^>]*>/g, '').toLowerCase().replace(/[^\p{L}\p{N}\s_-]/gu, '').replace(/\s/g, '-');
+    if (body.includes(`id="user-content-${slug}"`) || body.includes(`id="${slug}"`)) return `<h${depth}>${text}</h${depth}>`;
     return `<h${depth} id="${slug}">${text}</h${depth}>`;
   });
   body = body.replace(/id="user-content-([^"]+)"/g, 'id="$1"');
@@ -73,11 +74,21 @@ if (process.argv.includes('--screenshots')) {
           brokenImages: [...document.images].filter(i => !i.complete || !i.naturalWidth).map(i => i.getAttribute('src')),
           selectedHeader: document.querySelector('picture img').currentSrc.split('/').pop(),
           missingAnchors: [...document.querySelectorAll('a[href^="#"]')].map(a => a.getAttribute('href').slice(1)).filter(id => id && !document.getElementById(id) && !document.getElementById(`user-content-${id}`)),
+          stickersCrossHeadingRule: [...document.querySelectorAll('h2 img')].map(img => {
+            const sticker = img.getBoundingClientRect();
+            const heading = img.closest('h2').getBoundingClientRect();
+            return sticker.top < heading.bottom && sticker.bottom > heading.bottom - 1;
+          }),
         }));
         console.log(name, JSON.stringify(report));
+        if (report.pageWidth > width || report.brokenImages.length || report.missingAnchors.length || report.stickersCrossHeadingRule.some(crosses => !crosses)) {
+          throw new Error(`Layout check failed for ${name}.`);
+        }
         if (width === 390 || width === 1200) {
-          await page.locator('details').last().locator('summary').click();
-          await page.locator('details').last().screenshot({ path: path.join(preview, `drawer-${name}.png`) });
+          const activity = page.locator('details').filter({ has: page.getByText('GitHub activity', { exact: true }) });
+          await activity.locator('summary').click();
+          await activity.screenshot({ path: path.join(preview, `activity-${name}.png`) });
+          await activity.locator('summary').click();
         }
         await page.close();
       }
