@@ -1,13 +1,14 @@
 ﻿# Profile artwork
 
-The README pairs short, editable text with a workbench illustration and five smaller cutouts. Ivory, sage, coral, and brass connect the artwork; Fraunces and Manrope supply the hero and calendar lettering.
+The README mixes editable personal writing, small illustrations, and real technology logos. Ivory, sage, coral, and brass connect the original artwork; the Java, Spring, and PostgreSQL marks keep their own colors. Longer project, background, and toolkit notes live in expandable sections.
 
 ## Editing and preview
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
-- Edit the compact light/dark headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Both use a 1000 × 280 canvas; the tagline stays in normal README text. The former `hero-mobile-*.svg` filenames are maintained as identical compact copies for older links. Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
+- Edit the light/dark `masthead-*.svg` headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Both use a 1000 × 180 canvas and display centered at a maximum width of 680 pixels. The older `hero-*.svg` filenames are also rebuilt as compact copies. Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
 - The same build generates two coral dividers: the looped `thread.svg` after the introduction and the sweeping `thread-closing.svg` before contact links. It also builds four themed `drawer-*.svg` graphics for the expandable Easter egg.
-- The backend, Linux, community, and paper-plane cutouts float inside native HTML headings, overlapping GitHub’s heading rules. Contact links remain normal, selectable text.
+- The backend, Linux, and community cutouts use 14% of the text column, so they shrink on phones. Linux floats left, while the other two float right. The centered contact heading uses a 64-pixel paper plane. The 80-pixel copyright image appears inside the reuse disclosure. Contact and coding-profile links remain visible, selectable text.
+- The centered stack row uses three 40-pixel SVG logos. Sources, ownership, and the distribution license are recorded in [`stack/`](stack/); the logos are not generated or recolored.
 - Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The headers embed their artwork and convert lettering to paths, so they need no remote images or installed fonts.
 
 From the repository root:
@@ -53,16 +54,18 @@ The original illustrations were generated with the **built-in image_gen tool**. 
 
 | Original | Display asset | Placement |
 | :--- | :--- | :--- |
-| `source/workbench.png` | `workbench.webp` | Embedded in the four `hero-*.svg` headers |
+| `source/workbench.png` | `workbench.webp` | Embedded in the two `masthead-*.svg` headers and four compatibility headers |
 | `source/backend.png` | `backend.webp` | Backend projects |
 | `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
 | `source/community.png` | `community.webp` | The UBIT Hub |
 | `source/signoff-plane.png` | `signoff-plane.webp` | Say hello |
-| `source/copyright.png` | `copyright.webp` | Copyright & reuse |
+| `source/copyright.png` | `copyright.webp` | Inside Copyright & reuse |
 
 The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) use the SIL Open Font License; font files and notices are retained in `source/`.
 
 The repository’s [copyright and permissions notice](../../LICENSE.md) reserves the owner’s rights in protectable original material. It preserves third-party licenses, GitHub’s platform rights, and applicable legal exceptions, and explains the limits of rights in AI-generated artwork.
+
+The [technology logos](stack/README.md) are third-party assets and are not covered by the original-artwork claim.
 
 The owner’s original profile supplied education, backend focus, Android experience, learning priorities, contacts, and the stated **900+ students** community figure. Project descriptions were checked against the linked repositories. The Fitness Tracker uses MySQL; PostgreSQL comes from the original personal toolkit.
 

@@ -20,12 +20,13 @@ const title = 'Hey, I’m Mahad. An illustrated workbench.';
 
 for (const [name, c] of Object.entries(themes)) {
   const hero = [
-    art(565, 0, 420, 280),
-    lettering('Hey, I’m', 14, 78, 58, serif, c.ink),
-    lettering('Mahad.', 8, 191, 124, serif, c.ink, -3),
-    `<path d="M19 215 C108 200 258 227 383 207" fill="none" stroke="${c.coral}" stroke-width="3" stroke-linecap="round"/>`,
+    art(716, 0, 270, 180),
+    lettering('Hey, I’m Mahad.', 16, 112, 68, serif, c.ink, -1.5),
+    `<path d="M330 133 Q443 123 559 129" fill="none" stroke="${c.coral}" stroke-width="2.6" stroke-linecap="round"/>`,
   ].join('');
-  const header = svg(1000, 280, title, hero);
+  const header = svg(1000, 180, title, hero);
+  // A new filename also prevents older cached banners from appearing on GitHub.
+  await writeFile(path.join(out, `masthead-${name}.svg`), header);
   await writeFile(path.join(out, `hero-${name}.svg`), header);
   // Keep old image URLs compact too, including references in older README copies.
   await writeFile(path.join(out, `hero-mobile-${name}.svg`), header);
@@ -57,4 +58,4 @@ for (const [name, c] of Object.entries(themes)) {
 await writeFile(path.join(out, 'thread.svg'), svg(1000, 58, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".7"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 32 H385 C425 32 437 9 467 14 C504 21 456 50 446 31 C437 12 493 19 520 28 C544 36 561 32 594 32 H971" fill="none" stroke="url(#fade)" stroke-width="1.8" stroke-linecap="round"/><path d="M978 25 V39 M971 32 H985" stroke="#87967c" stroke-width="1.6" stroke-linecap="round"/>`));
 // A quieter closing flourish: two coral strokes sweep past a small sage accent.
 await writeFile(path.join(out, 'thread-closing.svg'), svg(1000, 58, '', `<defs><linearGradient id="sweep"><stop stop-color="#c56f53" stop-opacity=".12"/><stop offset=".58" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".12"/></linearGradient></defs><g fill="none" stroke="url(#sweep)" stroke-width="1.8" stroke-linecap="round"><path d="M8 31 H332 C425 31 455 43 517 38 C568 34 594 15 642 20 C689 25 719 32 789 31 H988"/><path d="M445 46 C515 49 572 14 628 13 C651 13 669 17 683 22" stroke-width="1.2"/></g><path d="M628 32 Q633 38 640 39 Q635 34 628 32Z" fill="#87967c" opacity=".85"/>`));
-console.log('Built six illustrations, four headers, four secret drawers, and two distinct coral dividers.');
+console.log('Built six illustrations, two compact mastheads, four compatibility headers, four secret drawers, and two dividers.');

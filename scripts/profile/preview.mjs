@@ -73,6 +73,7 @@ if (process.argv.includes('--screenshots')) {
           pageWidth: document.documentElement.scrollWidth,
           brokenImages: [...document.images].filter(i => !i.complete || !i.naturalWidth).map(i => i.getAttribute('src')),
           selectedHeader: document.querySelector('picture img').currentSrc.split('/').pop(),
+          headerHeight: Math.round(document.querySelector('picture img').getBoundingClientRect().height),
           missingAnchors: [...document.querySelectorAll('a[href^="#"]')].map(a => a.getAttribute('href').slice(1)).filter(id => id && !document.getElementById(id) && !document.getElementById(`user-content-${id}`)),
           stickersCrossHeadingRule: [...document.querySelectorAll('h2 img')].map(img => {
             const sticker = img.getBoundingClientRect();
