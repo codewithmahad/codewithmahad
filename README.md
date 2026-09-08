@@ -54,10 +54,9 @@ Alongside project work, I practise **C++ and DSA** and work through design patte
 </details>
 
 <div id="behind-the-button">
-  <a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>
-  <img src="assets/profile/divider-loop.svg" width="75%" alt="">
+  <img src="assets/profile/divider-loop.svg" width="100%" alt="">
 </div>
-<h2>Backend projects</h2>
+<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>Backend projects</h2>
 
 <p>
   <a href="https://github.com/codewithmahad/fitness-tracker-backend"><strong>Fitness Tracker API ↗︎</strong></a><br>
