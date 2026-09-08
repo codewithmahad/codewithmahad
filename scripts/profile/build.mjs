@@ -3,10 +3,8 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { root, out, source, serif, sans, bold, lettering, svg, themes } from './design.mjs';
-import { buildPracticeAssets } from './practice.mjs';
 
 await mkdir(out, { recursive: true });
-await buildPracticeAssets();
 
 // Web-sized derivatives; retain full-resolution originals and preserve alpha.
 for (const name of ['workbench', 'backend', 'linux-notebook', 'community', 'signoff-plane', 'copyright']) {
@@ -22,7 +20,8 @@ const title = 'Hey, I’m Mahad. An illustrated workbench.';
 
 for (const [name, c] of Object.entries(themes)) {
   const hero = [
-    art(695, 0, 300, 200),
+    // Tighten the existing transparent cutout within the unchanged banner height.
+    art(674, -5, 316, 211),
     lettering('Hey, I’m Mahad.', 16, 120, 72, serif, c.ink, -1.5),
     `<path d="M350 142 Q470 131 591 137" fill="none" stroke="${c.coral}" stroke-width="2.6" stroke-linecap="round"/>`,
   ].join('');
@@ -47,7 +46,7 @@ for (const [name, c] of Object.entries(themes)) {
   }
 }
 
-const loop = svg(1000, 24, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 13 H400 C439 13 449 3 475 4 C504 6 477 23 461 16 C444 5 489 6 511 10 C539 16 550 13 592 13 H990" fill="none" stroke="url(#fade)" stroke-width="1.8" stroke-linecap="round"/>`);
+const loop = svg(1000, 12, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 6.5 H400 C439 6.5 449 1.5 475 2 C504 3 477 11.5 461 8 C444 2.5 489 3 511 5 C539 8 550 6.5 592 6.5 H990" fill="none" stroke="url(#fade)" stroke-width="1.3" stroke-linecap="round"/>`);
 // The plane sits on the closing line, keeping the artwork and divider in one row.
 const plane = (await readFile(path.join(out, 'signoff-plane.webp'))).toString('base64');
 const sweep = svg(1000, 56, 'A paper plane crossing a coral line.', `<defs><linearGradient id="sweep"><stop stop-color="#c56f53" stop-opacity=".12"/><stop offset=".58" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".12"/></linearGradient></defs><g fill="none" stroke="url(#sweep)" stroke-width="1.8" stroke-linecap="round"><path d="M8 28 H332 C425 28 455 40 517 35 C568 31 594 12 642 17 C689 22 719 29 789 28 H988"/><path d="M445 43 C515 46 572 11 628 10 C651 10 669 14 683 19" stroke-width="1.2"/></g><path d="M628 29 Q633 35 640 36 Q635 31 628 29Z" fill="#87967c" opacity=".85"/><image x="25" y="0" width="84" height="56" xlink:href="data:image/webp;base64,${plane}"/>`);

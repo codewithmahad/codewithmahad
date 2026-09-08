@@ -49,12 +49,12 @@ I also founded **The UBIT Hub**. Sharing notes and building small tools for that
   Git for version control, Maven for builds, Linux and Bash for the environment, Postman for API requests, and IntelliJ IDEA for development.
 </p>
 
-Alongside project work, I practise **C++ and DSA** and work through design patterns and query performance. The aim is to understand the tools well enough to explain the choices I make.
+Alongside project work, I practise **DSA** and work through design patterns and query performance. The aim is to understand the tools well enough to explain the choices I make.
 
 </details>
 
 <div id="behind-the-button">
-  <img src="assets/profile/divider-loop.svg" width="100%" alt="">
+  <img src="assets/profile/divider-loop.svg" align="left" width="92%" height="12" alt="">
 </div>
 <h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>Backend projects</h2>
 
@@ -112,25 +112,12 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/practice/keyboard-dark.svg"><img src="assets/profile/practice/keyboard-light.svg" align="right" width="16%" alt="A small keyboard with a yellow escape key."></picture></a>A small keyboard habit</h3>
-
-I started learning touch typing in **2023**, at around **60 WPM**. These days I reach **120+ WPM**. [Monkeytype](https://monkeytype.com/profile/CodeWithMahad1) is where I keep practising.
-
-<details>
-<summary>How it became useful beyond typing tests</summary>
-
-I started learning before joining Monkeytype, and the improvement came gradually with practice. Being able to keep my eyes on the screen is the part I use every day: writing code, running terminal commands, taking notes, or answering a message. Fewer pauses to find keys make those tasks feel smoother.
-
-There’s still plenty to work on. My [Monkeytype profile](https://monkeytype.com/profile/CodeWithMahad1) has the results across different test lengths, if you fancy a few rounds too.
-
-</details>
-
-<h3 id="lets-talk">
+<div id="lets-talk">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">
     <img src="assets/profile/contact-heading-light.svg" width="100%" alt="Say hello">
   </picture>
-</h3>
+</div>
 
 This profile changes as I build. You’ll find backend projects, Linux notes, and tools for The UBIT Hub here. [Follow me on GitHub](https://github.com/codewithmahad) if you’d like to see what comes next.
 
@@ -145,13 +132,11 @@ If a repo helped you, left you with a question, or sparked an idea, I’d like t
 <details>
 <summary>Coding profiles & practice</summary>
 
-C++ and DSA practice lives here too. These are the places I return to for problems, exercises, and a look at my progress.
-
 <p>
-  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/practice/leetcode.svg" width="28" height="28" align="middle" alt=""> <strong>LeetCode</strong></a> · Problem solving in C++<br>
-  <a href="https://www.hackerrank.com/codewithmahad"><img src="assets/profile/practice/hackerrank.svg" width="28" height="28" align="middle" alt=""> <strong>HackerRank</strong></a> · Coding exercises<br>
-  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="assets/profile/practice/geeksforgeeks.svg" width="28" height="28" align="middle" alt=""> <strong>GeeksforGeeks</strong></a> · Concepts and practice<br>
-  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/practice/progress.svg" width="28" height="28" align="middle" alt=""> <strong>Codolio</strong></a> · My practice overview
+  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/practice/leetcode-original.png" width="28" height="28" align="middle" alt="">&nbsp;LeetCode</a> &nbsp;&nbsp;
+  <a href="https://www.hackerrank.com/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/practice/hackerrank-wordmark-dark.svg"><img src="assets/profile/practice/hackerrank-wordmark-light.svg" width="112" height="28" align="middle" alt="HackerRank"></picture></a> &nbsp;&nbsp;
+  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="assets/profile/practice/geeksforgeeks-original.svg" width="36" height="28" align="middle" alt="">&nbsp;GeeksforGeeks</a> &nbsp;&nbsp;
+  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/practice/codolio-original.svg" width="28" height="28" align="middle" alt="">&nbsp;Codolio</a>
 </p>
 
 <details id="the-bottom-drawer">
@@ -171,6 +156,28 @@ C++ and DSA practice lives here too. These are the places I return to for proble
 <!-- Bonus drawer: thanks for reading the small print. See you in the commit history. -->
 
 </details>
+
+</details>
+
+<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 120+ WPM</h3>
+
+I started learning **touch typing in 2023** so I could keep my eyes on the screen and stop searching for keys. It helps with code, notes, and everyday messages. If typing still slows you down, [try a short test on Monkeytype](https://monkeytype.com/) and give yourself a starting point.
+
+<details>
+<summary>My personal bests and what helped</summary>
+
+I was around **60 WPM** when I started, before joining Monkeytype. Reaching **120+ WPM** came gradually with practice. A few recorded bests from [my profile](https://monkeytype.com/profile/CodeWithMahad1):
+
+| Test | WPM | Accuracy |
+| :--- | ---: | ---: |
+| 15 seconds | **156** | 100% |
+| 30 seconds | **144** | 96% |
+| 60 seconds | **133** | 96% |
+| 120 seconds | **117** | 94% |
+
+What I notice day to day is fewer interruptions: I can keep my attention on a command, a sentence, or the problem I’m working through. That’s useful whether you write code, lecture notes, or emails.
+
+Start with a short test, work on accuracy, and come back for a few minutes regularly. Keep your first score. It’s satisfying to look back at it later.
 
 </details>
 
