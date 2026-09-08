@@ -12,6 +12,8 @@
 
 I started with native Android apps. Now I’m working with **Java and Spring Boot**, learning how requests move through an application, how access is controlled, and how the data is stored. I want to understand the systems I build well enough to explain them, all the way down to the database.
 
+<img src="assets/profile/thread.svg" width="100%" alt="">
+
 <a id="behind-the-button"></a>
 <h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="26%" alt="A server made of filing drawers, with a brass key for authentication."></a>Backend projects</h2>
 
@@ -49,14 +51,12 @@ Other notebooks: **[Java](https://github.com/codewithmahad/JAVA_LAB)** · **[SQL
 I’m also working through Java internals, design patterns, database design, and query performance.
 
 <details>
-<summary>Earlier Android projects & coding practice</summary>
+<summary>Earlier Android projects</summary>
 
 I worked with **Kotlin and Jetpack Compose** before moving into backend development:
 
 - **[Derivify](https://github.com/codewithmahad/Derivify-Calculus-Toolkit)** — a native Android toolkit for multivariable calculus.
 - **[Quizzler](https://github.com/codewithmahad/Quizzler-App)** — my second-semester OOP quiz app.
-
-For **C++, DSA, and problem solving**: [LeetCode](https://leetcode.com/u/mahad2006/) · [HackerRank](https://www.hackerrank.com/codewithmahad) · [GeeksforGeeks](https://www.geeksforgeeks.org/user/codewithmahad/) · [Codolio](https://codolio.com/profile/codewithmahad).
 
 </details>
 
@@ -85,6 +85,8 @@ I also built the **[UBIT Semester Results Dashboard](https://github.com/codewith
 
 </details>
 
+<img src="assets/profile/thread-closing.svg" width="100%" alt="">
+
 <a id="lets-talk"></a>
 <h2><a href="mailto:codewithmahad@gmail.com"><img src="assets/profile/signoff-plane.webp" align="right" width="26%" alt="A paper airplane carrying a little leaf and a spare key."></a>Say hello</h2>
 
@@ -93,3 +95,41 @@ Learning something similar or have a question about a repo? I’d be happy to co
 **[Email](mailto:codewithmahad@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/codewithmahad)** · **[Portfolio](https://shaikhmahad.vercel.app)**
 
 <br clear="both">
+
+Where I practise **C++ and DSA**: [LeetCode](https://leetcode.com/u/mahad2006/) · [HackerRank](https://www.hackerrank.com/codewithmahad) · [GeeksforGeeks](https://www.geeksforgeeks.org/user/codewithmahad/) · [Codolio](https://codolio.com/profile/codewithmahad).
+
+<a id="the-bottom-drawer"></a>
+<details>
+<summary>Psst. There’s one more drawer.</summary>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/drawer-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/drawer-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/drawer-dark.svg">
+  <img src="assets/profile/drawer-light.svg" width="100%" alt="Secret drawer: you found a tiny penguin, a spare key, and a note. Pick one to choose your next stop.">
+</picture>
+
+**[Follow the penguin →](https://github.com/codewithmahad/LINUX_LAB)** a Linux rabbit hole.<br>
+**[Take the spare key →](https://github.com/codewithmahad/spring-security-jwt-mastery)** a look at authentication.<br>
+**[Pass the note →](https://github.com/codewithmahad/the-ubit-hub-resources)** something useful for the next student.
+
+<!-- Bonus drawer: thanks for reading the small print. See you in the commit history. -->
+
+</details>
+
+<a id="copyright-and-permissions"></a>
+<h2><a href="LICENSE.md"><img src="assets/profile/copyright.webp" align="right" width="22%" alt="An ivory manuscript folder tied with coral ribbon and secured by a small brass padlock."></a>Copyright & permissions</h2>
+
+**© 2026 Shaikh Mahad Ud Din. All rights reserved.**
+
+Please ask before reusing my README text, artwork, or original layout. Reposting, adapting, or using protected material in another profile or template requires my written permission; credit alone isn’t permission.
+
+**[Read the full terms](LICENSE.md)** · **[Request permission](mailto:codewithmahad@gmail.com?subject=Profile%20reuse%20permission)**
+
+<sub>Subject to applicable law, GitHub’s platform rights, and third-party licenses. See the full terms for scope and exceptions.</sub>
+
+<br clear="both">
+
+<p align="center"><sub><a href="#top">Back to the desk ↑</a></sub></p>

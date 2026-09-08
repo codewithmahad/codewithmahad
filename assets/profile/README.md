@@ -1,11 +1,12 @@
 ﻿# Profile artwork
 
-The README pairs short, editable text with a workbench illustration and four smaller cutouts. Ivory, sage, coral, and brass connect the artwork; Fraunces and Manrope supply the hero and calendar lettering.
+The README pairs short, editable text with a workbench illustration and five smaller cutouts. Ivory, sage, coral, and brass connect the artwork; Fraunces and Manrope supply the hero and calendar lettering.
 
 ## Editing and preview
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
 - Edit the four desktop/mobile, light/dark headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
+- The same build generates two coral dividers: the looped `thread.svg` after the introduction and the sweeping `thread-closing.svg` before contact links. It also builds four themed `drawer-*.svg` graphics for the expandable Easter egg.
 - The backend, Linux, community, and paper-plane cutouts float inside native HTML headings, overlapping GitHub’s heading rules. Contact links remain normal, selectable text.
 - Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The headers embed their artwork and convert lettering to paths, so they need no remote images or installed fonts.
 
@@ -57,8 +58,11 @@ The original illustrations were generated with the **built-in image_gen tool**. 
 | `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
 | `source/community.png` | `community.webp` | The UBIT Hub |
 | `source/signoff-plane.png` | `signoff-plane.webp` | Say hello |
+| `source/copyright.png` | `copyright.webp` | Copyright & permissions |
 
 The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) use the SIL Open Font License; font files and notices are retained in `source/`.
+
+The repository’s [copyright and permissions notice](../../LICENSE.md) reserves the owner’s rights in protectable original material. It preserves third-party licenses, GitHub’s platform rights, and applicable legal exceptions, and explains the limits of rights in AI-generated artwork.
 
 The owner’s original profile supplied education, backend focus, Android experience, learning priorities, contacts, and the stated **900+ students** community figure. Project descriptions were checked against the linked repositories. The Fitness Tracker uses MySQL; PostgreSQL comes from the original personal toolkit.
 
