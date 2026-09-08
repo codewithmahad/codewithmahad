@@ -9,6 +9,7 @@ affiliation. Their original colors and proportions are preserved.
 | `java.svg` | [Devicon: Java](https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg) | Java, a trademark of Oracle and/or its affiliates |
 | `spring.svg` | [Devicon: Spring](https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg) | The Spring ecosystem used through Spring Boot; Spring is a trademark of Broadcom Inc. and/or its subsidiaries |
 | `postgresql.svg` | [Devicon: PostgreSQL](https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg) | PostgreSQL and its elephant mark; see the project’s trademark policy below |
+| `git.svg` | [Devicon: Git](https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg) | Git version control |
 
 Downloaded on 2026-09-08. Devicon’s distribution license is retained in
 [`DEVICON-LICENSE.txt`](DEVICON-LICENSE.txt). That license does not transfer

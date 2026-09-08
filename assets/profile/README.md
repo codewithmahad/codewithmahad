@@ -1,14 +1,15 @@
 ﻿# Profile artwork
 
-The README mixes editable personal writing, small illustrations, and real technology logos. Ivory, sage, coral, and brass connect the original artwork; the Java, Spring, and PostgreSQL marks keep their own colors. Longer project, background, and toolkit notes live in expandable sections.
+The README mixes editable personal writing, small illustrations, and real technology logos. Ivory, sage, coral, and brass connect the original artwork; the Java, Spring, PostgreSQL, and Git marks keep their own colors. Longer project, background, and toolkit notes live in expandable sections.
 
 ## Editing and preview
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
-- Edit the light/dark `masthead-*.svg` headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Both use a 1000 × 180 canvas and display centered at a maximum width of 680 pixels. The older `hero-*.svg` filenames are also rebuilt as compact copies. Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
-- The same build generates two coral dividers: the looped `thread.svg` after the introduction and the sweeping `thread-closing.svg` before contact links. It also builds four themed `drawer-*.svg` graphics for the expandable Easter egg.
-- The backend, Linux, and community cutouts use 14% of the text column, so they shrink on phones. Linux floats left, while the other two float right. The centered contact heading uses a 64-pixel paper plane. The 80-pixel copyright image appears inside the reuse disclosure. Contact and coding-profile links remain visible, selectable text.
-- The centered stack row uses three 40-pixel SVG logos. Sources, ownership, and the distribution license are recorded in [`stack/`](stack/); the logos are not generated or recolored.
+- Edit the light/dark `masthead-*.svg` headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Both use a 1000 × 200 canvas and display centered at a maximum width of 740 pixels. The older `hero-*.svg` filenames are also rebuilt as compact copies. Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
+- The same build generates exactly two displayed coral dividers: the 24-pixel-high `divider-loop.svg` after the introduction and `divider-sweep.svg` before contact links, with the paper plane embedded over its line. The older `thread*.svg` filenames are compatibility copies.
+- The themed `drawer-compact-*.svg` Easter egg uses one 760 × 132 canvas at every viewport, displayed at a maximum width of 600 pixels. Its older desktop and mobile filenames use the same compact composition. Only color scheme selects a source; no tall mobile image can replace it on a laptop.
+- The backend, Linux, and community cutouts use 16% of the text column, so they shrink on phones. Linux floats left, while the other two float right. The backend image starts beside the first coral divider and crosses the heading rule. The Linux paragraph clears its float before the other notebook links. The 80-pixel copyright image appears inside the reuse disclosure. Main contact links remain visible; coding-profile links have their own disclosure.
+- The toolkit disclosure places a 48-pixel SVG logo beside each entry: Java, Spring, databases, and everyday tools. Sources, ownership, and the distribution license are recorded in [`stack/`](stack/); the logos are not generated or recolored.
 - Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The headers embed their artwork and convert lettering to paths, so they need no remote images or installed fonts.
 
 From the repository root:
@@ -58,7 +59,7 @@ The original illustrations were generated with the **built-in image_gen tool**. 
 | `source/backend.png` | `backend.webp` | Backend projects |
 | `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
 | `source/community.png` | `community.webp` | The UBIT Hub |
-| `source/signoff-plane.png` | `signoff-plane.webp` | Say hello |
+| `source/signoff-plane.png` | `signoff-plane.webp` | Embedded over the closing coral divider |
 | `source/copyright.png` | `copyright.webp` | Inside Copyright & reuse |
 
 The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) use the SIL Open Font License; font files and notices are retained in `source/`.

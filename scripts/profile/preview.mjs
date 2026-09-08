@@ -86,10 +86,25 @@ if (process.argv.includes('--screenshots')) {
           throw new Error(`Layout check failed for ${name}.`);
         }
         if (width === 390 || width === 1200) {
-          const activity = page.locator('details').filter({ has: page.getByText('GitHub activity', { exact: true }) });
-          await activity.locator('summary').click();
-          await activity.screenshot({ path: path.join(preview, `activity-${name}.png`) });
-          await activity.locator('summary').click();
+          for (const [label, summary] of [
+            ['activity', 'GitHub activity'],
+            ['stack', 'What I use, and what I’m working on'],
+            ['drawer', 'Psst. There’s one more drawer.'],
+          ]) {
+            const disclosure = page.locator('details').filter({ has: page.getByText(summary, { exact: true }) });
+            await disclosure.locator('summary').click();
+            await disclosure.locator('img').evaluateAll(images => Promise.all(images.map(img => img.decode())));
+            await disclosure.screenshot({ path: path.join(preview, `${label}-${name}.png`) });
+            if (label === 'drawer') {
+              const size = await disclosure.locator('picture img').evaluate(img => ({
+                width: img.clientWidth, height: img.clientHeight,
+                source: img.currentSrc.split('/').pop(),
+              }));
+              console.log(`drawer-${name}`, JSON.stringify(size));
+              if (size.height > 110 || size.height / size.width > .18) throw new Error(`Oversized drawer for ${name}.`);
+            }
+            await disclosure.locator('summary').click();
+          }
         }
         await page.close();
       }

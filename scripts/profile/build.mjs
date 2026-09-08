@@ -20,42 +20,35 @@ const title = 'Hey, I’m Mahad. An illustrated workbench.';
 
 for (const [name, c] of Object.entries(themes)) {
   const hero = [
-    art(716, 0, 270, 180),
-    lettering('Hey, I’m Mahad.', 16, 112, 68, serif, c.ink, -1.5),
-    `<path d="M330 133 Q443 123 559 129" fill="none" stroke="${c.coral}" stroke-width="2.6" stroke-linecap="round"/>`,
+    art(695, 0, 300, 200),
+    lettering('Hey, I’m Mahad.', 16, 120, 72, serif, c.ink, -1.5),
+    `<path d="M350 142 Q470 131 591 137" fill="none" stroke="${c.coral}" stroke-width="2.6" stroke-linecap="round"/>`,
   ].join('');
-  const header = svg(1000, 180, title, hero);
+  const header = svg(1000, 200, title, hero);
   // A new filename also prevents older cached banners from appearing on GitHub.
   await writeFile(path.join(out, `masthead-${name}.svg`), header);
   await writeFile(path.join(out, `hero-${name}.svg`), header);
   // Keep old image URLs compact too, including references in older README copies.
   await writeFile(path.join(out, `hero-mobile-${name}.svg`), header);
   const drawer = [
-    `<rect x="1" y="1" width="998" height="204" rx="12" fill="${c.terminal}" stroke="${c.rule}"/>`,
-    `<circle cx="27" cy="26" r="4" fill="${c.coral}"/><circle cx="43" cy="26" r="4" fill="${c.sage}"/><circle cx="59" cy="26" r="4" fill="${c.rule}"/>`,
-    lettering('~/the-bottom-drawer', 80, 31, 13, sans, c.muted),
-    lettering('$ ls -a', 26, 79, 22, bold, c.coral),
-    lettering('a tiny penguin. a spare key. a note.', 26, 119, 27, serif, c.ink),
-    lettering('Pick something. See where it takes you.', 26, 163, 18, sans, c.muted),
-    `<g transform="translate(859 51)" stroke="${c.sage}" stroke-width="2" fill="none" stroke-linecap="round"><path d="M21 60 C4 7 77 2 75 60 L81 101 Q48 122 14 101 Z"/><path d="M28 55 Q47 32 66 55 L67 91 Q46 108 27 91 Z"/><path d="M14 61 L1 83 M76 60 L91 80"/><path d="M40 50 L47 57 L54 50 Z" stroke="${c.coral}"/><path d="M27 109 L18 119 M63 109 L74 119" stroke="${c.coral}"/><circle cx="34" cy="38" r="1.5"/><circle cx="59" cy="38" r="1.5"/></g>`,
+    `<rect x="1" y="1" width="758" height="130" rx="12" fill="${c.terminal}" stroke="${c.rule}"/>`,
+    `<circle cx="24" cy="21" r="3.5" fill="${c.coral}"/><circle cx="40" cy="21" r="3.5" fill="${c.sage}"/><circle cx="56" cy="21" r="3.5" fill="${c.rule}"/>`,
+    lettering('~/the-bottom-drawer', 78, 26, 13, sans, c.muted),
+    lettering('$ ls -a', 22, 66, 19, bold, c.coral),
+    lettering('a tiny penguin. a spare key. a note.', 22, 108, 28, serif, c.ink),
+    `<g transform="translate(659 23) scale(.72)" stroke="${c.sage}" stroke-width="2" fill="none" stroke-linecap="round"><path d="M21 60 C4 7 77 2 75 60 L81 101 Q48 122 14 101 Z"/><path d="M28 55 Q47 32 66 55 L67 91 Q46 108 27 91 Z"/><path d="M14 61 L1 83 M76 60 L91 80"/><path d="M40 50 L47 57 L54 50 Z" stroke="${c.coral}"/><path d="M27 109 L18 119 M63 109 L74 119" stroke="${c.coral}"/><circle cx="34" cy="38" r="1.5"/><circle cx="59" cy="38" r="1.5"/></g>`,
   ].join('');
-  await writeFile(path.join(out, `drawer-${name}.svg`), svg(1000, 206, 'You found the bottom drawer. A tiny penguin, a spare key, and a note. Pick something and see where it takes you.', drawer));
-
-  const mobileDrawer = [
-    `<rect x="1" y="1" width="498" height="249" rx="12" fill="${c.terminal}" stroke="${c.rule}"/>`,
-    `<circle cx="25" cy="26" r="4" fill="${c.coral}"/><circle cx="41" cy="26" r="4" fill="${c.sage}"/><circle cx="57" cy="26" r="4" fill="${c.rule}"/>`,
-    lettering('~/the-bottom-drawer', 80, 31, 13, sans, c.muted),
-    lettering('$ ls -a', 24, 82, 22, bold, c.coral),
-    lettering('a tiny penguin.', 24, 124, 30, serif, c.ink),
-    lettering('a spare key. a note.', 24, 162, 30, serif, c.ink),
-    lettering('Pick something.', 24, 209, 18, sans, c.muted),
-    lettering('See where it takes you.', 24, 234, 18, sans, c.muted),
-    `<g transform="translate(364 64)" stroke="${c.sage}" stroke-width="2" fill="none" stroke-linecap="round"><path d="M21 60 C4 7 77 2 75 60 L81 101 Q48 122 14 101 Z"/><path d="M28 55 Q47 32 66 55 L67 91 Q46 108 27 91 Z"/><path d="M14 61 L1 83 M76 60 L91 80"/><path d="M40 50 L47 57 L54 50 Z" stroke="${c.coral}"/><path d="M27 109 L18 119 M63 109 L74 119" stroke="${c.coral}"/><circle cx="34" cy="38" r="1.5"/><circle cx="59" cy="38" r="1.5"/></g>`,
-  ].join('');
-  await writeFile(path.join(out, `drawer-mobile-${name}.svg`), svg(500, 251, 'You found the bottom drawer. A tiny penguin, a spare key, and a note. Pick something and see where it takes you.', mobileDrawer));
+  const drawerImage = svg(760, 132, 'You found the bottom drawer. A tiny penguin, a spare key, and a note.', drawer);
+  // One aspect ratio at every viewport; keep older URLs compact as well.
+  for (const prefix of ['drawer-compact', 'drawer', 'drawer-mobile']) {
+    await writeFile(path.join(out, `${prefix}-${name}.svg`), drawerImage);
+  }
 }
 
-await writeFile(path.join(out, 'thread.svg'), svg(1000, 58, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".7"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 32 H385 C425 32 437 9 467 14 C504 21 456 50 446 31 C437 12 493 19 520 28 C544 36 561 32 594 32 H971" fill="none" stroke="url(#fade)" stroke-width="1.8" stroke-linecap="round"/><path d="M978 25 V39 M971 32 H985" stroke="#87967c" stroke-width="1.6" stroke-linecap="round"/>`));
-// A quieter closing flourish: two coral strokes sweep past a small sage accent.
-await writeFile(path.join(out, 'thread-closing.svg'), svg(1000, 58, '', `<defs><linearGradient id="sweep"><stop stop-color="#c56f53" stop-opacity=".12"/><stop offset=".58" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".12"/></linearGradient></defs><g fill="none" stroke="url(#sweep)" stroke-width="1.8" stroke-linecap="round"><path d="M8 31 H332 C425 31 455 43 517 38 C568 34 594 15 642 20 C689 25 719 32 789 31 H988"/><path d="M445 46 C515 49 572 14 628 13 C651 13 669 17 683 22" stroke-width="1.2"/></g><path d="M628 32 Q633 38 640 39 Q635 34 628 32Z" fill="#87967c" opacity=".85"/>`));
-console.log('Built six illustrations, two compact mastheads, four compatibility headers, four secret drawers, and two dividers.');
+const loop = svg(1000, 24, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 13 H400 C439 13 449 3 475 4 C504 6 477 23 461 16 C444 5 489 6 511 10 C539 16 550 13 592 13 H990" fill="none" stroke="url(#fade)" stroke-width="1.8" stroke-linecap="round"/>`);
+// The plane sits on the closing line, keeping the artwork and divider in one row.
+const plane = (await readFile(path.join(out, 'signoff-plane.webp'))).toString('base64');
+const sweep = svg(1000, 56, 'A paper plane crossing a coral line.', `<defs><linearGradient id="sweep"><stop stop-color="#c56f53" stop-opacity=".12"/><stop offset=".58" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".12"/></linearGradient></defs><g fill="none" stroke="url(#sweep)" stroke-width="1.8" stroke-linecap="round"><path d="M8 28 H332 C425 28 455 40 517 35 C568 31 594 12 642 17 C689 22 719 29 789 28 H988"/><path d="M445 43 C515 46 572 11 628 10 C651 10 669 14 683 19" stroke-width="1.2"/></g><path d="M628 29 Q633 35 640 36 Q635 31 628 29Z" fill="#87967c" opacity=".85"/><image x="25" y="0" width="84" height="56" xlink:href="data:image/webp;base64,${plane}"/>`);
+for (const file of ['divider-loop.svg', 'thread.svg']) await writeFile(path.join(out, file), loop);
+for (const file of ['divider-sweep.svg', 'thread-closing.svg']) await writeFile(path.join(out, file), sweep);
+console.log('Built six illustrations, compact themed mastheads and drawers, two dividers, and compatibility copies.');

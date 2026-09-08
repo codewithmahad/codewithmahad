@@ -1,10 +1,8 @@
 ﻿<!-- You found the source. The penguin insists this counts as code review. -->
-<a id="top"></a>
-
-<p align="center">
+<p align="center" id="top">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/masthead-dark.svg">
-    <img src="assets/profile/masthead-light.svg" width="680" alt="Hey, I’m Mahad. A small illustrated workbench.">
+    <img src="assets/profile/masthead-light.svg" width="740" alt="Hey, I’m Mahad. An illustrated workbench.">
   </picture>
 </p>
 
@@ -28,38 +26,48 @@ I also founded **The UBIT Hub**. Sharing notes and building small tools for that
 
 </details>
 
-<p align="center">
-  <a href="https://dev.java/"><img src="assets/profile/stack/java.svg" width="40" height="40" alt="Java"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://spring.io/projects/spring-boot"><img src="assets/profile/stack/spring.svg" width="40" height="40" alt="Spring, the framework behind Spring Boot"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.postgresql.org/"><img src="assets/profile/stack/postgresql.svg" width="40" height="40" alt="PostgreSQL"></a>
-  <br>
-  <strong>Java · Spring Boot · PostgreSQL</strong>
-</p>
-
 <details>
 <summary>What I use, and what I’m working on</summary>
 
-- **Backend:** Java, Spring Boot, and Spring Security for APIs and access control; MapStruct for DTO mapping and Maven for builds.
-- **Data:** PostgreSQL, MySQL, SQL, and Flyway. I’m working on database design, migrations, and understanding the queries an application depends on.
-- **Everyday tools:** Git, Linux, Bash, Postman, and IntelliJ IDEA.
-- **Going deeper:** Java internals, design patterns, query performance, and the C++ and DSA fundamentals I practise alongside project work.
+<p>
+  <a href="https://dev.java/"><img src="assets/profile/stack/java.svg" width="48" height="48" align="middle" alt="Java logo"></a> &nbsp;<strong>Java</strong><br>
+  My main language for backend work. I’m going deeper into Java internals, object-oriented design, and the patterns that make code easier to change.
+</p>
 
-The aim is to understand the tools well enough to know when a project needs them, and to explain the choices I make.
+<p>
+  <a href="https://spring.io/projects/spring-boot"><img src="assets/profile/stack/spring.svg" width="48" height="48" align="middle" alt="Spring logo"></a> &nbsp;<strong>Spring Boot & Spring Security</strong><br>
+  APIs, authentication, access control, and application layers. MapStruct handles DTO mapping in my backend projects.
+</p>
+
+<p>
+  <a href="https://www.postgresql.org/"><img src="assets/profile/stack/postgresql.svg" width="48" height="48" align="middle" alt="PostgreSQL logo"></a> &nbsp;<strong>Databases</strong><br>
+  PostgreSQL, MySQL, SQL, and Flyway. I’m working on schema design, migrations, and understanding the queries an application depends on.
+</p>
+
+<p>
+  <a href="https://git-scm.com/"><img src="assets/profile/stack/git.svg" width="48" height="48" align="middle" alt="Git logo"></a> &nbsp;<strong>Everyday tools</strong><br>
+  Git for version control, Maven for builds, Linux and Bash for the environment, Postman for API requests, and IntelliJ IDEA for development.
+</p>
+
+Alongside project work, I practise **C++ and DSA** and work through design patterns and query performance. The aim is to understand the tools well enough to explain the choices I make.
 
 </details>
 
-<p align="center"><img src="assets/profile/thread.svg" width="720" alt=""></p>
+<div id="behind-the-button">
+  <a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>
+  <img src="assets/profile/divider-loop.svg" width="75%" alt="">
+</div>
+<h2>Backend projects</h2>
 
-<a id="behind-the-button"></a>
-<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="14%" alt="A small server made of filing drawers, with a brass key."></a>Backend projects</h2>
+<p>
+  <a href="https://github.com/codewithmahad/fitness-tracker-backend"><strong>Fitness Tracker API ↗︎</strong></a><br>
+  A MySQL-backed workout API with JWT authentication, user roles, and input validation. This is where I’m putting the layers of a Spring Boot backend together.
+</p>
 
-**[Fitness Tracker API ↗︎](https://github.com/codewithmahad/fitness-tracker-backend)**<br>
-A MySQL-backed workout API with JWT authentication, user roles, and input validation. This is where I’m putting the layers of a Spring Boot backend together.
-
-**[Spring Boot Starter ↗︎](https://github.com/codewithmahad/spring-boot-25-enterprise-template)**<br>
-A reusable starting point with separated layers, database migrations, and API documentation. The setup I don’t want to repeat for every new idea.
+<p>
+  <a href="https://github.com/codewithmahad/spring-boot-25-enterprise-template"><strong>Spring Boot Starter ↗︎</strong></a><br>
+  A reusable starting point with separated layers, database migrations, and API documentation. The setup I don’t want to repeat for every new idea.
+</p>
 
 <details>
 <summary>Inside these projects</summary>
@@ -74,12 +82,12 @@ Each repository has its own setup instructions and implementation details.
 
 </details>
 
-<a id="the-notebook-stays-open"></a>
-<h2><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="assets/profile/linux-notebook.webp" align="left" width="14%" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
+<h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="assets/profile/linux-notebook.webp" align="left" width="16%" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
 
-**[LINUX_LAB ↗︎](https://github.com/codewithmahad/LINUX_LAB)** started in my Operating Systems lab. I’m keeping it going because I want to understand the machine I’m writing code on.
-
-Commands, permissions, processes, and Bash scripts: try something, work out what happened, and write down the explanation I wish I’d had at the start.
+<p>
+  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>LINUX_LAB ↗︎</strong></a> started in my Operating Systems lab. It’s where I work through commands, permissions, processes, and Bash scripts—and write the explanation I wish I’d had when something didn’t make sense.
+  <br clear="left">
+</p>
 
 <p align="center">
   Other notebooks:
@@ -88,8 +96,7 @@ Commands, permissions, processes, and Bash scripts: try something, work out what
   <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data structures & algorithms</strong></a>
 </p>
 
-<a id="some-things-are-better-shared"></a>
-<h2><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/community.webp" align="right" width="14%" alt="A small shared noticeboard with paper notes."></a>The UBIT Hub</h2>
+<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/community.webp" align="right" width="16%" alt="A small shared noticeboard with paper notes."></a>The UBIT Hub</h2>
 
 I founded **The UBIT Hub**, a community connecting **900+ UBIT students** through course support, academic discussion, and peer learning.
 
@@ -120,48 +127,49 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<p align="center"><img src="assets/profile/thread-closing.svg" width="720" alt=""></p>
+<div align="center"><img src="assets/profile/divider-sweep.svg" width="100%" alt="A paper plane crossing a coral line."></div>
 
-<a id="lets-talk"></a>
-<h3 align="center"><img src="assets/profile/signoff-plane.webp" width="64" align="middle" alt="A paper plane carrying a leaf and a key."> Say hello</h3>
+<h3 align="center" id="lets-talk">Say hello</h3>
 
 <p align="center">
   Working on a backend, untangling Spring Security, or learning something similar?<br>
-  I’d like to compare notes.<br><br>
+  I’d like to compare notes.<br>
   <a href="mailto:codewithmahad@gmail.com"><strong>Email</strong></a> ·
   <a href="https://www.linkedin.com/in/codewithmahad"><strong>LinkedIn</strong></a> ·
   <a href="https://shaikhmahad.vercel.app"><strong>Portfolio</strong></a>
 </p>
 
-<p align="center">
-  Where I practise:
+<details>
+<summary>Coding profiles & practice</summary>
+
+<p>
   <a href="https://leetcode.com/u/mahad2006/">LeetCode</a> ·
   <a href="https://www.hackerrank.com/codewithmahad">HackerRank</a> ·
   <a href="https://www.geeksforgeeks.org/user/codewithmahad/">GeeksforGeeks</a> ·
   <a href="https://codolio.com/profile/codewithmahad">Codolio</a>
 </p>
 
-<a id="the-bottom-drawer"></a>
-<details>
+</details>
+
+<details id="the-bottom-drawer">
 <summary>Psst. There’s one more drawer.</summary>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/drawer-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/profile/drawer-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/drawer-dark.svg">
-  <img src="assets/profile/drawer-light.svg" width="600" alt="Secret drawer: you found a tiny penguin, a spare key, and a note. Pick one to choose your next stop.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/drawer-compact-dark.svg">
+  <img src="assets/profile/drawer-compact-light.svg" width="600" alt="Secret drawer: a tiny penguin, a spare key, and a note. Pick one of the links below.">
 </picture>
 
-**[Follow the penguin →](https://github.com/codewithmahad/LINUX_LAB)** a Linux rabbit hole.<br>
-**[Take the spare key →](https://github.com/codewithmahad/spring-security-jwt-mastery)** a look at authentication.<br>
-**[Pass the note →](https://github.com/codewithmahad/the-ubit-hub-resources)** something useful for the next student.
+<p>
+  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Follow the penguin →</strong></a> a Linux rabbit hole.<br>
+  <a href="https://github.com/codewithmahad/spring-security-jwt-mastery"><strong>Take the spare key →</strong></a> a look at authentication.<br>
+  <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>Pass the note →</strong></a> something useful for the next student.
+</p>
 
 <!-- Bonus drawer: thanks for reading the small print. See you in the commit history. -->
 
 </details>
 
-<a id="copyright-and-permissions"></a>
-<details>
+<details id="copyright-and-permissions">
 <summary>Copyright & reuse</summary>
 
 <a href="LICENSE.md"><img src="assets/profile/copyright.webp" align="right" width="80" alt="A manuscript folder tied with coral ribbon and a small brass padlock."></a>
