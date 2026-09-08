@@ -1,4 +1,4 @@
-﻿<!-- You found the source. The penguin insists this counts as code review. -->
+<!-- You found the source. The penguin insists this counts as code review. -->
 <p align="center" id="top">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/masthead-dark.svg">
@@ -10,7 +10,7 @@
 
 I started with native Android apps in Kotlin and Jetpack Compose. Building screens got me interested in the part I couldn’t see: how an application decides who can do what, where its data belongs, and what happens when a request goes wrong.
 
-That’s the work I’m following now. I build Spring Boot APIs, work with relational databases, and keep pulling apart the pieces until I can explain how they fit. I want to trace a request from the controller through the service and security rules to the query behind it—and understand the decisions along the way.
+That curiosity is what brought me to backend development. I build Spring Boot APIs, work with relational databases, and keep pulling apart the pieces until I can explain how they fit. I want to follow a request from the controller to the database and understand the service logic, security rules, and queries along the way.
 
 <details>
 <summary>A little more about my path</summary>
@@ -19,8 +19,8 @@ That’s the work I’m following now. I build Spring Boot APIs, work with relat
 
 The Android chapter is still here:
 
-- **[Derivify](https://github.com/codewithmahad/Derivify-Calculus-Toolkit)** — a native Android toolkit for multivariable calculus, built with Kotlin and Jetpack Compose.
-- **[Quizzler](https://github.com/codewithmahad/Quizzler-App)** — the quiz app I built for my second-semester OOP project.
+- **[Derivify](https://github.com/codewithmahad/Derivify-Calculus-Toolkit)**: a native Android toolkit for multivariable calculus, built with Kotlin and Jetpack Compose.
+- **[Quizzler](https://github.com/codewithmahad/Quizzler-App)**: the quiz app I built for my second-semester OOP project.
 
 I also founded **The UBIT Hub**. Sharing notes and building small tools for that community is another reason I keep making things.
 
@@ -84,7 +84,7 @@ Each repository has its own setup instructions and implementation details.
 <h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="assets/profile/linux-notebook.webp" align="left" width="16%" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
 
 <p>
-  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>LINUX_LAB ↗︎</strong></a> started in my Operating Systems lab. It’s where I work through commands, permissions, processes, and Bash scripts—and write the explanation I wish I’d had when something didn’t make sense.
+  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>LINUX_LAB ↗︎</strong></a> started in my Operating Systems lab. It’s where I work through commands, permissions, processes, and Bash scripts and write the explanation I wish I’d had when something didn’t make sense.
   <br clear="left">
 </p>
 
@@ -112,6 +112,19 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
+<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/practice/keyboard-dark.svg"><img src="assets/profile/practice/keyboard-light.svg" align="right" width="16%" alt="A small keyboard with a yellow escape key."></picture></a>A small keyboard habit</h3>
+
+I started learning touch typing in **2023**, at around **60 WPM**. These days I reach **120+ WPM**. [Monkeytype](https://monkeytype.com/profile/CodeWithMahad1) is where I keep practising.
+
+<details>
+<summary>How it became useful beyond typing tests</summary>
+
+I started learning before joining Monkeytype, and the improvement came gradually with practice. Being able to keep my eyes on the screen is the part I use every day: writing code, running terminal commands, taking notes, or answering a message. Fewer pauses to find keys make those tasks feel smoother.
+
+There’s still plenty to work on. My [Monkeytype profile](https://monkeytype.com/profile/CodeWithMahad1) has the results across different test lengths, if you fancy a few rounds too.
+
+</details>
+
 <h3 id="lets-talk">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">
@@ -119,27 +132,27 @@ These projects connect the two parts of my GitHub: learning how things work, and
   </picture>
 </h3>
 
-Working on a backend or untangling Spring Security? Tell me what you’re building—I’d be glad to compare notes.
+This profile changes as I build. You’ll find backend projects, Linux notes, and tools for The UBIT Hub here. [Follow me on GitHub](https://github.com/codewithmahad) if you’d like to see what comes next.
+
+If a repo helped you, left you with a question, or sparked an idea, I’d like to hear about it. I go by **codewithmahad** on most platforms.
 
 <p>
-  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/linkedin-dark.svg"><img src="assets/profile/contact/linkedin-light.svg" width="172" height="52" alt="LinkedIn — connect with me"></picture></a>
-  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/portfolio-dark.svg"><img src="assets/profile/contact/portfolio-light.svg" width="172" height="52" alt="Portfolio — see my work"></picture></a>
-  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/email-dark.svg"><img src="assets/profile/contact/email-light.svg" width="172" height="52" alt="Email — write to codewithmahad@gmail.com"></picture></a>
+  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/linkedin-dark.svg"><img src="assets/profile/contact/linkedin-light.svg" width="172" height="52" alt="LinkedIn: connect with me"></picture></a>
+  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/portfolio-dark.svg"><img src="assets/profile/contact/portfolio-light.svg" width="172" height="52" alt="Portfolio: see my work"></picture></a>
+  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/email-dark.svg"><img src="assets/profile/contact/email-light.svg" width="172" height="52" alt="Email: write to codewithmahad@gmail.com"></picture></a>
 </p>
-
-I go by **codewithmahad** on most platforms.
 
 <details>
 <summary>Coding profiles & practice</summary>
 
-<p>
-  <a href="https://leetcode.com/u/mahad2006/">LeetCode</a> ·
-  <a href="https://www.hackerrank.com/codewithmahad">HackerRank</a> ·
-  <a href="https://www.geeksforgeeks.org/user/codewithmahad/">GeeksforGeeks</a> ·
-  <a href="https://codolio.com/profile/codewithmahad">Codolio</a>
-</p>
+C++ and DSA practice lives here too. These are the places I return to for problems, exercises, and a look at my progress.
 
-</details>
+<p>
+  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/practice/leetcode.svg" width="28" height="28" align="middle" alt=""> <strong>LeetCode</strong></a> · Problem solving in C++<br>
+  <a href="https://www.hackerrank.com/codewithmahad"><img src="assets/profile/practice/hackerrank.svg" width="28" height="28" align="middle" alt=""> <strong>HackerRank</strong></a> · Coding exercises<br>
+  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="assets/profile/practice/geeksforgeeks.svg" width="28" height="28" align="middle" alt=""> <strong>GeeksforGeeks</strong></a> · Concepts and practice<br>
+  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/practice/progress.svg" width="28" height="28" align="middle" alt=""> <strong>Codolio</strong></a> · My practice overview
+</p>
 
 <details id="the-bottom-drawer">
 <summary>Psst. There’s one more drawer.</summary>
@@ -159,19 +172,6 @@ I go by **codewithmahad** on most platforms.
 
 </details>
 
-<details id="copyright-and-permissions">
-<summary>Copyright & reuse</summary>
-
-<a href="LICENSE.md"><img src="assets/profile/copyright.webp" align="right" width="80" alt="A manuscript folder tied with coral ribbon and a small brass padlock."></a>
-
-Please ask before reusing my README text, artwork, or original layout. Copying or adapting protected material requires written permission; credit alone isn’t permission.
-
-**[Read the full terms](LICENSE.md)** · **[Request permission](mailto:codewithmahad@gmail.com?subject=Profile%20reuse%20permission)**
-
-Subject to applicable law, GitHub’s platform rights, and third-party licenses. [Technology logo credits](assets/profile/stack/README.md) identify their respective owners.
-
-<br clear="both">
-
 </details>
 
-<p align="center"><sub>© 2026 Shaikh Mahad Ud Din · All rights reserved · <a href="LICENSE.md">Terms</a><br><a href="#top">Back to the desk ↑</a></sub></p>
+<p align="center" id="copyright-and-permissions"><sub>© 2026 Shaikh Mahad Ud Din · All rights reserved · <a href="LICENSE.md">Copyright</a><br><a href="#top">Back to the desk ↑</a></sub></p>

@@ -88,10 +88,17 @@ if (process.argv.includes('--screenshots')) {
         if (width === 390 || width === 1200) {
           for (const [label, summary] of [
             ['stack', 'What I use, and what I’m working on'],
+            ['typing', 'How it became useful beyond typing tests'],
+            ['practice', 'Coding profiles & practice'],
             ['drawer', 'Psst. There’s one more drawer.'],
           ]) {
-            const disclosure = page.locator('details').filter({ has: page.getByText(summary, { exact: true }) });
-            await disclosure.locator('summary').click();
+            const disclosure = page.getByText(summary, { exact: true }).locator('..');
+            await disclosure.evaluate(node => {
+              for (let parent = node.parentElement; parent; parent = parent.parentElement) {
+                if (parent.tagName === 'DETAILS') parent.open = true;
+              }
+            });
+            await disclosure.locator(':scope > summary').click();
             await disclosure.locator('img').evaluateAll(images => Promise.all(images.map(img => img.decode())));
             await disclosure.screenshot({ path: path.join(preview, `${label}-${name}.png`) });
             if (label === 'drawer') {
@@ -102,7 +109,8 @@ if (process.argv.includes('--screenshots')) {
               console.log(`drawer-${name}`, JSON.stringify(size));
               if (size.height > 110 || size.height / size.width > .18) throw new Error(`Oversized drawer for ${name}.`);
             }
-            await disclosure.locator('summary').click();
+            await disclosure.locator(':scope > summary').click();
+            await page.locator('details[open]').evaluateAll(nodes => nodes.forEach(node => { node.open = false; }));
           }
         }
         await page.close();

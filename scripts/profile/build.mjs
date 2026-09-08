@@ -3,8 +3,10 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { root, out, source, serif, sans, bold, lettering, svg, themes } from './design.mjs';
+import { buildPracticeAssets } from './practice.mjs';
 
 await mkdir(out, { recursive: true });
+await buildPracticeAssets();
 
 // Web-sized derivatives; retain full-resolution originals and preserve alpha.
 for (const name of ['workbench', 'backend', 'linux-notebook', 'community', 'signoff-plane', 'copyright']) {
