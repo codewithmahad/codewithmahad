@@ -16,27 +16,19 @@ for (const name of ['workbench', 'backend', 'linux-notebook', 'community', 'sign
 
 const workbench = (await readFile(path.join(out, 'workbench.webp'))).toString('base64');
 const art = (x, y, width, height) => `<image x="${x}" y="${y}" width="${width}" height="${height}" xlink:href="data:image/webp;base64,${workbench}"/>`;
-const title = 'Hey, I’m Mahad. I like knowing what happens after you click the button.';
+const title = 'Hey, I’m Mahad. An illustrated workbench.';
 
 for (const [name, c] of Object.entries(themes)) {
   const hero = [
-    art(446, 0, 554, 369),
-    lettering('Hey, I’m', 14, 95, 58, serif, c.ink),
-    lettering('Mahad.', 8, 205, 118, serif, c.ink, -3),
-    `<path d="M19 227 C100 212 245 239 362 219" fill="none" stroke="${c.coral}" stroke-width="3" stroke-linecap="round"/>`,
-    lettering('I like knowing what happens', 18, 274, 20, sans, c.ink),
-    lettering('after you click the button.', 18, 304, 20, sans, c.ink),
+    art(565, 0, 420, 280),
+    lettering('Hey, I’m', 14, 78, 58, serif, c.ink),
+    lettering('Mahad.', 8, 191, 124, serif, c.ink, -3),
+    `<path d="M19 215 C108 200 258 227 383 207" fill="none" stroke="${c.coral}" stroke-width="3" stroke-linecap="round"/>`,
   ].join('');
-  await writeFile(path.join(out, `hero-${name}.svg`), svg(1000, 370, title, hero));
-
-  const mobile = [
-    lettering('Hey, I’m Mahad.', 8, 72, 60, serif, c.ink, -1.6),
-    `<path d="M272 91 Q350 82 457 88" fill="none" stroke="${c.coral}" stroke-width="2.8" stroke-linecap="round"/>`,
-    lettering('I like knowing what happens', 14, 127, 20, sans, c.ink),
-    lettering('after you click the button.', 14, 157, 20, sans, c.ink),
-    art(0, 174, 500, 333),
-  ].join('');
-  await writeFile(path.join(out, `hero-mobile-${name}.svg`), svg(500, 510, title, mobile));
+  const header = svg(1000, 280, title, hero);
+  await writeFile(path.join(out, `hero-${name}.svg`), header);
+  // Keep old image URLs compact too, including references in older README copies.
+  await writeFile(path.join(out, `hero-mobile-${name}.svg`), header);
   const drawer = [
     `<rect x="1" y="1" width="998" height="204" rx="12" fill="${c.terminal}" stroke="${c.rule}"/>`,
     `<circle cx="27" cy="26" r="4" fill="${c.coral}"/><circle cx="43" cy="26" r="4" fill="${c.sage}"/><circle cx="59" cy="26" r="4" fill="${c.rule}"/>`,

@@ -2,11 +2,11 @@
 <a id="top"></a>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/hero-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/profile/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
-  <img src="assets/profile/hero-light.svg" width="100%" alt="Hey, I'm Mahad. I like knowing what happens after you click the button. An illustrated workbench.">
+  <img src="assets/profile/hero-light.svg" width="100%" alt="Hey, I'm Mahad. An illustrated workbench.">
 </picture>
+
+I like knowing what happens after you click the button.
 
 **I’m Shaikh Mahad Ud Din**, a BS Software Engineering student at **UBIT, University of Karachi**.
 
@@ -120,7 +120,7 @@ Where I practise **C++ and DSA**: [LeetCode](https://leetcode.com/u/mahad2006/) 
 </details>
 
 <a id="copyright-and-permissions"></a>
-<h2><a href="LICENSE.md"><img src="assets/profile/copyright.webp" align="right" width="22%" alt="An ivory manuscript folder tied with coral ribbon and secured by a small brass padlock."></a>Copyright & permissions</h2>
+<h2><a href="LICENSE.md"><img src="assets/profile/copyright.webp" align="right" width="22%" alt="An ivory manuscript folder tied with coral ribbon and secured by a small brass padlock."></a>Copyright & reuse</h2>
 
 **© 2026 Shaikh Mahad Ud Din. All rights reserved.**
 
