@@ -2,12 +2,12 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-import { root, out, source, serif, sans, bold, lettering, svg, themes } from './design.mjs';
+import { out, source, serif, sans, bold, lettering, svg, themes } from './design.mjs';
 
 await mkdir(out, { recursive: true });
 
 // Web-sized derivatives; retain full-resolution originals and preserve alpha.
-for (const name of ['workbench', 'backend', 'linux-notebook', 'community', 'signoff-plane', 'copyright']) {
+for (const name of ['workbench', 'backend', 'linux-notebook', 'community', 'signoff-plane']) {
   await sharp(path.join(source, `${name}.png`))
     .resize({ width: name === 'workbench' ? 1100 : 520, withoutEnlargement: true })
     .webp({ quality: 90, alphaQuality: 100, effort: 6 })
@@ -26,11 +26,7 @@ for (const [name, c] of Object.entries(themes)) {
     `<path d="M350 142 Q470 131 591 137" fill="none" stroke="${c.coral}" stroke-width="2.6" stroke-linecap="round"/>`,
   ].join('');
   const header = svg(1000, 200, title, hero);
-  // A new filename also prevents older cached banners from appearing on GitHub.
   await writeFile(path.join(out, `masthead-${name}.svg`), header);
-  await writeFile(path.join(out, `hero-${name}.svg`), header);
-  // Keep old image URLs compact too, including references in older README copies.
-  await writeFile(path.join(out, `hero-mobile-${name}.svg`), header);
   const drawer = [
     `<rect x="1" y="1" width="758" height="130" rx="12" fill="${c.terminal}" stroke="${c.rule}"/>`,
     `<circle cx="24" cy="21" r="3.5" fill="${c.coral}"/><circle cx="40" cy="21" r="3.5" fill="${c.sage}"/><circle cx="56" cy="21" r="3.5" fill="${c.rule}"/>`,
@@ -40,18 +36,13 @@ for (const [name, c] of Object.entries(themes)) {
     `<g transform="translate(659 23) scale(.72)" stroke="${c.sage}" stroke-width="2" fill="none" stroke-linecap="round"><path d="M21 60 C4 7 77 2 75 60 L81 101 Q48 122 14 101 Z"/><path d="M28 55 Q47 32 66 55 L67 91 Q46 108 27 91 Z"/><path d="M14 61 L1 83 M76 60 L91 80"/><path d="M40 50 L47 57 L54 50 Z" stroke="${c.coral}"/><path d="M27 109 L18 119 M63 109 L74 119" stroke="${c.coral}"/><circle cx="34" cy="38" r="1.5"/><circle cx="59" cy="38" r="1.5"/></g>`,
   ].join('');
   const drawerImage = svg(760, 132, 'You found the bottom drawer. A tiny penguin, a spare key, and a note.', drawer);
-  // One aspect ratio at every viewport; keep older URLs compact as well.
-  for (const prefix of ['drawer-compact', 'drawer', 'drawer-mobile']) {
-    await writeFile(path.join(out, `${prefix}-${name}.svg`), drawerImage);
-  }
+  await writeFile(path.join(out, `drawer-compact-${name}.svg`), drawerImage);
 }
 
 const loop = svg(1000, 12, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 6.5 H400 C439 6.5 449 1.5 475 2 C504 3 477 11.5 461 8 C444 2.5 489 3 511 5 C539 8 550 6.5 592 6.5 H990" fill="none" stroke="url(#fade)" stroke-width="1.3" stroke-linecap="round"/>`);
 // The plane sits on the closing line, keeping the artwork and divider in one row.
 const plane = (await readFile(path.join(out, 'signoff-plane.webp'))).toString('base64');
-const sweep = svg(1000, 56, 'A paper plane crossing a coral line.', `<defs><linearGradient id="sweep"><stop stop-color="#c56f53" stop-opacity=".12"/><stop offset=".58" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".12"/></linearGradient></defs><g fill="none" stroke="url(#sweep)" stroke-width="1.8" stroke-linecap="round"><path d="M8 28 H332 C425 28 455 40 517 35 C568 31 594 12 642 17 C689 22 719 29 789 28 H988"/><path d="M445 43 C515 46 572 11 628 10 C651 10 669 14 683 19" stroke-width="1.2"/></g><path d="M628 29 Q633 35 640 36 Q635 31 628 29Z" fill="#87967c" opacity=".85"/><image x="25" y="0" width="84" height="56" xlink:href="data:image/webp;base64,${plane}"/>`);
-for (const file of ['divider-loop.svg', 'thread.svg']) await writeFile(path.join(out, file), loop);
-for (const file of ['divider-sweep.svg', 'thread-closing.svg']) await writeFile(path.join(out, file), sweep);
+await writeFile(path.join(out, 'divider-loop.svg'), loop);
 
 // The contact title interrupts the line; the larger plane overlaps its left end.
 const greeting = 'Say hello';
@@ -60,9 +51,8 @@ const greetingWidth = serif.layout(greeting).positions.reduce((width, p) => widt
 const greetingX = (900 - greetingWidth) / 2;
 const contactOut = path.join(out, 'contact');
 await mkdir(contactOut, { recursive: true });
-// Reuse the existing LinkedIn glyph, without the old glowing button treatment.
-const legacyLinkedIn = await readFile(path.join(root, 'assets/socials/linkedin.svg'), 'utf8');
-const linkedInGlyph = legacyLinkedIn.match(/<path d="[^"]+"\s*\/>/)?.[0];
+const linkedIn = await readFile(path.join(source, 'linkedin.svg'), 'utf8');
+const linkedInGlyph = linkedIn.match(/<path d="[^"]+"\s*\/>/)?.[0];
 if (!linkedInGlyph) throw new Error('The existing LinkedIn glyph is missing.');
 
 for (const [name, c] of Object.entries(themes)) {
@@ -93,4 +83,4 @@ for (const [name, c] of Object.entries(themes)) {
     await writeFile(path.join(contactOut, `${slug}-${name}.svg`), svg(172, 52, label, link));
   }
 }
-console.log('Built profile artwork, compact headers and drawers, contact heading and links, and compatibility copies.');
+console.log('Built profile artwork, headers, drawer, dividers, and contact links.');

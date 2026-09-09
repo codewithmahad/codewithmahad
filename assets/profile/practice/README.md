@@ -5,7 +5,6 @@ These are unmodified local copies downloaded from the platforms' own websites or
 | File | Original source |
 | :--- | :--- |
 | `leetcode-original.png` | [LeetCode icon](https://assets.leetcode.com/static_assets/public/icons/favicon-192x192.png) |
-| `hackerrank-original.svg` | [HackerRank site logo](https://cdn.prod.website-files.com/66b6d7fd4d3e9cef94717176/66f9706316a3f2ee8f86283a_logoSm.svg) |
 | `hackerrank-wordmark-light.svg` | [HackerRank wordmark for light backgrounds](https://cdn.prod.website-files.com/66b6d7fd4d3e9cef94717176/6765dc51a13e31531996cef3_logo-dark.svg) |
 | `hackerrank-wordmark-dark.svg` | [HackerRank wordmark for dark backgrounds](https://cdn.prod.website-files.com/66b6d7fd4d3e9cef94717176/67411f0efc1c2cc21fbe84d9_logo%20light.svg) |
 | `geeksforgeeks-original.svg` | [GeeksforGeeks logo](https://media.geeksforgeeks.org/gfg-gg-logo.svg) |

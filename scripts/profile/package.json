@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
-    "preview": "node preview.mjs"
+    "preview": "node preview.mjs",
+    "check": "node assets.mjs",
+    "links": "node assets.mjs --write"
   },
   "devDependencies": {
     "fontkit": "^2.0.4",

@@ -21,9 +21,6 @@ marked.use({ renderer: {
 let body = marked.parse(md);
 if (process.argv.includes('--github')) {
   body = await readFile(path.join(preview, 'github-rendered.html'), 'utf8');
-  // The API resolves links against the live repo; new local assets aren't there yet.
-  body = body.replace(/https:\/\/github\.com\/codewithmahad\/codewithmahad\/(?:raw|blob)\/(?:refs\/heads\/)?main\/assets\/profile\//g, 'assets/profile/');
-  body = body.replace(/https:\/\/raw\.githubusercontent\.com\/codewithmahad\/codewithmahad\/(?:refs\/heads\/)?main\/assets\/profile\//g, 'assets/profile/');
   // The API sanitizes markup; GitHub's page layer adds heading anchors afterward.
   body = body.replace(/<h([1-6]) dir="auto">([\s\S]*?)<\/h\1>/g, (_, depth, text) => {
     const slug = text.replace(/<[^>]*>/g, '').toLowerCase().replace(/[^\p{L}\p{N}\s_-]/gu, '').replace(/\s/g, '-');
@@ -31,6 +28,14 @@ if (process.argv.includes('--github')) {
     return `<h${depth} id="${slug}">${text}</h${depth}>`;
   });
   body = body.replace(/id="user-content-([^"]+)"/g, 'id="$1"');
+}
+// Use local artwork while editing. --remote exercises the real delivery URLs.
+if (!process.argv.includes('--remote')) {
+  const cdn = /https:\/\/cdn\.jsdelivr\.net\/gh\/codewithmahad\/codewithmahad@[a-f0-9]{40}\//g;
+  body = body.replace(/https:\/\/camo\.githubusercontent\.com\/[a-f0-9]+\/([a-f0-9]+)/g, (url, hex) => {
+    const original = Buffer.from(hex, 'hex').toString('utf8');
+    return original.startsWith('https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@') ? original : url;
+  }).replace(cdn, '');
 }
 const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><base href="../"><title>Mahad · Profile preview</title><style>${css}
 body{margin:0;background:#fff;color:#1f2328;color-scheme:light;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
@@ -62,7 +67,7 @@ if (process.argv.includes('--screenshots')) {
     }
     browser = await chromium.launch({ executablePath, headless: true });
     for (const colorScheme of ['light', 'dark']) {
-      for (const width of [1200, 768, 390, 320]) {
+      for (const width of process.argv.includes('--remote') ? [1200, 390] : [1200, 768, 390, 320]) {
         const page = await browser.newPage({ viewport: { width, height: 1000 }, colorScheme, deviceScaleFactor: 1 });
         await page.goto(`http://127.0.0.1:${server.address().port}/.preview/profile.html`);
         await page.locator('img').evaluateAll(images => Promise.all(images.map(img => img.decode().catch(() => {}))));

@@ -1,8 +1,8 @@
 <!-- You found the source. The penguin insists this counts as code review. -->
 <p align="center" id="top">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/masthead-dark.svg">
-    <img src="assets/profile/masthead-light.svg" width="740" alt="Hey, I’m Mahad. An illustrated workbench.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/masthead-dark.svg">
+    <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/masthead-light.svg" width="740" alt="Hey, I’m Mahad. An illustrated workbench.">
   </picture>
 </p>
 
@@ -30,22 +30,22 @@ I also founded **The UBIT Hub**. Sharing notes and building small tools for that
 <summary>What I use, and what I’m working on</summary>
 
 <p>
-  <a href="https://dev.java/"><img src="assets/profile/stack/java.svg" width="48" height="48" align="middle" alt="Java logo"></a> &nbsp;<strong>Java</strong><br>
+  <a href="https://dev.java/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/java.svg" width="48" height="48" align="middle" alt="Java logo"></a> &nbsp;<strong>Java</strong><br>
   My main language for backend work. I’m going deeper into Java internals, object-oriented design, and the patterns that make code easier to change.
 </p>
 
 <p>
-  <a href="https://spring.io/projects/spring-boot"><img src="assets/profile/stack/spring.svg" width="48" height="48" align="middle" alt="Spring logo"></a> &nbsp;<strong>Spring Boot & Spring Security</strong><br>
+  <a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/spring.svg" width="48" height="48" align="middle" alt="Spring logo"></a> &nbsp;<strong>Spring Boot & Spring Security</strong><br>
   APIs, authentication, access control, and application layers. MapStruct handles DTO mapping in my backend projects.
 </p>
 
 <p>
-  <a href="https://www.postgresql.org/"><img src="assets/profile/stack/postgresql.svg" width="48" height="48" align="middle" alt="PostgreSQL logo"></a> &nbsp;<strong>Databases</strong><br>
+  <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/postgresql.svg" width="48" height="48" align="middle" alt="PostgreSQL logo"></a> &nbsp;<strong>Databases</strong><br>
   PostgreSQL, MySQL, SQL, and Flyway. I’m working on schema design, migrations, and understanding the queries an application depends on.
 </p>
 
 <p>
-  <a href="https://git-scm.com/"><img src="assets/profile/stack/git.svg" width="48" height="48" align="middle" alt="Git logo"></a> &nbsp;<strong>Everyday tools</strong><br>
+  <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/git.svg" width="48" height="48" align="middle" alt="Git logo"></a> &nbsp;<strong>Everyday tools</strong><br>
   Git for version control, Maven for builds, Linux and Bash for the environment, Postman for API requests, and IntelliJ IDEA for development.
 </p>
 
@@ -54,9 +54,9 @@ Alongside project work, I practise **DSA** and work through design patterns and 
 </details>
 
 <div id="behind-the-button">
-  <img src="assets/profile/divider-loop.svg" align="left" width="92%" height="12" alt="">
+  <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/divider-loop.svg" align="left" width="92%" height="12" alt="">
 </div>
-<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>Backend projects</h2>
+<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>Backend projects</h2>
 
 <p>
   <a href="https://github.com/codewithmahad/fitness-tracker-backend"><strong>Fitness Tracker API ↗︎</strong></a><br>
@@ -81,7 +81,7 @@ Each repository has its own setup instructions and implementation details.
 
 </details>
 
-<h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="assets/profile/linux-notebook.webp" align="left" width="16%" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
+<h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="left" width="16%" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
 
 <p>
   <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>LINUX_LAB ↗︎</strong></a> started in my Operating Systems lab. It’s where I work through commands, permissions, processes, and Bash scripts and write the explanation I wish I’d had when something didn’t make sense.
@@ -95,7 +95,7 @@ Each repository has its own setup instructions and implementation details.
   <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data structures & algorithms</strong></a>
 </p>
 
-<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/community.webp" align="right" width="16%" alt="A small shared noticeboard with paper notes."></a>The UBIT Hub</h2>
+<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/community.webp" align="right" width="16%" alt="A small shared noticeboard with paper notes."></a>The UBIT Hub</h2>
 
 I founded **The UBIT Hub**, a community connecting **900+ UBIT students** through course support, academic discussion, and peer learning.
 
@@ -114,8 +114,8 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 <div id="lets-talk">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">
-    <img src="assets/profile/contact-heading-light.svg" width="100%" alt="Say hello">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact-heading-dark.svg">
+    <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact-heading-light.svg" width="100%" alt="Say hello">
   </picture>
 </div>
 
@@ -124,27 +124,27 @@ This profile changes as I build. You’ll find backend projects, Linux notes, an
 If a repo helped you, left you with a question, or sparked an idea, I’d like to hear about it. I go by **codewithmahad** on most platforms.
 
 <p>
-  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/linkedin-dark.svg"><img src="assets/profile/contact/linkedin-light.svg" width="172" height="52" alt="LinkedIn: connect with me"></picture></a>
-  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/portfolio-dark.svg"><img src="assets/profile/contact/portfolio-light.svg" width="172" height="52" alt="Portfolio: see my work"></picture></a>
-  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/email-dark.svg"><img src="assets/profile/contact/email-light.svg" width="172" height="52" alt="Email: write to codewithmahad@gmail.com"></picture></a>
+  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/linkedin-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/linkedin-light.svg" width="172" height="52" alt="LinkedIn: connect with me"></picture></a>
+  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/portfolio-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/portfolio-light.svg" width="172" height="52" alt="Portfolio: see my work"></picture></a>
+  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/email-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/email-light.svg" width="172" height="52" alt="Email: write to codewithmahad@gmail.com"></picture></a>
 </p>
 
 <details>
 <summary>Coding profiles & practice</summary>
 
 <p>
-  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/practice/leetcode-original.png" width="28" height="28" align="middle" alt="">&nbsp;LeetCode</a> &nbsp;&nbsp;
-  <a href="https://www.hackerrank.com/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/practice/hackerrank-wordmark-dark.svg"><img src="assets/profile/practice/hackerrank-wordmark-light.svg" width="112" height="28" align="middle" alt="HackerRank"></picture></a> &nbsp;&nbsp;
-  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="assets/profile/practice/geeksforgeeks-original.svg" width="36" height="28" align="middle" alt="">&nbsp;GeeksforGeeks</a> &nbsp;&nbsp;
-  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/practice/codolio-original.svg" width="28" height="28" align="middle" alt="">&nbsp;Codolio</a>
+  <a href="https://leetcode.com/u/mahad2006/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/leetcode-original.png" width="28" height="28" align="middle" alt="">&nbsp;LeetCode</a> &nbsp;&nbsp;
+  <a href="https://www.hackerrank.com/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/hackerrank-wordmark-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/hackerrank-wordmark-light.svg" width="112" height="28" align="middle" alt="HackerRank"></picture></a> &nbsp;&nbsp;
+  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/geeksforgeeks-original.svg" width="36" height="28" align="middle" alt="">&nbsp;GeeksforGeeks</a> &nbsp;&nbsp;
+  <a href="https://codolio.com/profile/codewithmahad"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/codolio-original.svg" width="28" height="28" align="middle" alt="">&nbsp;Codolio</a>
 </p>
 
 <details id="the-bottom-drawer">
 <summary>Psst. There’s one more drawer.</summary>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/drawer-compact-dark.svg">
-  <img src="assets/profile/drawer-compact-light.svg" width="600" alt="Secret drawer: a tiny penguin, a spare key, and a note. Pick one of the links below.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/drawer-compact-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/drawer-compact-light.svg" width="600" alt="Secret drawer: a tiny penguin, a spare key, and a note. Pick one of the links below.">
 </picture>
 
 <p>
@@ -159,7 +159,7 @@ If a repo helped you, left you with a question, or sparked an idea, I’d like t
 
 </details>
 
-<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 120+ WPM</h3>
+<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 120+ WPM</h3>
 
 I started learning **touch typing in 2023** so I could keep my eyes on the screen and stop searching for keys. It helps with code, notes, and everyday messages. If typing still slows you down, [try a short test on Monkeytype](https://monkeytype.com/) and give yourself a starting point.
 
