@@ -33,7 +33,7 @@ for (const [name, c] of Object.entries(themes)) {
 const loop = svg(1000, 12, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 6.5 H400 C439 6.5 449 1.5 475 2 C504 3 477 11.5 461 8 C444 2.5 489 3 511 5 C539 8 550 6.5 592 6.5 H990" fill="none" stroke="url(#fade)" stroke-width="1.3" stroke-linecap="round"/>`);
 await writeFile(path.join(out, 'divider-loop.svg'), loop);
 
-// Visible contact and practice links, using the platforms' original marks.
+// One row of social profiles, using original marks and brand accents.
 const contactOut = path.join(out, 'contact');
 await mkdir(contactOut, { recursive: true });
 const embedMark = async (file, type, x, y, width, height) => {
@@ -43,35 +43,40 @@ const embedMark = async (file, type, x, y, width, height) => {
 const linkedIn = await readFile(path.join(source, 'linkedin.svg'), 'utf8');
 const linkedInGlyph = linkedIn.match(/<path d="[^"]+"\s*\/>/)?.[0];
 if (!linkedInGlyph) throw new Error('The existing LinkedIn glyph is missing.');
-const [gmailMark, leetcodeMark, hackerRankMark, codolioMark] = await Promise.all([
-  embedMark(path.join(source, 'gmail-original.png'), 'image/png', 10, 8, 24, 24),
+const [leetcodeMark, codolioMark] = await Promise.all([
   embedMark(path.join(out, 'practice/leetcode-original.png'), 'image/png', 9, 8, 24, 24),
-  embedMark(path.join(out, 'practice/hackerrank-wordmark-light.svg'), 'image/svg+xml', 10, 11, 106, 18),
   embedMark(path.join(out, 'practice/codolio-original.svg'), 'image/svg+xml', 10, 8, 24, 24),
 ]);
-const ink = '#253044';
+// Match the other labels while retaining HackerRank's green terminal square.
+const hackerRankSize = 14;
+const hackerRankWidth = sans.layout('HackerRank').positions.reduce((width, p) => width + p.xAdvance, 0) * hackerRankSize / sans.unitsPerEm;
+const hackerRankX = (126 - hackerRankWidth - 14) / 2;
+const hackerRankMark = lettering('HackerRank', hackerRankX, 25, hackerRankSize, sans, '#fff')
+  + '<rect x="' + (hackerRankX + hackerRankWidth + 4) + '" y="15" width="10" height="10" fill="#20d761"/>';
 const brandSize = 15;
 const brandWidth = bold.layout('mahad').positions.reduce((width, p) => width + p.xAdvance, 0) * brandSize / bold.unitsPerEm;
 const cards = [
-  ['portfolio', 'mahad.dev - Portfolio', 146, [
+  ['portfolio-card', 'mahad.dev - Portfolio', 146, '#f5f6f8', '#d4dae5', [
     '<rect x="10" y="9" width="22" height="22" rx="6" fill="#155dfc"/>',
     lettering('M', 14.5, 25.3, 15, bold, '#fff'),
-    lettering('mahad', 41, 25.2, brandSize, bold, '#111827'),
+    lettering('mahad', 41, 25.2, brandSize, bold, '#000000'),
     lettering('.dev', 41 + brandWidth, 25.2, brandSize, bold, '#6b7280'),
   ].join('')],
-  ['linkedin', 'LinkedIn', 108, [
-    '<rect x="11" y="11" width="18" height="18" rx="2" fill="#fff"/>',
-    '<g transform="translate(11 11) scale(.75)" fill="#0a66c2">' + linkedInGlyph + '</g>',
-    lettering('LinkedIn', 39, 25, 14, sans, ink),
+  ['linkedin-brand', 'LinkedIn', 108, '#0a66c2', '#0a66c2', [
+    '<g transform="translate(11 11) scale(.75)" fill="#fff">' + linkedInGlyph + '</g>',
+    lettering('LinkedIn', 39, 25, 14, sans, '#fff'),
   ].join('')],
-  ['gmail', 'Gmail', 88, gmailMark + lettering('Gmail', 40, 25, 14, sans, ink)],
-  ['leetcode', 'LeetCode', 110, leetcodeMark + lettering('LeetCode', 38, 25, 14, sans, ink)],
-  ['hackerrank', 'HackerRank', 126, hackerRankMark],
-  ['codolio', 'Codolio', 104, codolioMark + lettering('Codolio', 41, 25, 14, sans, ink)],
+  ['mail-brand', 'Mail', 80, '#b3433d', '#b3433d', [
+    '<g fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="11.5" y="13.5" width="18" height="13" rx="2"/><path d="M12 15 L20.5 21.5 L29 15"/></g>',
+    lettering('Mail', 39, 25, 14, sans, '#fff'),
+  ].join('')],
+  ['leetcode-brand', 'LeetCode', 110, '#282828', '#282828', leetcodeMark + lettering('LeetCode', 38, 25, 14, sans, '#f5f5f5')],
+  ['hackerrank-brand', 'HackerRank', 126, '#14633c', '#14633c', hackerRankMark],
+  ['codolio-brand', 'Codolio', 104, '#f57c06', '#f57c06', codolioMark + lettering('Codolio', 41, 25, 14, sans, '#fff')],
 ];
-for (const [slug, label, width, content] of cards) {
-  const frame = '<rect x=".5" y=".5" width="' + (width - 1) + '" height="39" rx="8" fill="#f5f6f8" stroke="#d4dae5"/>';
-  await writeFile(path.join(contactOut, slug + '-card.svg'), svg(width, 40, label, frame + content));
+for (const [slug, label, width, fill, stroke, content] of cards) {
+  const frame = '<rect x=".5" y=".5" width="' + (width - 1) + '" height="39" rx="8" fill="' + fill + '" stroke="' + stroke + '"/>';
+  await writeFile(path.join(contactOut, slug + '.svg'), svg(width, 40, label, frame + content));
 }
 
 // Inline profile shortcut: original keyboard geometry, using charcoal and yellow.

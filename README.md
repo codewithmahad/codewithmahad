@@ -122,19 +122,15 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 <h2 id="lets-connect">Let’s connect</h2>
 
-I’m building my path in Java backend development and sharing the projects, notes, and systems I learn along the way. If something here caught your attention, I’d be glad to connect.
+I’m learning Java backend development and sharing my projects, notes, [articles](https://medium.com/@codewithmahad), and experiments. If something here helped you, you have feedback, or you’d like to talk about what you’re building, I’d be glad to hear from you.
 
 <p>
   <a href="https://shaikhmahad.vercel.app/"><img src="assets/profile/contact/portfolio-card.svg" width="146" height="40" alt="mahad.dev: visit my portfolio"></a>
-  <a href="https://www.linkedin.com/in/codewithmahad"><img src="assets/profile/contact/linkedin-card.svg" width="108" height="40" alt="LinkedIn: connect with me"></a>
-  <a href="mailto:codewithmahad@gmail.com"><img src="assets/profile/contact/gmail-card.svg" width="88" height="40" alt="Gmail: write to codewithmahad@gmail.com"></a>
-</p>
-
-<p>
-  <strong>Problem solving</strong><br>
-  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/contact/leetcode-card.svg" width="110" height="40" alt="LeetCode: my problem-solving profile"></a>
-  <a href="https://www.hackerrank.com/codewithmahad"><img src="assets/profile/contact/hackerrank-card.svg" width="126" height="40" alt="HackerRank: my practice profile"></a>
-  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/contact/codolio-card.svg" width="104" height="40" alt="Codolio: my coding profile"></a>
+  <a href="https://www.linkedin.com/in/codewithmahad"><img src="assets/profile/contact/linkedin-brand.svg" width="108" height="40" alt="LinkedIn: connect with me"></a>
+  <a href="mailto:codewithmahad@gmail.com"><img src="assets/profile/contact/mail-brand.svg" width="80" height="40" alt="Mail: write to codewithmahad@gmail.com"></a>
+  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/contact/leetcode-brand.svg" width="110" height="40" alt="LeetCode: my profile"></a>
+  <a href="https://www.hackerrank.com/codewithmahad"><img src="assets/profile/contact/hackerrank-brand.svg" width="126" height="40" alt="HackerRank: my profile"></a>
+  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/contact/codolio-brand.svg" width="104" height="40" alt="Codolio: my profile"></a>
 </p>
 
 <h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
