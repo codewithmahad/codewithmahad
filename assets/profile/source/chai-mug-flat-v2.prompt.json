@@ -2,7 +2,11 @@
   "mode": "built-in image_gen",
   "date": "2026-11-03",
   "intent": "precise-object-edit",
-  "edit_target": "assets/profile/source/chai-mug-flat.png",
+  "edit_target": {
+    "path": "assets/profile/source/chai-mug-flat.png",
+    "revision": "0aa84303d3147b0a140aefd453dddc180f425801",
+    "note": "Retired two-wave source; retrieve this revision from Git history if needed."
+  },
   "transparent_background": true,
   "prompt": "Edit this exact illustration. Add ONE additional blue steam wave above the mug so there are exactly THREE separate smooth curved steam strokes in total. Arrange the three with balanced spacing and varied gentle heights, matching the existing blue, stroke thickness, curved shape, and rounded ends. Keep the mug, handle, chai, heart, outlines, colors, flat shading, canvas dimensions, scale, position, and transparent background unchanged. Change only the steam area. No extra objects, glow, text, shadows, or photographic effects."
 }

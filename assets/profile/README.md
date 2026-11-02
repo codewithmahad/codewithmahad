@@ -1,18 +1,28 @@
 # Profile artwork
 
-The README mixes editable personal writing, small illustrations, and real technology logos. Ivory, sage, coral, and brass connect the original artwork; the technology marks keep their own colors and proportions. Longer project, background, and toolkit notes live in expandable sections.
+This directory contains the visuals used by the profile, their current source files, and the notices for third-party assets. Retired artwork is available in Git history.
+
+## Current assets
+
+| Display asset | Source | Placement |
+| :--- | :--- | :--- |
+| `intro-title-light.svg` / `intro-title-dark.svg` | Inter lettering in `scripts/profile/build.mjs` | Greeting |
+| `chai-mug-flat-v2.webp` | `source/chai-mug-flat-v2.png` | Right of the introduction |
+| `backend-flow-light.svg` / `backend-flow-dark.svg` | Editable native SVG | Backend projects |
+| `linux-notebook.webp` | `source/linux-notebook.png` | Learning notes |
+| `ubit-emblem.png` | Supplied UBIT emblem | The UBIT Hub |
+| `stack/*.svg` | Original technology marks | Visible toolkit and expanded categories |
+| `contact/*.svg` | Locally generated buttons | Let’s connect |
+| `practice/monkeytype-monkey.png` | Original Monkeytype illustration | Typing note |
+| `practice/monkeytype-profile-inline.svg` | Locally generated button | Inline Monkeytype link |
+
+The greeting uses a 60%-wide, 42-pixel-high SVG viewport. The mug floats right at 20% of the text column. A standard Markdown horizontal rule separates the introduction from the toolkit.
+
+The notebook is 104 pixels wide, the backend-flow illustration is 112 pixels wide, and the UBIT emblem is 100 pixels wide. Contact buttons are 40 pixels high and share one paragraph, wrapping on narrow screens. The typing note precedes the final connection section and copyright footer.
 
 ## Editing and preview
 
-- Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
-- The opening uses `intro-title-light.svg` / `intro-title-dark.svg` with a left-aligned SVG viewport. A flat, vector-style blue chai-mug illustration floats right from inside the H1 at 20% of the text column; the title uses a 60%-wide, 42-pixel-high viewport. The greeting keeps its desktop type size and scales within the available width on phones. Introductory text wraps alongside the mug. The earlier glossy mug and red pen-holder images are preserved and no longer displayed. The earlier compact vignette, plain wordmarks, illustrated mastheads, and computer artwork are preserved but the vignette is no longer displayed.
-- A single coral SVG divider separates the background disclosure from the toolkit. The connection section uses a native heading and normal text.
-- The connection section keeps all six social profiles in one HTML paragraph: Portfolio, LinkedIn, Mail, LeetCode, HackerRank, and Codolio. They fit one row on desktop and wrap naturally on narrow screens. There is no category heading, banner, or disclosure.
-- The Linux notebook displays at 104 pixels wide and floats left, roughly matching the heading and two lines of body text without growing with the text column. The backend request-flow vector displays at 112 pixels wide and floats right inside its heading, so the heading border paints behind it. The UBIT emblem displays at 100 pixels wide beside the community body text, with a small vertical inset; its paragraph clears the float before the disclosure. The Linux paragraph clears its float before the other notebook links. All contact and coding-profile links remain visible. The footer is one centered line: copyright owner and year, an All rights reserved link to LICENSE.md, and Back to top with a native up arrow. It wraps naturally on small screens.
-- The toolkit starts with a native four-column table: Java, Spring Boot, PostgreSQL, and Linux, each with a 48-pixel SVG logo and its name underneath. A disclosure groups the full toolkit into languages, frameworks and libraries, databases, and tools and environment, using 24-pixel logos. Keep the visible row focused; add technologies to the appropriate category as they become part of actual project work or study. Sources, ownership, and the distribution license are recorded in [`stack/`](stack/); the logos are not generated or recolored.
-- The 40-pixel-high SVG buttons in `contact/` share the same geometry. Only the portfolio uses a light surface, keeping the blue M and two-tone mahad.dev branding: pure black for mahad and gray for .dev. LinkedIn uses blue; Mail uses warm red with an original white-envelope vector. LeetCode uses graphite and HackerRank uses deep green, with edges matching their fills. LeetCode retains its original mark. HackerRank uses the shared 14-pixel Manrope label weight and a green terminal square. Codolio uses `codolioBase: #F57C06` from its [public stylesheet](https://codolio.com/_next/static/css/53f9a90df567e9a1.css). LeetCode orange `#F89F1B` and HackerRank green `#20D761` come from the original logo assets. Button surfaces are custom design choices. Edit the palette, logo placement, and outlined lettering in `scripts/profile/build.mjs`.
-- The touch-typing section sits above the final Let’s connect section, which ends with the social buttons before copyright, and uses Monkeytype's original typing-monkey illustration. Its history comes from the owner: learning began in 2023 at around 60 WPM, progressing to 130+ WPM. One visible paragraph covers the habit and links to a test and the profile; there is no records table or disclosure. A 160 x 20 SVG profile shortcut sits inline with the text, using a charcoal background, yellow keyboard glyph, and outlined lettering. The practice links use original platform logos embedded in the visible buttons. Downloads, ownership, and sources are recorded in [`practice/`](practice/). Every displayed asset is committed here; none depend on badge or statistics generators.
-- Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The SVG headers embed any artwork they use and convert lettering to paths, so they need no remote images or installed fonts.
+Edit profile wording and placement in [the main README](../../README.md). The build never overwrites it. Artwork geometry and button styling are in [build.mjs](../../scripts/profile/build.mjs); font setup and SVG helpers are in [design.mjs](../../scripts/profile/design.mjs).
 
 From the repository root:
 
@@ -22,64 +32,28 @@ npm --prefix scripts/profile run build
 npm --prefix scripts/profile run preview
 ```
 
-Open `.preview/profile.html` for a local approximation of GitHub’s layout. To capture both themes at 320, 390, 768, and 1200 pixels:
+Open `.preview/profile.html` to inspect the local layout. To capture desktop and mobile widths in both themes:
 
 ```sh
 npm --prefix scripts/profile run preview -- --screenshots
 ```
 
-Screenshots use an installed Playwright Chromium browser or Chrome on Windows. Set `PROFILE_BROWSER` to another Chromium executable if needed. Preview files and dependencies are ignored by Git. The default preview uses local files, including when the README contains CDN URLs. Add `--remote` to test the published image URLs at desktop and phone widths in both themes.
+Screenshots use Playwright Chromium or Chrome on Windows. `PROFILE_BROWSER` can select another Chromium executable. Dependencies and local previews are ignored by Git.
 
-## Image delivery and updates
+The build generates only the current greeting variants, notebook and mug display copies, six contact buttons, and inline Monkeytype button. Other current SVGs are edited directly. Full-resolution PNG originals stay in `source/`; the mug WebP is lossless and preserves transparency.
 
-The live profile's relative image URLs redirected to `raw.githubusercontent.com`, which returned `503 Backend.max_conn reached` during diagnosis. The files were already committed and present. Chrome then rejected those HTML error responses with `ERR_BLOCKED_BY_ORB`.
+## Image links
 
-The README now uses [jsDelivr's GitHub CDN](https://www.jsdelivr.com/documentation#id-github) with full commit IDs. GitHub rewrites these URLs through its [image proxy](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls). This avoids visitors requesting images directly from the failing raw-file endpoint. The CDN serves the same committed bytes with immutable caching; changing image bytes gets a new URL. No artwork is uploaded separately, and no generator runs when someone opens the profile. Network and service availability still affect loading time.
+The README uses relative asset paths and commit-pinned jsDelivr URLs. The default preview resolves this repository’s CDN images to local files; `--remote` exercises the published URLs.
 
-For copy-only changes, edit and commit the README normally. After changing artwork:
+[scripts/profile/assets.mjs](../../scripts/profile/assets.mjs) maintains image references tied to committed asset bytes. Commit artwork before updating those references with `npm --prefix scripts/profile run links`. The tool never commits or pushes. Keep referenced asset commits in published history.
 
-1. Run the build and preview above.
-2. Commit the changed source and generated artwork.
-3. Run `npm --prefix scripts/profile run links` to update only image references whose contents changed.
-4. Run `npm --prefix scripts/profile run check`, then commit the README and push both commits when ready.
+## Sources and notices
 
-The link command refuses to point at uncommitted asset changes. It never commits or pushes. The check command verifies each image exists locally and matches the exact Git revision in its URL. Keep those asset commits in published history; do not squash them away after linking to them.
+The current chai mug and Linux notebook were made with the built-in image_gen tool. Their prompt records are [chai-mug-flat-v2.prompt.json](source/chai-mug-flat-v2.prompt.json) and [prompts.json](source/prompts.json). Historical reference images are identified by Git revision in those records; their retired copies are no longer kept in this directory.
 
-The repository contains only the current profile, its source artwork and licenses, and the local build/preview tools. Retired stats, snake, skyline, and README generators have been removed along with their schedules and unused output. Historical versions remain in Git history.
+The mug is a raster illustration in a flat vector style, with blue steam and a flowing heart motif. Its original transparent PNG is retained unchanged. The backend request-flow artwork is editable native SVG. The supplied UBIT emblem is unchanged from the transparent emblem used in [DeployLatch](https://github.com/codewithmahad/deploylatch/blob/main/docs/assets/ubit-emblem.png).
 
-## Artwork and provenance
+Inter supplies the greeting lettering; Manrope supplies button lettering. Both fonts and their SIL Open Font License notices are retained in `source/`. SVG lettering is converted to paths, so readers do not need the fonts installed.
 
-The workbench and Linux notebook illustrations were generated with the **built-in image_gen tool**. Prompts for the retained illustrations are preserved in [`source/prompts.json`](source/prompts.json).
-
-| Original | Display asset | Placement |
-| :--- | :--- | :--- |
-| SVG lettering | `intro-title-light.svg` / `intro-title-dark.svg` | Current greeting |
-| `source/chai-mug-flat-v2.png` | `chai-mug-flat-v2.webp` | Right side of the heading and introductory paragraphs |
-| `source/chai-mug-flat.png` | `chai-mug-flat.webp` | Preserved two-wave illustration |
-| `source/chai-mug-blue.png` | `chai-mug-blue.webp` | Preserved glossy alternative, no longer displayed |
-| `source/pen-holder-red.png` | `pen-holder-red.webp` | Preserved alternative, no longer displayed |
-| `source/workbench.png` | `workbench.webp` and `masthead-*.svg` | Preserved illustrated opening, currently not displayed |
-| Editable SVG | `backend-flow-light.svg` / `backend-flow-dark.svg` | Backend projects |
-| `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
-| Supplied UBIT emblem | `ubit-emblem.png` | The UBIT Hub |
-
-
-The earlier study-setup vignette is preserved editable SVG geometry, with ivory chai, a graphite laptop showing 200 OK, and an uneven arrangement of pens and a pencil. Standalone `study-setup-light.svg` / `study-setup-dark.svg` files are retained for inspection and reuse within this profile. Its former responsive header files are retained for reference and are no longer used in the README.
-
-The current chai-mug illustration is a flat graphic redraw of the earlier mug, made with the built-in image_gen tool. It retains the blue mug, warm chai, flowing heart, and three steam curves, replacing the reflective finish with outlined shapes and restrained flat shading. It is a raster illustration in a vector style. The current three-wave edit prompt is in `source/chai-mug-flat-v2.prompt.json`; the earlier two-wave prompt remains in `source/chai-mug-flat.prompt.json`; its transparent source PNG is preserved unchanged, and the display WebP is lossless.
-
-The earlier glossy blue chai-mug emblem was generated with the built-in image_gen tool, using the supplied mug photographs as design references. Its blue palette follows the greeting, with warm chai, a flowing heart motif, and two original steam strokes. The full prompt and settings are in `source/chai-mug-blue.prompt.json`. The original transparent PNG is retained unchanged; its WebP is a lossless encoding at the same dimensions.
-
-The red mesh pen holder was produced with the built-in image_gen tool using the supplied product photo as the reference/edit target: red container, preserved black/chrome pen styles, one added pencil, and transparent background. Its complete prompt and tool settings are recorded in `source/pen-holder-red.prompt.json`. The original PNG is retained unchanged; the WebP is encoded losslessly at the same dimensions, with alpha preserved.
-
-The backend request-flow marks are editable native SVGs showing a request, a code service, and a database. Their two theme variants share the same geometry. The UBIT emblem is copied unchanged from the transparent emblem used in [DeployLatch](https://github.com/codewithmahad/deploylatch/blob/main/docs/assets/ubit-emblem.png). Earlier backend, community, and signoff-plane source illustrations remain in the repository but are no longer displayed. The old drawer and signoff banners have been removed from the build and README.
-
-The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces), [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope), and [Inter](https://github.com/google/fonts/tree/main/ofl/inter) use the SIL Open Font License; font files and notices are retained in `source/`. Inter was downloaded from Google Fonts on 2026-11-03.
-
-The repository’s [copyright and permissions notice](../../LICENSE.md) grants no reuse permission for the README or copyrighted material the owner holds rights in. Third-party licenses, GitHub’s platform permissions, and applicable legal exceptions remain in effect. Asset provenance is documented separately above.
-
-The [technology logos](stack/README.md) are third-party assets and are not covered by the original-artwork claim.
-
-The owner’s original profile supplied education, backend focus, Android experience, learning priorities, contacts, and the stated **900+ students** community figure. Project descriptions were checked against the linked repositories. PostgreSQL comes from the original personal toolkit.
-
-The image-beside-prose layout was inspired by [skydoves’ profile](https://github.com/skydoves), and the personal learning tone by [LINUX_LAB](https://github.com/codewithmahad/LINUX_LAB). No artwork was copied from either reference.
+Sources and notices for [technology marks](stack/README.md), [platform illustrations](practice/README.md), and [contact buttons](contact/README.md) are recorded beside those files. The profile’s [copyright and permissions notice](../../LICENSE.md) applies to material owned by the author; third-party assets retain their existing terms.

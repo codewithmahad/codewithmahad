@@ -25,9 +25,7 @@ These projects are a reminder of where I started. I'm now spending more time on 
 
 </details>
 
-<div id="behind-the-button" align="center">
-  <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/divider-loop.svg" width="92%" height="12" alt="">
-</div>
+---
 
 ### What I use
 
