@@ -5,14 +5,14 @@ The README mixes editable personal writing, small illustrations, and real techno
 ## Editing and preview
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
-- Edit the light/dark `masthead-*.svg` headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Both use a 1000 × 200 canvas and display centered at a maximum width of 740 pixels. The workbench cutout is enlarged within that fixed canvas; the title size is unchanged. Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
+- The current opening is `intro-light.svg` / `intro-dark.svg`: a left-aligned 250 x 42 wordmark inside a native H1. It uses Inter at weights 650 and 780, optical size 32, and tight spacing, with blue on Mahad. Edit its geometry and palette in `scripts/profile/build.mjs` and font variations in `scripts/profile/design.mjs`. The earlier 1000 x 200 illustrated `masthead-*.svg` files, their generator, and all workbench source artwork are preserved for reuse.
 - A single coral SVG divider separates the background disclosure from the toolkit. The connection section uses a native heading and normal text.
 - The connection section keeps all six social profiles in one HTML paragraph: Portfolio, LinkedIn, Mail, LeetCode, HackerRank, and Codolio. They fit one row on desktop and wrap naturally on narrow screens. There is no category heading, banner, or disclosure.
 - The Linux notebook displays at 104 pixels wide and floats left, roughly matching the heading and two lines of body text without growing with the text column. The backend request-flow vector displays at 112 pixels wide and floats right inside its heading, so the heading border paints behind it. The UBIT emblem displays at 100 pixels wide beside the community body text, with a small vertical inset; its paragraph clears the float before the disclosure. The Linux paragraph clears its float before the other notebook links. All contact and coding-profile links remain visible. The footer is one centered line: copyright owner and year, an All rights reserved link to LICENSE.md, and Back to top with a native up arrow. It wraps naturally on small screens.
 - The toolkit starts with a native four-column table: Java, Spring Boot, PostgreSQL, and Linux, each with a 48-pixel SVG logo and its name underneath. A disclosure groups the full toolkit into languages, frameworks and libraries, databases, and tools and environment, using 24-pixel logos. Keep the visible row focused; add technologies to the appropriate category as they become part of actual project work or study. Sources, ownership, and the distribution license are recorded in [`stack/`](stack/); the logos are not generated or recolored.
 - The 40-pixel-high SVG buttons in `contact/` share the same geometry. Only the portfolio uses a light surface, keeping the blue M and two-tone mahad.dev branding: pure black for mahad and gray for .dev. LinkedIn uses blue; Mail uses warm red with an original white-envelope vector. LeetCode uses graphite and HackerRank uses deep green, with edges matching their fills. LeetCode retains its original mark. HackerRank uses the shared 14-pixel Manrope label weight and a green terminal square. Codolio uses `codolioBase: #F57C06` from its [public stylesheet](https://codolio.com/_next/static/css/53f9a90df567e9a1.css). LeetCode orange `#F89F1B` and HackerRank green `#20D761` come from the original logo assets. Button surfaces are custom design choices. Edit the palette, logo placement, and outlined lettering in `scripts/profile/build.mjs`.
 - The touch-typing section sits immediately before copyright and uses Monkeytype's original typing-monkey illustration. Its history comes from the owner: learning began in 2023 at around 60 WPM, progressing to 130+ WPM. One visible paragraph covers the habit and links to a test and the profile; there is no records table or disclosure. A 160 x 20 SVG profile shortcut sits inline with the text, using a charcoal background, yellow keyboard glyph, and outlined lettering. The practice links use original platform logos embedded in the visible buttons. Downloads, ownership, and sources are recorded in [`practice/`](practice/). Every displayed asset is committed here; none depend on badge or statistics generators.
-- Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The headers embed their artwork and convert lettering to paths, so they need no remote images or installed fonts.
+- Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The SVG headers embed any artwork they use and convert lettering to paths, so they need no remote images or installed fonts.
 
 From the repository root:
 
@@ -53,7 +53,8 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 
 | Original | Display asset | Placement |
 | :--- | :--- | :--- |
-| `source/workbench.png` | `workbench.webp` | Embedded in the two `masthead-*.svg` headers |
+| Editable SVG lettering | `intro-light.svg` / `intro-dark.svg` | Current compact opening |
+| `source/workbench.png` | `workbench.webp` and `masthead-*.svg` | Preserved illustrated opening, currently not displayed |
 | Editable SVG | `backend-flow-light.svg` / `backend-flow-dark.svg` | Backend projects |
 | `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
 | Supplied UBIT emblem | `ubit-emblem.png` | The UBIT Hub |
@@ -61,7 +62,7 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 
 The backend request-flow marks are editable native SVGs showing a request, a code service, and a database. Their two theme variants share the same geometry. The UBIT emblem is copied unchanged from the transparent emblem used in [DeployLatch](https://github.com/codewithmahad/deploylatch/blob/main/docs/assets/ubit-emblem.png). Earlier backend, community, and signoff-plane source illustrations remain in the repository but are no longer displayed. The old drawer and signoff banners have been removed from the build and README.
 
-The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) use the SIL Open Font License; font files and notices are retained in `source/`.
+The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces), [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope), and [Inter](https://github.com/google/fonts/tree/main/ofl/inter) use the SIL Open Font License; font files and notices are retained in `source/`. Inter was downloaded from Google Fonts on 2026-11-03.
 
 The repository’s [copyright and permissions notice](../../LICENSE.md) grants no reuse permission for the README or copyrighted material the owner holds rights in. Third-party licenses, GitHub’s platform permissions, and applicable legal exceptions remain in effect. Asset provenance is documented separately above.
 

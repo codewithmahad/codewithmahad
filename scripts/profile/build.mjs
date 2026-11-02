@@ -2,7 +2,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-import { out, source, serif, sans, bold, lettering, svg, themes } from './design.mjs';
+import { out, source, serif, sans, bold, introText, introNameFont, lettering, svg, themes } from './design.mjs';
 
 await mkdir(out, { recursive: true });
 
@@ -28,6 +28,29 @@ for (const [name, c] of Object.entries(themes)) {
   const header = svg(1000, 200, title, hero);
   await writeFile(path.join(out, `masthead-${name}.svg`), header);
 
+}
+
+// Compact typographic opening; the illustrated mastheads above remain available.
+const introPrefix = 'Hi, I’m ';
+const introName = 'Mahad.';
+const introSize = 40;
+const introTracking = -.8;
+const introAdvance = (text, font) => {
+  const layout = font.layout(text);
+  return layout.positions.reduce((width, p) => width + p.xAdvance, 0) * introSize / font.unitsPerEm
+    + introTracking * layout.glyphs.length;
+};
+const introNameX = introAdvance(introPrefix, introText);
+const introWidth = Math.ceil(introNameX + introAdvance(introName, introNameFont) + 4);
+const introPalette = {
+  light: { text: '#111111', accent: '#155dfc' },
+  dark: { text: '#f0f6fc', accent: '#2f81f7' },
+};
+for (const [name, colors] of Object.entries(introPalette)) {
+  const title = introPrefix + introName;
+  const body = lettering(introPrefix, 0, 35, introSize, introText, colors.text, introTracking)
+    + lettering(introName, introNameX, 35, introSize, introNameFont, colors.accent, introTracking);
+  await writeFile(path.join(out, 'intro-' + name + '.svg'), svg(introWidth, 42, title, body));
 }
 
 const loop = svg(1000, 12, '', `<defs><linearGradient id="fade"><stop stop-color="#c56f53" stop-opacity=".15"/><stop offset=".48" stop-color="#c56f53" stop-opacity=".8"/><stop offset="1" stop-color="#c56f53" stop-opacity=".15"/></linearGradient></defs><path d="M8 6.5 H400 C439 6.5 449 1.5 475 2 C504 3 477 11.5 461 8 C444 2.5 489 3 511 5 C539 8 550 6.5 592 6.5 H990" fill="none" stroke="url(#fade)" stroke-width="1.3" stroke-linecap="round"/>`);

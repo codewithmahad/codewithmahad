@@ -1,10 +1,10 @@
 <!-- You found the source. The penguin insists this counts as code review. -->
-<p align="center" id="top">
+<h1 id="top">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/masthead-dark.svg">
-    <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/masthead-light.svg" width="740" alt="Hey, I’m Mahad. An illustrated workbench.">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg">
+    <img src="assets/profile/intro-light.svg" width="250" height="42" align="texttop" alt="Hi, I’m Mahad.">
   </picture>
-</p>
+</h1>
 
 **I’m Shaikh Mahad Ud Din**, a developer from Karachi, Pakistan, focused on **Java and Spring Boot**.
 

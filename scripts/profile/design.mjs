@@ -10,6 +10,9 @@ const sansBase = fontkit.openSync(path.join(source, 'Manrope.ttf'));
 export const serif = serifBase.getVariation({ wght: 600, opsz: 72, SOFT: 20, WONK: 1 });
 export const sans = sansBase.getVariation({ wght: 550 });
 export const bold = sansBase.getVariation({ wght: 700 });
+const interBase = fontkit.openSync(path.join(source, 'Inter.ttf'));
+export const introText = interBase.getVariation({ wght: 650, opsz: 32 });
+export const introNameFont = interBase.getVariation({ wght: 780, opsz: 32 });
 export const escape = (s) => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
 
 // Outline the lettering so GitHub visitors never need the source fonts installed.
