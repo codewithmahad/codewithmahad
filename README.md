@@ -167,24 +167,6 @@ If a repo helped you or sparked an idea, I’d like to hear about it. [Follow my
 
 <h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 120+ WPM</h3>
 
-I started learning **touch typing in 2023** so I could keep my eyes on the screen and stop searching for keys. It helps with code, notes, and everyday messages. If typing still slows you down, [try a short test on Monkeytype](https://monkeytype.com/) and give yourself a starting point.
-
-<details>
-<summary>My personal bests and what helped</summary>
-
-I was around **60 WPM** when I started, before joining Monkeytype. Reaching **120+ WPM** came gradually with practice. A few recorded bests from [my profile](https://monkeytype.com/profile/CodeWithMahad1):
-
-| Test | WPM | Accuracy |
-| :--- | ---: | ---: |
-| 15 seconds | **156** | 100% |
-| 30 seconds | **144** | 96% |
-| 60 seconds | **133** | 96% |
-| 120 seconds | **117** | 94% |
-
-What I notice day to day is fewer interruptions: I can keep my attention on a command, a sentence, or the problem I’m working through. That’s useful whether you write code, lecture notes, or emails.
-
-Start with a short test, work on accuracy, and come back for a few minutes regularly. Keep your first score. It’s satisfying to look back at it later.
-
-</details>
+I started learning **touch typing in 2023**, at around **60 WPM**, before joining Monkeytype. Reaching **120+ WPM** came gradually with practice. Day to day, I notice fewer interruptions: I can keep my attention on a command, a sentence, or the problem I’m working through. That helps with code, lecture notes, and emails. Start with [a short test](https://monkeytype.com/), work on accuracy, and come back for a few minutes regularly. Keep your first score. It’s satisfying to look back at it later. Come find me on Monkeytype: <a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile.svg" width="92" height="20" align="texttop" alt="My Monkeytype profile"></a>
 
 <p align="center" id="copyright-and-permissions"><sub>© 2026 Shaikh Mahad Ud Din · All rights reserved · <a href="LICENSE.md">Copyright</a><br><a href="#top">Back to the desk ↑</a></sub></p>

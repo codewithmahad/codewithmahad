@@ -93,7 +93,6 @@ if (process.argv.includes('--screenshots')) {
         if (width === 390 || width === 1200) {
           for (const [label, summary] of [
             ['stack', 'More tools & current focus'],
-            ['typing', 'My personal bests and what helped'],
             ['practice', 'Coding profiles & practice'],
             ['drawer', 'Psst. There’s one more drawer.'],
           ]) {

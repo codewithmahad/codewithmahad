@@ -82,4 +82,14 @@ for (const [name, c] of Object.entries(themes)) {
     await writeFile(path.join(contactOut, slug + '-' + name + '.svg'), svg(width, 32, label, button));
   }
 }
+// Inline profile shortcut: original keyboard geometry, using charcoal and yellow.
+const practiceOut = path.join(out, 'practice');
+await mkdir(practiceOut, { recursive: true });
+const typingProfile = [
+  '<rect x=".5" y=".5" width="91" height="19" rx="4" fill="#323437" stroke="#646669"/>',
+  '<g fill="none" stroke="#e2b714" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="7.5" y="5.5" width="14" height="9" rx="1.5"/><path d="M10 8 H11 M14 8 H15 M18 8 H19 M10 11 H11 M14 11 H19"/></g>',
+  lettering('my profile', 28, 13.8, 11.5, bold, '#d1d0c5'),
+].join('');
+await writeFile(path.join(practiceOut, 'monkeytype-profile.svg'), svg(92, 20, 'My Monkeytype profile', typingProfile));
+
 console.log('Built profile artwork, headers, drawer, dividers, and contact links.');
