@@ -54,7 +54,8 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 | Original | Display asset | Placement |
 | :--- | :--- | :--- |
 | SVG lettering | `intro-title-light.svg` / `intro-title-dark.svg` | Current greeting |
-| `source/chai-mug-flat.png` | `chai-mug-flat.webp` | Right side of the heading and introductory paragraphs |
+| `source/chai-mug-flat-v2.png` | `chai-mug-flat-v2.webp` | Right side of the heading and introductory paragraphs |
+| `source/chai-mug-flat.png` | `chai-mug-flat.webp` | Preserved two-wave illustration |
 | `source/chai-mug-blue.png` | `chai-mug-blue.webp` | Preserved glossy alternative, no longer displayed |
 | `source/pen-holder-red.png` | `pen-holder-red.webp` | Preserved alternative, no longer displayed |
 | `source/workbench.png` | `workbench.webp` and `masthead-*.svg` | Preserved illustrated opening, currently not displayed |
@@ -65,7 +66,7 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 
 The earlier study-setup vignette is preserved editable SVG geometry, with ivory chai, a graphite laptop showing 200 OK, and an uneven arrangement of pens and a pencil. Standalone `study-setup-light.svg` / `study-setup-dark.svg` files are retained for inspection and reuse within this profile. Its former responsive header files are retained for reference and are no longer used in the README.
 
-The current chai-mug illustration is a flat graphic redraw of the earlier mug, made with the built-in image_gen tool. It retains the blue mug, warm chai, flowing heart, and two steam curves, replacing the reflective finish with outlined shapes and restrained flat shading. It is a raster illustration in a vector style. The complete edit prompt is in `source/chai-mug-flat.prompt.json`; its transparent source PNG is preserved unchanged, and the display WebP is lossless.
+The current chai-mug illustration is a flat graphic redraw of the earlier mug, made with the built-in image_gen tool. It retains the blue mug, warm chai, flowing heart, and three steam curves, replacing the reflective finish with outlined shapes and restrained flat shading. It is a raster illustration in a vector style. The current three-wave edit prompt is in `source/chai-mug-flat-v2.prompt.json`; the earlier two-wave prompt remains in `source/chai-mug-flat.prompt.json`; its transparent source PNG is preserved unchanged, and the display WebP is lossless.
 
 The earlier glossy blue chai-mug emblem was generated with the built-in image_gen tool, using the supplied mug photographs as design references. Its blue palette follows the greeting, with warm chai, a flowing heart motif, and two original steam strokes. The full prompt and settings are in `source/chai-mug-blue.prompt.json`. The original transparent PNG is retained unchanged; its WebP is a lossless encoding at the same dimensions.
 

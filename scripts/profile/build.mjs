@@ -59,7 +59,7 @@ const loop = svg(1000, 12, '', `<defs><linearGradient id="fade"><stop stop-color
 await writeFile(path.join(out, 'divider-loop.svg'), loop);
 
 // Keep the transparent originals at full resolution; lossless encoding preserves alpha.
-for (const name of ['pen-holder-red', 'chai-mug-blue', 'chai-mug-flat']) {
+for (const name of ['pen-holder-red', 'chai-mug-blue', 'chai-mug-flat', 'chai-mug-flat-v2']) {
   await sharp(path.join(source, name + '.png'))
     .webp({ lossless: true, effort: 6 })
     .toFile(path.join(out, name + '.webp'));

@@ -1,6 +1,6 @@
 <!-- You found the source. The penguin insists this counts as code review. -->
 <h1 id="top">
-  <img src="assets/profile/chai-mug-flat.webp" align="right" width="20%" alt="Illustrated blue chai mug with a flowing heart and two curved steam lines.">
+  <img src="assets/profile/chai-mug-flat-v2.webp" align="right" width="20%" alt="Illustrated blue chai mug with a flowing heart and three curved steam lines.">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-title-dark.svg">
     <img src="assets/profile/intro-title-light.svg" width="60%" height="42" align="texttop" alt="Hi, I’m Mahad.">
