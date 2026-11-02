@@ -137,4 +137,4 @@ I’m learning Java backend development and sharing my projects, notes, [article
 
 I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
 
-<p align="center" id="copyright-and-permissions"><sub>© 2026 Shaikh Mahad Ud Din · All rights reserved · <a href="LICENSE.md">Copyright</a><br><a href="#top">Back to the desk ↑</a></sub></p>
+<p align="center" id="copyright-and-permissions"><sub>©&nbsp;2026 Shaikh&nbsp;Mahad&nbsp;Ud&nbsp;Din &nbsp;·&nbsp; <a href="LICENSE.md">All&nbsp;rights&nbsp;reserved</a> &nbsp;·&nbsp; <a href="#top">Back&nbsp;to&nbsp;top&nbsp;↑</a></sub></p>
