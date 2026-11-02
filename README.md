@@ -1,6 +1,6 @@
 <!-- You found the source. The penguin insists this counts as code review. -->
 <h1 id="top">
-  <img src="assets/profile/pen-holder-red.webp" align="right" width="20%" alt="Red metal-mesh pen holder with black and chrome pens and a pencil.">
+  <img src="assets/profile/chai-mug-blue.webp" align="right" width="20%" alt="Blue chai mug with a flowing heart motif and two blue steam strokes.">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-title-dark.svg">
     <img src="assets/profile/intro-title-light.svg" width="60%" height="42" align="texttop" alt="Hi, I’m Mahad.">
