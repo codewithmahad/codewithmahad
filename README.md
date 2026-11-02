@@ -56,7 +56,7 @@ Alongside project work, I practise **DSA** and work through design patterns and 
 <div id="behind-the-button">
   <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/divider-loop.svg" align="left" width="92%" height="12" alt="">
 </div>
-<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/backend.webp" align="right" width="16%" alt="A small server made of filing drawers, with a brass key."></a>Backend projects</h2>
+<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/backend-flow-dark.svg"><img src="assets/profile/backend-flow-light.svg" align="right" width="112" alt="A request passing through a code service into a database."></picture></a>Backend projects</h2>
 
 <p>
   <a href="https://github.com/codewithmahad/fitness-tracker-backend"><strong>Fitness Tracker API ↗︎</strong></a><br>
@@ -104,7 +104,7 @@ Each repository has its own setup instructions and implementation details.
   <br clear="right">
 </p>
 
-<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/community.webp" align="right" width="16%" alt="A small shared noticeboard with paper notes."></a>The UBIT Hub</h2>
+<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="112" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>The UBIT Hub</h2>
 
 I founded **The UBIT Hub**, a community connecting **900+ UBIT students** through course support, academic discussion, and peer learning.
 
