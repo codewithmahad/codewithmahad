@@ -95,6 +95,15 @@ Each repository has its own setup instructions and implementation details.
   <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data structures & algorithms</strong></a>
 </p>
 
+<h2 id="practical-projects"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="88" alt="DeployLatch logo"></picture></a>Practical projects</h2>
+
+<p>
+  <a href="https://github.com/codewithmahad/deploylatch"><strong>DeployLatch ↗︎</strong></a><br>
+  A Bash tool that deploys a Java service on Ubuntu, verifies the release, and rolls back failed updates. I built it for my Operating Systems course to put the Linux and scripting work from <a href="https://github.com/codewithmahad/LINUX_LAB">LINUX_LAB</a> into practice.<br>
+  <a href="https://github.com/codewithmahad/deploylatch#deployment-demo">See the Ubuntu rollback demo →</a>
+  <br clear="right">
+</p>
+
 <h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/community.webp" align="right" width="16%" alt="A small shared noticeboard with paper notes."></a>The UBIT Hub</h2>
 
 I founded **The UBIT Hub**, a community connecting **900+ UBIT students** through course support, academic discussion, and peer learning.
