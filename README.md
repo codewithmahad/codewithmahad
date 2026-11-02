@@ -16,14 +16,12 @@ That curiosity is what brought me to backend development. I build Spring Boot AP
 <details>
 <summary>A little more about my path</summary>
 
-**BS Software Engineering at UBIT, University of Karachi** brought programming, databases, and operating systems into the same picture for me. My repositories give me somewhere to keep working through them.
+Before shifting my focus to backend development, I spent time building Android applications for university projects. Two of them are still part of my GitHub:
 
-The Android chapter is still here:
+- [**Derivify**](https://github.com/codewithmahad/Derivify-Calculus-Toolkit) — A calculus toolkit I built with Kotlin and Jetpack Compose for my second-semester coursework.
+- [**Quizzler**](https://github.com/codewithmahad/Quizzler-App) — An Android quiz application I built to practise object-oriented programming concepts.
 
-- **[Derivify](https://github.com/codewithmahad/Derivify-Calculus-Toolkit)**: a native Android toolkit for multivariable calculus, built with Kotlin and Jetpack Compose.
-- **[Quizzler](https://github.com/codewithmahad/Quizzler-App)**: the quiz app I built for my second-semester OOP project.
-
-I also founded **The UBIT Hub**. Sharing notes and building small tools for that community is another reason I keep making things.
+These projects are a reminder of where I started. I'm now spending more time on Java, databases, Linux, and the backend side of application development.
 
 </details>
 
@@ -121,6 +119,10 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
+<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
+
+I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
+
 <h2 id="lets-connect">Let’s connect</h2>
 
 I’m learning Java backend development and sharing my projects, notes, [articles](https://medium.com/@codewithmahad), and experiments. If something here helped you, you have feedback, or you’d like to talk about what you’re building, I’d be glad to hear from you.
@@ -133,9 +135,5 @@ I’m learning Java backend development and sharing my projects, notes, [article
   <a href="https://www.hackerrank.com/codewithmahad"><img src="assets/profile/contact/hackerrank-brand.svg" width="126" height="40" alt="HackerRank: my profile"></a>
   <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/contact/codolio-brand.svg" width="104" height="40" alt="Codolio: my profile"></a>
 </p>
-
-<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
-
-I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
 
 <p align="center" id="copyright-and-permissions"><sub>©&nbsp;2026 Shaikh&nbsp;Mahad&nbsp;Ud&nbsp;Din &nbsp;·&nbsp; <a href="LICENSE.md">All&nbsp;rights&nbsp;reserved</a> &nbsp;·&nbsp; <a href="#top">Back&nbsp;to&nbsp;top&nbsp;↑</a></sub></p>
