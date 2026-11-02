@@ -41,6 +41,25 @@ await sharp(path.join(source, 'chai-mug-flat-v2.png'))
   .webp({ lossless: true, effort: 6 })
   .toFile(path.join(out, 'chai-mug-flat-v2.webp'));
 
+// Borderless core-stack lockups: original marks with readable outlined labels.
+const stackOut = path.join(out, 'stack');
+await mkdir(stackOut, { recursive: true });
+const coreStack = [
+  ['java', 'Java', 70, 48],
+  ['spring', 'Spring Boot', 100, 42],
+  ['postgresql', 'PostgreSQL', 106, 46],
+];
+for (const [slug, label, width, iconSize] of coreStack) {
+  const mark = (await readFile(path.join(stackOut, slug + '.svg'))).toString('base64');
+  const labelSize = 14;
+  const labelWidth = bold.layout(label).positions.reduce((sum, p) => sum + p.xAdvance, 0) * labelSize / bold.unitsPerEm;
+  for (const [theme, ink] of Object.entries({ light: '#1f2328', dark: '#f0f6fc' })) {
+    const body = '<image x="' + ((width - iconSize) / 2) + '" y="' + ((48 - iconSize) / 2) + '" width="' + iconSize + '" height="' + iconSize + '" xlink:href="data:image/svg+xml;base64,' + mark + '"/>'
+      + lettering(label, (width - labelWidth) / 2, 66, labelSize, bold, ink);
+    await writeFile(path.join(stackOut, slug + '-lockup-' + theme + '.svg'), svg(width, 72, label, body));
+  }
+}
+
 // One row of social profiles, using original marks and brand accents.
 const contactOut = path.join(out, 'contact');
 await mkdir(contactOut, { recursive: true });

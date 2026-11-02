@@ -7,11 +7,11 @@
   </picture>
 </h1>
 
-**I’m Shaikh Mahad Ud Din**, a developer from Karachi, Pakistan, focused on **Java and Spring Boot**.
+**I'm Shaikh Mahad Ud Din**, a developer based in Karachi, Pakistan, focused on **Java backend development**.
 
-I started with native Android apps in Kotlin and Jetpack Compose. Building screens got me interested in the part I couldn’t see: how an application decides who can do what, where its data belongs, and what happens when a request goes wrong.
+I started programming with C++ in school. What kept me interested was the problem-solving: getting stuck, tracking down a mistake, and finally understanding why something works. That same curiosity eventually drew me toward what happens behind an application.
 
-That curiosity is what brought me to backend development. I build Spring Boot APIs, work with relational databases, and keep pulling apart the pieces until I can explain how they fit. I want to follow a request from the controller to the database and understand the service logic, security rules, and queries along the way.
+My focus is **Java, Spring Boot, REST APIs, and relational databases**. I like tracing a request through business logic, security checks, and database queries. I’m also interested in **system design**: where responsibilities belong, how components communicate, and the trade-offs behind those decisions. I use the projects, experiments, and notes here to work through those questions.
 
 <details>
 <summary>A little more about my path</summary>
@@ -25,31 +25,36 @@ These projects are a reminder of where I started. I'm now spending more time on 
 
 </details>
 
----
+## Backend stack
 
-### What I use
+<p>
+  <a href="https://dev.java/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/java-lockup-dark.svg"><img src="assets/profile/stack/java-lockup-light.svg" width="70" height="72" alt="Java"></picture></a>
+  <a href="https://spring.io/projects/spring-boot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/spring-lockup-dark.svg"><img src="assets/profile/stack/spring-lockup-light.svg" width="100" height="72" alt="Spring Boot"></picture></a>
+  <a href="https://www.postgresql.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/postgresql-lockup-dark.svg"><img src="assets/profile/stack/postgresql-lockup-light.svg" width="106" height="72" alt="PostgreSQL"></picture></a>
+</p>
 
-<!-- Keep this row focused on the core stack. Add tools to the categories below after using or studying them. -->
-<table>
-  <tr>
-    <td align="center" valign="top" width="180"><a href="https://dev.java/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/java.svg" width="48" height="48" alt="Java logo"></a><br><sub><strong>Java</strong></sub></td>
-    <td align="center" valign="top" width="180"><a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/spring.svg" width="48" height="48" alt="Spring Boot logo"></a><br><sub><strong>Spring Boot</strong></sub></td>
-    <td align="center" valign="top" width="180"><a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/postgresql.svg" width="48" height="48" alt="PostgreSQL logo"></a><br><sub><strong>PostgreSQL</strong></sub></td>
-    <td align="center" valign="top" width="180"><a href="https://www.kernel.org/"><img src="assets/profile/stack/linux.svg" width="48" height="48" alt="Linux logo"></a><br><sub><strong>Linux</strong></sub></td>
-  </tr>
-</table>
+I build REST APIs and work on request validation, database access, and migrations.
 
 <details>
-<summary>More tools & current focus</summary>
+<summary>Libraries, tools & learning</summary>
 
-| Area | Tools and how I use them |
-| :--- | :--- |
-| **Languages** | <a href="https://dev.java/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/java.svg" width="24" height="24" align="middle" alt="">&nbsp;Java</a> &nbsp; <a href="https://www.gnu.org/software/bash/"><img src="assets/profile/stack/bash.svg" width="24" height="24" align="middle" alt="">&nbsp;Bash</a><br>Java for backend code; Bash for Linux scripts and deployment automation. |
-| **Frameworks & libraries** | <a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/spring.svg" width="24" height="24" align="middle" alt="">&nbsp;Spring&nbsp;Boot</a> &middot; Spring Security &middot; MapStruct<br>REST APIs, authentication, access rules, and DTO mapping. |
-| **Databases** | <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/postgresql.svg" width="24" height="24" align="middle" alt="">&nbsp;PostgreSQL</a> &nbsp; <a href="https://www.mysql.com/"><img src="assets/profile/stack/mysql.svg" width="24" height="24" align="middle" alt="">&nbsp;MySQL</a><br>SQL for schema design and queries; Flyway for database migrations. |
-| **Tools & environment** | <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/git.svg" width="24" height="24" align="middle" alt="">&nbsp;Git</a> &nbsp; <a href="https://maven.apache.org/"><img src="assets/profile/stack/maven.svg" width="24" height="24" align="middle" alt="">&nbsp;Maven</a> &nbsp; <a href="https://www.kernel.org/"><img src="assets/profile/stack/linux.svg" width="24" height="24" align="middle" alt="">&nbsp;Linux</a> &nbsp; <a href="https://www.postman.com/"><img src="assets/profile/stack/postman.svg" width="24" height="24" align="middle" alt="">&nbsp;Postman</a> &nbsp; <a href="https://www.jetbrains.com/idea/"><img src="assets/profile/stack/intellij.svg" width="24" height="24" align="middle" alt="">&nbsp;IntelliJ&nbsp;IDEA</a><br>Version control, builds, Linux environments, API requests, and everyday development. |
+<!-- Add technologies here as they become part of actual projects or study. -->
 
-**Current focus:** Java internals, DSA, design patterns, and query performance. I work through these alongside my projects and keep the notes in my lab repositories.
+**Frameworks & libraries**<br>
+Spring Data JPA · Hibernate · MapStruct · OpenAPI
+
+**Data & migrations**<br>
+<a href="https://www.mysql.com/"><img src="assets/profile/stack/mysql.svg" width="18" height="18" align="middle" alt="">&nbsp;MySQL</a> · SQL · Flyway
+
+**Development tools**<br>
+<a href="https://git-scm.com/"><img src="assets/profile/stack/git.svg" width="18" height="18" align="middle" alt="">&nbsp;Git</a> &nbsp; <a href="https://maven.apache.org/"><img src="assets/profile/stack/maven.svg" width="18" height="18" align="middle" alt="">&nbsp;Maven</a><br>
+<a href="https://www.postman.com/"><img src="assets/profile/stack/postman.svg" width="18" height="18" align="middle" alt="">&nbsp;Postman</a> &nbsp; <a href="https://www.jetbrains.com/idea/"><img src="assets/profile/stack/intellij.svg" width="18" height="18" align="middle" alt="">&nbsp;IntelliJ&nbsp;IDEA</a>
+
+**Environment & scripting**<br>
+<a href="https://www.kernel.org/"><img src="assets/profile/stack/linux.svg" width="18" height="18" align="middle" alt="">&nbsp;Linux</a> &nbsp; <a href="https://www.gnu.org/software/bash/"><img src="assets/profile/stack/bash.svg" width="18" height="18" align="middle" alt="">&nbsp;Bash</a> — service management and deployment scripts in [DeployLatch](https://github.com/codewithmahad/deploylatch).
+
+**Foundations & current focus**<br>
+I use C++ for DSA practice. Alongside my projects, I’m studying Java internals, object-oriented design, design patterns, Spring Security, and SQL query performance.
 
 </details>
 
@@ -117,7 +122,7 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
+<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" vspace="24" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
 
 I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
 

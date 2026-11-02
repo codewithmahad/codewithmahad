@@ -26,3 +26,7 @@ notice.
 Owner information: [Java](https://www.oracle.com/legal/trademarks.html),
 [Spring](https://spring.io/trademarks/),
 [PostgreSQL](https://www.postgresql.org/about/policies/trademarks/).
+
+## Profile lockups
+
+The visible backend row uses generated `java-lockup-{light,dark}.svg`, `spring-lockup-{light,dark}.svg`, and `postgresql-lockup-{light,dark}.svg` files. Each embeds the corresponding original SVG unchanged and adds outlined Manrope lettering. These transparent lockups have no card, border, badge, or external font dependency. Their geometry is maintained in [build.mjs](../../../scripts/profile/build.mjs). The original Java, Spring, and PostgreSQL SVGs remain necessary build inputs.

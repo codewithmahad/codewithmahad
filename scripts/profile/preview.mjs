@@ -92,7 +92,7 @@ if (process.argv.includes('--screenshots')) {
         }
         if (width === 390 || width === 1200) {
           for (const [label, summary] of [
-            ['stack', 'More tools & current focus'],
+            ['stack', 'Libraries, tools & learning'],
           ]) {
             const disclosure = page.getByText(summary, { exact: true }).locator('..');
             await disclosure.evaluate(node => {

@@ -11,14 +11,17 @@ This directory contains the visuals used by the profile, their current source fi
 | `backend-flow-light.svg` / `backend-flow-dark.svg` | Editable native SVG | Backend projects |
 | `linux-notebook.webp` | `source/linux-notebook.png` | Learning notes |
 | `ubit-emblem.png` | Supplied UBIT emblem | The UBIT Hub |
-| `stack/*.svg` | Original technology marks | Visible toolkit and expanded categories |
+| `stack/*-lockup-*.svg` | Original technology marks with Manrope labels | Visible backend stack |
+| Other `stack/*.svg` | Original technology marks | Lockup sources and expanded toolkit |
 | `contact/*.svg` | Locally generated buttons | Let’s connect |
 | `practice/monkeytype-monkey.png` | Original Monkeytype illustration | Typing note |
 | `practice/monkeytype-profile-inline.svg` | Locally generated button | Inline Monkeytype link |
 
-The greeting uses a 60%-wide, 42-pixel-high SVG viewport. The mug floats right at 20% of the text column. A standard Markdown horizontal rule separates the introduction from the toolkit.
+The greeting uses a 60%-wide, 42-pixel-high SVG viewport. The mug floats right at 20% of the text column. The backend toolkit uses a native H2 heading and its normal GitHub divider; the earlier standalone rule is no longer needed.
 
-The notebook is 104 pixels wide, the backend-flow illustration is 112 pixels wide, and the UBIT emblem is 100 pixels wide. Contact buttons are 40 pixels high and share one paragraph, wrapping on narrow screens. The typing note precedes the final connection section and copyright footer.
+The notebook is 104 pixels wide, the backend-flow illustration is 112 pixels wide, and the UBIT emblem is 100 pixels wide. Contact buttons are 40 pixels high and share one paragraph, wrapping on narrow screens. The typing monkey keeps its 16% width with 24 pixels of vertical spacing to lower it within the section. The typing note precedes the final connection section and copyright footer.
+
+The visible backend row contains Java, Spring Boot, and PostgreSQL as separate transparent SVG lockups, with original marks and 14-pixel Manrope labels. Its widths total 276 pixels before normal inline spaces, allowing the row to fit a narrow phone. There are no tiles or table borders. The single disclosure groups libraries, data and migrations, development tools, Linux/Bash, and foundations. C++ is recorded as DSA practice; Spring Security is a learning focus rather than a claim of completed project work.
 
 ## Editing and preview
 
@@ -40,7 +43,7 @@ npm --prefix scripts/profile run preview -- --screenshots
 
 Screenshots use Playwright Chromium or Chrome on Windows. `PROFILE_BROWSER` can select another Chromium executable. Dependencies and local previews are ignored by Git.
 
-The build generates only the current greeting variants, notebook and mug display copies, six contact buttons, and inline Monkeytype button. Other current SVGs are edited directly. Full-resolution PNG originals stay in `source/`; the mug WebP is lossless and preserves transparency.
+The build generates the current greeting variants, notebook and mug display copies, six core-stack lockups, six contact buttons, and inline Monkeytype button. Other current SVGs are edited directly. Full-resolution PNG originals stay in `source/`; the mug WebP is lossless and preserves transparency.
 
 ## Image links
 
