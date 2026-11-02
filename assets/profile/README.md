@@ -1,11 +1,11 @@
-﻿# Profile artwork
+# Profile artwork
 
 The README mixes editable personal writing, small illustrations, and real technology logos. Ivory, sage, coral, and brass connect the original artwork; the technology marks keep their own colors and proportions. Longer project, background, and toolkit notes live in expandable sections.
 
 ## Editing and preview
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
-- The current opening is `intro-light.svg` / `intro-dark.svg`: a left-aligned 250 x 42 wordmark inside a native H1. It uses Inter at weights 650 and 780, optical size 32, and tight spacing, with blue on Mahad. Edit its geometry and palette in `scripts/profile/build.mjs` and font variations in `scripts/profile/design.mjs`. The earlier 1000 x 200 illustrated `masthead-*.svg` files, their generator, and all workbench source artwork are preserved for reuse.
+- The opening uses `intro-title-light.svg` / `intro-title-dark.svg` with a left-aligned SVG viewport. A transparent red mesh pen-holder photograph floats right from inside the H1 at 20% of the text column; the title uses a 60%-wide, 42-pixel-high viewport. The greeting keeps its desktop type size and scales within the available width on phones. Introductory text wraps alongside the holder. The earlier compact vignette, plain wordmarks, illustrated mastheads, and computer artwork are preserved but the vignette is no longer displayed.
 - A single coral SVG divider separates the background disclosure from the toolkit. The connection section uses a native heading and normal text.
 - The connection section keeps all six social profiles in one HTML paragraph: Portfolio, LinkedIn, Mail, LeetCode, HackerRank, and Codolio. They fit one row on desktop and wrap naturally on narrow screens. There is no category heading, banner, or disclosure.
 - The Linux notebook displays at 104 pixels wide and floats left, roughly matching the heading and two lines of body text without growing with the text column. The backend request-flow vector displays at 112 pixels wide and floats right inside its heading, so the heading border paints behind it. The UBIT emblem displays at 100 pixels wide beside the community body text, with a small vertical inset; its paragraph clears the float before the disclosure. The Linux paragraph clears its float before the other notebook links. All contact and coding-profile links remain visible. The footer is one centered line: copyright owner and year, an All rights reserved link to LICENSE.md, and Back to top with a native up arrow. It wraps naturally on small screens.
@@ -53,12 +53,17 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 
 | Original | Display asset | Placement |
 | :--- | :--- | :--- |
-| Editable SVG lettering | `intro-light.svg` / `intro-dark.svg` | Current compact opening |
+| SVG lettering | `intro-title-light.svg` / `intro-title-dark.svg` | Current greeting |
+| `source/pen-holder-red.png` | `pen-holder-red.webp` | Right side of the heading and introductory paragraphs |
 | `source/workbench.png` | `workbench.webp` and `masthead-*.svg` | Preserved illustrated opening, currently not displayed |
 | Editable SVG | `backend-flow-light.svg` / `backend-flow-dark.svg` | Backend projects |
 | `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
 | Supplied UBIT emblem | `ubit-emblem.png` | The UBIT Hub |
 
+
+The earlier study-setup vignette is preserved editable SVG geometry, with ivory chai, a graphite laptop showing 200 OK, and an uneven arrangement of pens and a pencil. Standalone `study-setup-light.svg` / `study-setup-dark.svg` files are retained for inspection and reuse within this profile. Its former responsive header files are retained for reference and are no longer used in the README.
+
+The red mesh pen holder was produced with the built-in image_gen tool using the supplied product photo as the reference/edit target: red container, preserved black/chrome pen styles, one added pencil, and transparent background. Its complete prompt and tool settings are recorded in `source/pen-holder-red.prompt.json`. The original PNG is retained unchanged; the WebP is encoded losslessly at the same dimensions, with alpha preserved.
 
 The backend request-flow marks are editable native SVGs showing a request, a code service, and a database. Their two theme variants share the same geometry. The UBIT emblem is copied unchanged from the transparent emblem used in [DeployLatch](https://github.com/codewithmahad/deploylatch/blob/main/docs/assets/ubit-emblem.png). Earlier backend, community, and signoff-plane source illustrations remain in the repository but are no longer displayed. The old drawer and signoff banners have been removed from the build and README.
 

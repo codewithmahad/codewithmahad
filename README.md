@@ -1,8 +1,9 @@
 <!-- You found the source. The penguin insists this counts as code review. -->
 <h1 id="top">
+  <img src="assets/profile/pen-holder-red.webp" align="right" width="20%" alt="Red metal-mesh pen holder with black and chrome pens and a pencil.">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg">
-    <img src="assets/profile/intro-light.svg" width="250" height="42" align="texttop" alt="Hi, I’m Mahad.">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-title-dark.svg">
+    <img src="assets/profile/intro-title-light.svg" width="60%" height="42" align="texttop" alt="Hi, I’m Mahad.">
   </picture>
 </h1>
 
