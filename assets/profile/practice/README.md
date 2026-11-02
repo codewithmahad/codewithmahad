@@ -13,8 +13,8 @@ These are unmodified local copies downloaded from the platforms' own websites or
 
 The Monkeytype illustration is distributed with its upstream [GNU GPL v3 license](MONKEYTYPE-LICENSE.txt). Its original source is linked above and the image is unchanged. Platform marks and this illustration retain their respective ownership and terms; they are excluded from this repository's original-artwork claim. Their use identifies the linked profiles and does not imply endorsement.
 
-The typing history comes from the owner: learning began in 2023 at around 60 WPM, progressing to 120+ WPM. The profile README keeps this as a personal note; individual test records stay on the linked Monkeytype profile.
+The typing history comes from the owner: learning began in 2023 at around 60 WPM, progressing to 130+ WPM. The profile README keeps this as a personal note; individual test records stay on the linked Monkeytype profile.
 
 ## Inline profile shortcut
 
-`monkeytype-profile.svg` is a custom link button with original keyboard geometry and outlined Manrope lettering. Its charcoal-and-yellow palette is inspired by [Monkeytype](https://monkeytype.com/). It is not an official platform asset. The 92 x 20 canvas fits within a text line in both README themes. Geometry is maintained in `scripts/profile/build.mjs`; the original monkey illustration above is unchanged.
+`monkeytype-profile-inline.svg` is a custom link button with original keyboard geometry and outlined Manrope lettering. Its charcoal-and-yellow palette is inspired by [Monkeytype](https://monkeytype.com/). It is not an official platform asset. The 160 x 20 canvas fits within a text line in both README themes. The README uses text-top alignment, zero horizontal image margin, and a narrow space after the final sentence. Geometry is maintained in `scripts/profile/build.mjs`; the original monkey illustration above is unchanged.
