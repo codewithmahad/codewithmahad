@@ -10,8 +10,14 @@ affiliation. Their original colors and proportions are preserved.
 | `spring.svg` | [Devicon: Spring](https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg) | The Spring ecosystem used through Spring Boot; Spring is a trademark of Broadcom Inc. and/or its subsidiaries |
 | `postgresql.svg` | [Devicon: PostgreSQL](https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg) | PostgreSQL and its elephant mark; see the project’s trademark policy below |
 | `git.svg` | [Devicon: Git](https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg) | Git version control |
+| `linux.svg` | [Devicon: Linux](https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg) | Linux and the Tux mascot |
+| `bash.svg` | [Devicon: Bash](https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg) | GNU Bash |
+| `mysql.svg` | [Devicon: MySQL](https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg) | MySQL |
+| `maven.svg` | [Devicon: Maven](https://github.com/devicons/devicon/blob/master/icons/maven/maven-original.svg) | Apache Maven |
+| `postman.svg` | [Devicon: Postman](https://github.com/devicons/devicon/blob/master/icons/postman/postman-original.svg) | Postman |
+| `intellij.svg` | [Devicon: IntelliJ IDEA](https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg) | IntelliJ IDEA |
 
-Downloaded on 2026-09-08. Devicon’s distribution license is retained in
+Java, Spring, PostgreSQL, and Git were downloaded on 2026-09-08. The remaining marks were added on 2026-11-02; Linux reuses the unchanged Devicon asset from DeployLatch. Devicon’s distribution license is retained in
 [`DEVICON-LICENSE.txt`](DEVICON-LICENSE.txt). That license does not transfer
 ownership of the brands or grant trademark rights. These assets are excluded
 from this repository’s claim of original artwork and its all-rights-reserved

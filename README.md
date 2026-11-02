@@ -26,36 +26,36 @@ I also founded **The UBIT Hub**. Sharing notes and building small tools for that
 
 </details>
 
+<div id="behind-the-button" align="center">
+  <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/divider-loop.svg" width="92%" height="12" alt="">
+</div>
+
+### What I use
+
+<!-- Keep this row focused on the core stack. Add tools to the categories below after using or studying them. -->
+<table>
+  <tr>
+    <td align="center" valign="top" width="180"><a href="https://dev.java/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/java.svg" width="48" height="48" alt="Java logo"></a><br><sub><strong>Java</strong></sub></td>
+    <td align="center" valign="top" width="180"><a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/spring.svg" width="48" height="48" alt="Spring Boot logo"></a><br><sub><strong>Spring Boot</strong></sub></td>
+    <td align="center" valign="top" width="180"><a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/postgresql.svg" width="48" height="48" alt="PostgreSQL logo"></a><br><sub><strong>PostgreSQL</strong></sub></td>
+    <td align="center" valign="top" width="180"><a href="https://www.kernel.org/"><img src="assets/profile/stack/linux.svg" width="48" height="48" alt="Linux logo"></a><br><sub><strong>Linux</strong></sub></td>
+  </tr>
+</table>
+
 <details>
-<summary>What I use, and what I’m working on</summary>
+<summary>More tools & current focus</summary>
 
-<p>
-  <a href="https://dev.java/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/java.svg" width="48" height="48" align="middle" alt="Java logo"></a> &nbsp;<strong>Java</strong><br>
-  My main language for backend work. I’m going deeper into Java internals, object-oriented design, and the patterns that make code easier to change.
-</p>
+| Area | Tools and how I use them |
+| :--- | :--- |
+| **Languages** | <a href="https://dev.java/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/java.svg" width="24" height="24" align="middle" alt="">&nbsp;Java</a> &nbsp; <a href="https://www.gnu.org/software/bash/"><img src="assets/profile/stack/bash.svg" width="24" height="24" align="middle" alt="">&nbsp;Bash</a><br>Java for backend code; Bash for Linux scripts and deployment automation. |
+| **Frameworks & libraries** | <a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/spring.svg" width="24" height="24" align="middle" alt="">&nbsp;Spring&nbsp;Boot</a> &middot; Spring Security &middot; MapStruct<br>REST APIs, authentication, access rules, and DTO mapping. |
+| **Databases** | <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/postgresql.svg" width="24" height="24" align="middle" alt="">&nbsp;PostgreSQL</a> &nbsp; <a href="https://www.mysql.com/"><img src="assets/profile/stack/mysql.svg" width="24" height="24" align="middle" alt="">&nbsp;MySQL</a><br>SQL for schema design and queries; Flyway for database migrations. |
+| **Tools & environment** | <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/git.svg" width="24" height="24" align="middle" alt="">&nbsp;Git</a> &nbsp; <a href="https://maven.apache.org/"><img src="assets/profile/stack/maven.svg" width="24" height="24" align="middle" alt="">&nbsp;Maven</a> &nbsp; <a href="https://www.kernel.org/"><img src="assets/profile/stack/linux.svg" width="24" height="24" align="middle" alt="">&nbsp;Linux</a> &nbsp; <a href="https://www.postman.com/"><img src="assets/profile/stack/postman.svg" width="24" height="24" align="middle" alt="">&nbsp;Postman</a> &nbsp; <a href="https://www.jetbrains.com/idea/"><img src="assets/profile/stack/intellij.svg" width="24" height="24" align="middle" alt="">&nbsp;IntelliJ&nbsp;IDEA</a><br>Version control, builds, Linux environments, API requests, and everyday development. |
 
-<p>
-  <a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/spring.svg" width="48" height="48" align="middle" alt="Spring logo"></a> &nbsp;<strong>Spring Boot & Spring Security</strong><br>
-  APIs, authentication, access control, and application layers. MapStruct handles DTO mapping in my backend projects.
-</p>
-
-<p>
-  <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/postgresql.svg" width="48" height="48" align="middle" alt="PostgreSQL logo"></a> &nbsp;<strong>Databases</strong><br>
-  PostgreSQL, MySQL, SQL, and Flyway. I’m working on schema design, migrations, and understanding the queries an application depends on.
-</p>
-
-<p>
-  <a href="https://git-scm.com/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/stack/git.svg" width="48" height="48" align="middle" alt="Git logo"></a> &nbsp;<strong>Everyday tools</strong><br>
-  Git for version control, Maven for builds, Linux and Bash for the environment, Postman for API requests, and IntelliJ IDEA for development.
-</p>
-
-Alongside project work, I practise **DSA** and work through design patterns and query performance. The aim is to understand the tools well enough to explain the choices I make.
+**Current focus:** Java internals, DSA, design patterns, and query performance. I work through these alongside my projects and keep the notes in my lab repositories.
 
 </details>
 
-<div id="behind-the-button">
-  <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/divider-loop.svg" align="left" width="92%" height="12" alt="">
-</div>
 <h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/backend-flow-dark.svg"><img src="assets/profile/backend-flow-light.svg" align="right" width="112" alt="A request passing through a code service into a database."></picture></a>Backend projects</h2>
 
 <p>
