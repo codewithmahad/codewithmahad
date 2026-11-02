@@ -120,50 +120,22 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<div id="lets-talk" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">
-    <img src="assets/profile/contact-heading-light.svg" width="640" alt="Say hello">
-  </picture>
-</div>
+<h2 id="lets-connect">Let’s connect</h2>
 
-If a repo helped you or sparked an idea, I’d like to hear about it. [Follow my work](https://github.com/codewithmahad) or get in touch below.
+I’m building my path in Java backend development and sharing the projects, notes, and systems I learn along the way. If something here caught your attention, I’d be glad to connect.
 
 <p>
-  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/portfolio-dark.svg"><img src="assets/profile/contact/portfolio-light.svg" width="98" height="32" alt="Portfolio: see my work"></picture></a>
-  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/linkedin-dark.svg"><img src="assets/profile/contact/linkedin-light.svg" width="98" height="32" alt="LinkedIn: connect with me"></picture></a>
-  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/email-dark.svg"><img src="assets/profile/contact/email-light.svg" width="78" height="32" alt="Email: write to codewithmahad@gmail.com"></picture></a>
+  <a href="https://shaikhmahad.vercel.app/"><img src="assets/profile/contact/portfolio-card.svg" width="146" height="40" alt="mahad.dev: visit my portfolio"></a>
+  <a href="https://www.linkedin.com/in/codewithmahad"><img src="assets/profile/contact/linkedin-card.svg" width="108" height="40" alt="LinkedIn: connect with me"></a>
+  <a href="mailto:codewithmahad@gmail.com"><img src="assets/profile/contact/gmail-card.svg" width="88" height="40" alt="Gmail: write to codewithmahad@gmail.com"></a>
 </p>
-
-<details>
-<summary>Coding profiles & practice</summary>
 
 <p>
-  <a href="https://leetcode.com/u/mahad2006/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/leetcode-original.png" width="28" height="28" align="middle" alt="">&nbsp;LeetCode</a> &nbsp;&nbsp;
-  <a href="https://www.hackerrank.com/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/hackerrank-wordmark-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/hackerrank-wordmark-light.svg" width="112" height="28" align="middle" alt="HackerRank"></picture></a> &nbsp;&nbsp;
-  <a href="https://www.geeksforgeeks.org/user/codewithmahad/"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/geeksforgeeks-original.svg" width="36" height="28" align="middle" alt="">&nbsp;GeeksforGeeks</a> &nbsp;&nbsp;
-  <a href="https://codolio.com/profile/codewithmahad"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/codolio-original.svg" width="28" height="28" align="middle" alt="">&nbsp;Codolio</a>
+  <strong>Problem solving</strong><br>
+  <a href="https://leetcode.com/u/mahad2006/"><img src="assets/profile/contact/leetcode-card.svg" width="110" height="40" alt="LeetCode: my problem-solving profile"></a>
+  <a href="https://www.hackerrank.com/codewithmahad"><img src="assets/profile/contact/hackerrank-card.svg" width="126" height="40" alt="HackerRank: my practice profile"></a>
+  <a href="https://codolio.com/profile/codewithmahad"><img src="assets/profile/contact/codolio-card.svg" width="104" height="40" alt="Codolio: my coding profile"></a>
 </p>
-
-<details id="the-bottom-drawer">
-<summary>Psst. There’s one more drawer.</summary>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/drawer-compact-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/drawer-compact-light.svg" width="600" alt="Secret drawer: a tiny penguin, a spare key, and a note. Pick one of the links below.">
-</picture>
-
-<p>
-  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Follow the penguin →</strong></a> a Linux rabbit hole.<br>
-  <a href="https://github.com/codewithmahad/spring-security-jwt-mastery"><strong>Take the spare key →</strong></a> a look at authentication.<br>
-  <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>Pass the note →</strong></a> something useful for the next student.
-</p>
-
-<!-- Bonus drawer: thanks for reading the small print. See you in the commit history. -->
-
-</details>
-
-</details>
 
 <h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
 

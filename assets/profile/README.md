@@ -6,12 +6,12 @@ The README mixes editable personal writing, small illustrations, and real techno
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
 - Edit the light/dark `masthead-*.svg` headers in [`../../scripts/profile/build.mjs`](../../scripts/profile/build.mjs). Both use a 1000 × 200 canvas and display centered at a maximum width of 740 pixels. The workbench cutout is enlarged within that fixed canvas; the title size is unchanged. Shared typography and colors live in [`../../scripts/profile/design.mjs`](../../scripts/profile/design.mjs).
-- Exactly two coral dividers appear in the README. The first is a non-floating 12-pixel strip between the background disclosure and the toolkit section. The themed `contact-heading-*.svg` uses a 760 x 56 canvas, displayed at a maximum width of 640 pixels in a centered HTML block. Its smaller title and plane keep the closing section compact.
-- The themed `drawer-compact-*.svg` Easter egg is nested inside the coding-profile disclosure. It uses one 760 × 132 canvas at every viewport, displayed at a maximum width of 600 pixels. Only color scheme selects a source; no tall mobile image can replace it on a laptop.
+- A single coral SVG divider separates the background disclosure from the toolkit. The connection section uses a native heading and normal text.
+- The connection section keeps six links visible in two groups: Portfolio, LinkedIn, and Gmail; then LeetCode, HackerRank, and Codolio. It has no banner or nested disclosures.
 - The Linux notebook displays at 104 pixels wide and floats left, roughly matching the heading and two lines of body text without growing with the text column. The backend request-flow vector displays at 112 pixels wide and floats right inside its heading, so the heading border paints behind it. The UBIT emblem displays at 100 pixels wide beside the community body text, with a small vertical inset; its paragraph clears the float before the disclosure. The Linux paragraph clears its float before the other notebook links. Main contact links remain visible; coding-profile links have their own disclosure. Copyright is a single linked notice at the bottom.
 - The toolkit starts with a native four-column table: Java, Spring Boot, PostgreSQL, and Linux, each with a 48-pixel SVG logo and its name underneath. A disclosure groups the full toolkit into languages, frameworks and libraries, databases, and tools and environment, using 24-pixel logos. Keep the visible row focused; add technologies to the appropriate category as they become part of actual project work or study. Sources, ownership, and the distribution license are recorded in [`stack/`](stack/); the logos are not generated or recolored.
-- Contact links use compact, transparent SVGs in [`contact/`](contact/), with distinct LinkedIn, portfolio, and email icons. Each is a separate native link with descriptive alternative text, and the row wraps on narrow screens. The invitation and nickname remain selectable, left-aligned text.
-- The touch-typing section sits immediately before copyright and uses Monkeytype's original typing-monkey illustration. Its history comes from the owner: learning began in 2023 at around 60 WPM, progressing to 130+ WPM. One visible paragraph covers the habit and links to a test and the profile; there is no records table or disclosure. A 160 x 20 SVG profile shortcut sits inline with the text, using a charcoal background, yellow keyboard glyph, and outlined lettering. The coding-profile disclosure uses original platform logos in one wrapping row. Downloads, ownership, and sources are recorded in [`practice/`](practice/). Every displayed asset is committed here; none depend on badge or statistics generators.
+- The 40-pixel-high SVG buttons in `contact/` use light surfaces and the original platform marks in both README themes. The portfolio button follows the blue M and two-tone mahad.dev navbar branding from [the portfolio](https://shaikhmahad.vercel.app/). Gmail uses Google’s [original 96-pixel product icon](https://www.gstatic.com/images/branding/product/2x/gmail_2020q4_48dp.png), stored unchanged as `source/gmail-original.png`. Edit the frames, logo placement, and outlined lettering in `scripts/profile/build.mjs`.
+- The touch-typing section sits immediately before copyright and uses Monkeytype's original typing-monkey illustration. Its history comes from the owner: learning began in 2023 at around 60 WPM, progressing to 130+ WPM. One visible paragraph covers the habit and links to a test and the profile; there is no records table or disclosure. A 160 x 20 SVG profile shortcut sits inline with the text, using a charcoal background, yellow keyboard glyph, and outlined lettering. The practice links use original platform logos embedded in the visible buttons. Downloads, ownership, and sources are recorded in [`practice/`](practice/). Every displayed asset is committed here; none depend on badge or statistics generators.
 - Full-resolution originals are in [`source/`](source/). Display copies use WebP with transparency. The headers embed their artwork and convert lettering to paths, so they need no remote images or installed fonts.
 
 From the repository root:
@@ -49,7 +49,7 @@ The repository contains only the current profile, its source artwork and license
 
 ## Artwork and provenance
 
-The workbench, Linux notebook, and signoff-plane illustrations were generated with the **built-in image_gen tool**. Prompts for the retained illustrations are preserved in [`source/prompts.json`](source/prompts.json).
+The workbench and Linux notebook illustrations were generated with the **built-in image_gen tool**. Prompts for the retained illustrations are preserved in [`source/prompts.json`](source/prompts.json).
 
 | Original | Display asset | Placement |
 | :--- | :--- | :--- |
@@ -57,9 +57,9 @@ The workbench, Linux notebook, and signoff-plane illustrations were generated wi
 | Editable SVG | `backend-flow-light.svg` / `backend-flow-dark.svg` | Backend projects |
 | `source/linux-notebook.png` | `linux-notebook.webp` | Learning notes |
 | Supplied UBIT emblem | `ubit-emblem.png` | The UBIT Hub |
-| `source/signoff-plane.png` | `signoff-plane.webp` | Embedded over the contact heading's coral divider |
 
-The backend request-flow marks are editable native SVGs showing a request, a code service, and a database. Their two theme variants share the same geometry. The UBIT emblem is copied unchanged from the transparent emblem used in [DeployLatch](https://github.com/codewithmahad/deploylatch/blob/main/docs/assets/ubit-emblem.png). Earlier backend and community illustrations remain in the repository but are no longer referenced by the profile README.
+
+The backend request-flow marks are editable native SVGs showing a request, a code service, and a database. Their two theme variants share the same geometry. The UBIT emblem is copied unchanged from the transparent emblem used in [DeployLatch](https://github.com/codewithmahad/deploylatch/blob/main/docs/assets/ubit-emblem.png). Earlier backend, community, and signoff-plane source illustrations remain in the repository but are no longer displayed. The old drawer and signoff banners have been removed from the build and README.
 
 The Linux penguin is an original illustration. [Fraunces](https://github.com/google/fonts/tree/main/ofl/fraunces) and [Manrope](https://github.com/google/fonts/tree/main/ofl/manrope) use the SIL Open Font License; font files and notices are retained in `source/`.
 

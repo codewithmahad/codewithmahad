@@ -93,8 +93,6 @@ if (process.argv.includes('--screenshots')) {
         if (width === 390 || width === 1200) {
           for (const [label, summary] of [
             ['stack', 'More tools & current focus'],
-            ['practice', 'Coding profiles & practice'],
-            ['drawer', 'Psst. There’s one more drawer.'],
           ]) {
             const disclosure = page.getByText(summary, { exact: true }).locator('..');
             await disclosure.evaluate(node => {
@@ -105,14 +103,6 @@ if (process.argv.includes('--screenshots')) {
             await disclosure.locator(':scope > summary').click();
             await disclosure.locator('img').evaluateAll(images => Promise.all(images.map(img => img.decode())));
             await disclosure.screenshot({ path: path.join(preview, `${label}-${name}.png`) });
-            if (label === 'drawer') {
-              const size = await disclosure.locator('picture img').evaluate(img => ({
-                width: img.clientWidth, height: img.clientHeight,
-                source: img.currentSrc.split('/').pop(),
-              }));
-              console.log(`drawer-${name}`, JSON.stringify(size));
-              if (size.height > 110 || size.height / size.width > .18) throw new Error(`Oversized drawer for ${name}.`);
-            }
             await disclosure.locator(':scope > summary').click();
             await page.locator('details[open]').evaluateAll(nodes => nodes.forEach(node => { node.open = false; }));
           }
