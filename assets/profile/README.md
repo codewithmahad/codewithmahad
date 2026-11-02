@@ -5,7 +5,7 @@ The README mixes editable personal writing, small illustrations, and real techno
 ## Editing and preview
 
 - Edit copy, links, and section placement in [`../../README.md`](../../README.md). The build never overwrites it.
-- The opening uses `intro-title-light.svg` / `intro-title-dark.svg` with a left-aligned SVG viewport. A transparent blue chai-mug emblem floats right from inside the H1 at 20% of the text column; the title uses a 60%-wide, 42-pixel-high viewport. The greeting keeps its desktop type size and scales within the available width on phones. Introductory text wraps alongside the mug. The earlier red pen-holder image is preserved and no longer displayed. The earlier compact vignette, plain wordmarks, illustrated mastheads, and computer artwork are preserved but the vignette is no longer displayed.
+- The opening uses `intro-title-light.svg` / `intro-title-dark.svg` with a left-aligned SVG viewport. A flat, vector-style blue chai-mug illustration floats right from inside the H1 at 20% of the text column; the title uses a 60%-wide, 42-pixel-high viewport. The greeting keeps its desktop type size and scales within the available width on phones. Introductory text wraps alongside the mug. The earlier glossy mug and red pen-holder images are preserved and no longer displayed. The earlier compact vignette, plain wordmarks, illustrated mastheads, and computer artwork are preserved but the vignette is no longer displayed.
 - A single coral SVG divider separates the background disclosure from the toolkit. The connection section uses a native heading and normal text.
 - The connection section keeps all six social profiles in one HTML paragraph: Portfolio, LinkedIn, Mail, LeetCode, HackerRank, and Codolio. They fit one row on desktop and wrap naturally on narrow screens. There is no category heading, banner, or disclosure.
 - The Linux notebook displays at 104 pixels wide and floats left, roughly matching the heading and two lines of body text without growing with the text column. The backend request-flow vector displays at 112 pixels wide and floats right inside its heading, so the heading border paints behind it. The UBIT emblem displays at 100 pixels wide beside the community body text, with a small vertical inset; its paragraph clears the float before the disclosure. The Linux paragraph clears its float before the other notebook links. All contact and coding-profile links remain visible. The footer is one centered line: copyright owner and year, an All rights reserved link to LICENSE.md, and Back to top with a native up arrow. It wraps naturally on small screens.
@@ -54,7 +54,8 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 | Original | Display asset | Placement |
 | :--- | :--- | :--- |
 | SVG lettering | `intro-title-light.svg` / `intro-title-dark.svg` | Current greeting |
-| `source/chai-mug-blue.png` | `chai-mug-blue.webp` | Right side of the heading and introductory paragraphs |
+| `source/chai-mug-flat.png` | `chai-mug-flat.webp` | Right side of the heading and introductory paragraphs |
+| `source/chai-mug-blue.png` | `chai-mug-blue.webp` | Preserved glossy alternative, no longer displayed |
 | `source/pen-holder-red.png` | `pen-holder-red.webp` | Preserved alternative, no longer displayed |
 | `source/workbench.png` | `workbench.webp` and `masthead-*.svg` | Preserved illustrated opening, currently not displayed |
 | Editable SVG | `backend-flow-light.svg` / `backend-flow-dark.svg` | Backend projects |
@@ -64,7 +65,9 @@ The workbench and Linux notebook illustrations were generated with the **built-i
 
 The earlier study-setup vignette is preserved editable SVG geometry, with ivory chai, a graphite laptop showing 200 OK, and an uneven arrangement of pens and a pencil. Standalone `study-setup-light.svg` / `study-setup-dark.svg` files are retained for inspection and reuse within this profile. Its former responsive header files are retained for reference and are no longer used in the README.
 
-The blue chai-mug emblem was generated with the built-in image_gen tool, using the supplied mug photographs as design references. Its blue palette follows the greeting, with warm chai, a flowing heart motif, and two original steam strokes. The full prompt and settings are in `source/chai-mug-blue.prompt.json`. The original transparent PNG is retained unchanged; its WebP is a lossless encoding at the same dimensions.
+The current chai-mug illustration is a flat graphic redraw of the earlier mug, made with the built-in image_gen tool. It retains the blue mug, warm chai, flowing heart, and two steam curves, replacing the reflective finish with outlined shapes and restrained flat shading. It is a raster illustration in a vector style. The complete edit prompt is in `source/chai-mug-flat.prompt.json`; its transparent source PNG is preserved unchanged, and the display WebP is lossless.
+
+The earlier glossy blue chai-mug emblem was generated with the built-in image_gen tool, using the supplied mug photographs as design references. Its blue palette follows the greeting, with warm chai, a flowing heart motif, and two original steam strokes. The full prompt and settings are in `source/chai-mug-blue.prompt.json`. The original transparent PNG is retained unchanged; its WebP is a lossless encoding at the same dimensions.
 
 The red mesh pen holder was produced with the built-in image_gen tool using the supplied product photo as the reference/edit target: red container, preserved black/chrome pen styles, one added pencil, and transparent background. Its complete prompt and tool settings are recorded in `source/pen-holder-red.prompt.json`. The original PNG is retained unchanged; the WebP is encoded losslessly at the same dimensions, with alpha preserved.
 
