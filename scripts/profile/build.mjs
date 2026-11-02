@@ -44,11 +44,11 @@ const loop = svg(1000, 12, '', `<defs><linearGradient id="fade"><stop stop-color
 const plane = (await readFile(path.join(out, 'signoff-plane.webp'))).toString('base64');
 await writeFile(path.join(out, 'divider-loop.svg'), loop);
 
-// The contact title interrupts the line; the larger plane overlaps its left end.
+// A compact closing divider and native links; all lettering is outlined.
 const greeting = 'Say hello';
-const greetingSize = 44;
+const greetingSize = 32;
 const greetingWidth = serif.layout(greeting).positions.reduce((width, p) => width + p.xAdvance, 0) * greetingSize / serif.unitsPerEm;
-const greetingX = (900 - greetingWidth) / 2;
+const greetingX = (760 - greetingWidth) / 2;
 const contactOut = path.join(out, 'contact');
 await mkdir(contactOut, { recursive: true });
 const linkedIn = await readFile(path.join(source, 'linkedin.svg'), 'utf8');
@@ -57,30 +57,29 @@ if (!linkedInGlyph) throw new Error('The existing LinkedIn glyph is missing.');
 
 for (const [name, c] of Object.entries(themes)) {
   const heading = [
-    `<defs><linearGradient id="coral"><stop stop-color="${c.coral}" stop-opacity=".16"/><stop offset=".5" stop-color="${c.coral}" stop-opacity=".75"/><stop offset="1" stop-color="${c.coral}" stop-opacity=".16"/></linearGradient></defs>`,
-    `<g fill="none" stroke="url(#coral)" stroke-width="1.5" stroke-linecap="round"><path d="M8 46 H${greetingX - 22} M${greetingX + greetingWidth + 22} 46 H620 C651 46 667 32 700 37 C733 42 750 46 780 46 H892"/><path d="M635 52 C663 50 681 31 710 34 C728 36 739 41 747 44" stroke-width="1"/></g>`,
-    `<image x="24" y="1" width="135" height="90" xlink:href="data:image/webp;base64,${plane}"/>`,
-    lettering(greeting, greetingX, 61, greetingSize, serif, c.ink, 0),
+    '<defs><linearGradient id="coral"><stop stop-color="' + c.coral + '" stop-opacity=".16"/><stop offset=".5" stop-color="' + c.coral + '" stop-opacity=".75"/><stop offset="1" stop-color="' + c.coral + '" stop-opacity=".16"/></linearGradient></defs>',
+    '<g fill="none" stroke="url(#coral)" stroke-width="1.2" stroke-linecap="round"><path d="M8 28 H' + (greetingX - 18) + ' M' + (greetingX + greetingWidth + 18) + ' 28 H530 C553 28 563 17 586 22 C610 26 624 28 646 28 H752"/><path d="M541 33 C562 32 577 17 596 20 C611 22 620 26 627 27" stroke-width=".8"/></g>',
+    '<image x="20" y="0" width="84" height="56" xlink:href="data:image/webp;base64,' + plane + '"/>',
+    lettering(greeting, greetingX, 39, greetingSize, serif, c.ink),
   ].join('');
-  await writeFile(path.join(out, `contact-heading-${name}.svg`), svg(900, 92, greeting, heading));
+  await writeFile(path.join(out, 'contact-heading-' + name + '.svg'), svg(760, 56, greeting, heading));
 
   const dark = name === 'dark';
   const ink = dark ? '#e6edf3' : '#24292f';
-  const muted = dark ? '#8995a4' : '#657181';
-  const violet = dark ? '#b4a1ff' : '#7654ce';
-  const mail = dark ? '#bcc9d8' : '#526476';
+  const border = dark ? '#3d444d' : '#d1d9e0';
+  const fill = dark ? '#161b22' : '#f6f8fa';
   const icons = {
-    linkedin: `<rect x="3" y="9" width="33.6" height="33.6" rx="2.5" fill="#fff"/><g transform="translate(3 9) scale(1.4)" fill="#0a66c2">${linkedInGlyph}</g>`,
-    portfolio: `<g fill="none" stroke="${violet}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="10" width="34" height="28" rx="5"/><path d="M2 18 H36 M20 33 L29 24 M22 24 H29 V31"/></g><g fill="${violet}"><circle cx="8" cy="14" r="1"/><circle cx="12" cy="14" r="1"/></g>`,
-    email: `<g fill="none" stroke="${mail}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="13" width="34" height="25" rx="4"/><path d="M3 15 L19 27 L35 15 M3 36 L12 27 M35 36 L26 27"/></g><circle cx="34" cy="12" r="5" fill="${dark ? '#e9c575' : '#ba882c'}"/>`,
+    portfolio: '<g fill="none" stroke="' + ink + '" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><rect x="10.5" y="9.5" width="16" height="13" rx="2"/><path d="M11 13.5 H26"/><path d="M14 11.5 H14.1 M17 11.5 H17.1"/></g>',
+    linkedin: '<rect x="10" y="8" width="16" height="16" rx="1.5" fill="#fff"/><g transform="translate(10 8) scale(.6666667)" fill="#0a66c2">' + linkedInGlyph + '</g>',
+    email: '<g fill="none" stroke="' + ink + '" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><rect x="10.5" y="10" width="16" height="12" rx="2"/><path d="M11 11 L18.5 17 L26 11"/></g>',
   };
-  for (const [slug, label] of [['linkedin', 'LinkedIn'], ['portfolio', 'Portfolio'], ['email', 'Email']]) {
-    const link = [
+  for (const [slug, label, width] of [['portfolio', 'Portfolio', 98], ['linkedin', 'LinkedIn', 98], ['email', 'Email', 78]]) {
+    const button = [
+      '<rect x=".5" y=".5" width="' + (width - 1) + '" height="31" rx="5" fill="' + fill + '" stroke="' + border + '"/>',
       icons[slug],
-      lettering(label, 49, 31, 16, bold, ink),
-      `<path d="M149 30 L158 21 M151 21 H158 V28" fill="none" stroke="${muted}" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>`,
+      lettering(label, 33, 20.5, 13, bold, ink),
     ].join('');
-    await writeFile(path.join(contactOut, `${slug}-${name}.svg`), svg(172, 52, label, link));
+    await writeFile(path.join(contactOut, slug + '-' + name + '.svg'), svg(width, 32, label, button));
   }
 }
 console.log('Built profile artwork, headers, drawer, dividers, and contact links.');

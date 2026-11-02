@@ -56,12 +56,7 @@ I also founded **The UBIT Hub**. Sharing notes and building small tools for that
 
 </details>
 
-<h2><a href="https://github.com/codewithmahad/fitness-tracker-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/backend-flow-dark.svg"><img src="assets/profile/backend-flow-light.svg" align="right" width="112" alt="A request passing through a code service into a database."></picture></a>Backend projects</h2>
-
-<p>
-  <a href="https://github.com/codewithmahad/fitness-tracker-backend"><strong>Fitness Tracker API ↗︎</strong></a><br>
-  A MySQL-backed workout API with JWT authentication, user roles, and input validation. This is where I’m putting the layers of a Spring Boot backend together.
-</p>
+<h2><a href="https://github.com/codewithmahad/spring-boot-25-enterprise-template"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/backend-flow-dark.svg"><img src="assets/profile/backend-flow-light.svg" align="right" width="112" alt="A request passing through a code service into a database."></picture></a>Backend projects</h2>
 
 <p>
   <a href="https://github.com/codewithmahad/spring-boot-25-enterprise-template"><strong>Spring Boot Starter ↗︎</strong></a><br>
@@ -69,15 +64,13 @@ I also founded **The UBIT Hub**. Sharing notes and building small tools for that
 </p>
 
 <details>
-<summary>Inside these projects</summary>
-
-**Fitness Tracker:** Java, Spring Boot, Spring Security, MySQL, and MapStruct. The project brings workout data, authentication, role-based access, validation, and DTO mapping into one application.
+<summary>Inside the starter</summary>
 
 **Spring Boot Starter:** Java, Spring Boot, Flyway, MapStruct, and OpenAPI. It brings together the project structure, migration setup, mapping, and documentation I want ready before starting the next backend.
 
 **What I’m paying attention to:** where controller, service, and repository responsibilities meet; what data crosses those boundaries; and how access and validation rules fit into the request flow.
 
-Each repository has its own setup instructions and implementation details.
+The repository has its own setup instructions and implementation details.
 
 </details>
 
@@ -104,11 +97,17 @@ Each repository has its own setup instructions and implementation details.
   <br clear="right">
 </p>
 
-<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="112" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>The UBIT Hub</h2>
+<h2 id="some-things-are-better-shared">The UBIT Hub</h2>
 
-I founded **The UBIT Hub**, a community connecting **900+ UBIT students** through course support, academic discussion, and peer learning.
+<p>
+  <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="100" hspace="12" vspace="6" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>
+  I founded <strong>The UBIT Hub</strong>, a community connecting <strong>900+ UBIT students</strong> through course support, academic discussion, and peer learning.
+</p>
 
-Good notes shouldn’t disappear into an old group chat after finals. **[Our shared resources](https://github.com/codewithmahad/the-ubit-hub-resources)** collect notes, assignments, and lab material for the next person who needs them.
+<p>
+  Good notes shouldn’t disappear into an old group chat after finals. <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>Our shared resources</strong></a> collect notes, assignments, and lab material for the next person who needs them.
+  <br clear="right">
+</p>
 
 <details>
 <summary>The resources and tools behind the community</summary>
@@ -121,21 +120,19 @@ These projects connect the two parts of my GitHub: learning how things work, and
 
 </details>
 
-<div id="lets-talk">
+<div id="lets-talk" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact-heading-dark.svg">
-    <img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact-heading-light.svg" width="100%" alt="Say hello">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact-heading-dark.svg">
+    <img src="assets/profile/contact-heading-light.svg" width="640" alt="Say hello">
   </picture>
 </div>
 
-This profile changes as I build. You’ll find backend projects, Linux notes, and tools for The UBIT Hub here. [Follow me on GitHub](https://github.com/codewithmahad) if you’d like to see what comes next.
-
-If a repo helped you, left you with a question, or sparked an idea, I’d like to hear about it. I go by **codewithmahad** on most platforms.
+If a repo helped you or sparked an idea, I’d like to hear about it. [Follow my work](https://github.com/codewithmahad) or get in touch below.
 
 <p>
-  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/linkedin-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/linkedin-light.svg" width="172" height="52" alt="LinkedIn: connect with me"></picture></a>
-  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/portfolio-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/portfolio-light.svg" width="172" height="52" alt="Portfolio: see my work"></picture></a>
-  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/email-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/contact/email-light.svg" width="172" height="52" alt="Email: write to codewithmahad@gmail.com"></picture></a>
+  <a href="https://shaikhmahad.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/portfolio-dark.svg"><img src="assets/profile/contact/portfolio-light.svg" width="98" height="32" alt="Portfolio: see my work"></picture></a>
+  <a href="https://www.linkedin.com/in/codewithmahad"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/linkedin-dark.svg"><img src="assets/profile/contact/linkedin-light.svg" width="98" height="32" alt="LinkedIn: connect with me"></picture></a>
+  <a href="mailto:codewithmahad@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contact/email-dark.svg"><img src="assets/profile/contact/email-light.svg" width="78" height="32" alt="Email: write to codewithmahad@gmail.com"></picture></a>
 </p>
 
 <details>
