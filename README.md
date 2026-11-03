@@ -58,23 +58,37 @@ I use C++ for DSA practice. Alongside my projects, I’m studying Java internals
 
 </details>
 
-<h2><a href="https://github.com/codewithmahad/spring-boot-25-enterprise-template"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/backend-flow-dark.svg"><img src="assets/profile/backend-flow-light.svg" align="right" width="112" alt="A request passing through a code service into a database."></picture></a>Backend projects</h2>
+## Selected projects
+
+<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch">DeployLatch&nbsp;↗︎</a></h3>
 
 <p>
-  <a href="https://github.com/codewithmahad/spring-boot-25-enterprise-template"><strong>Spring Boot Starter ↗︎</strong></a><br>
-  A reusable starting point with separated layers, database migrations, and API documentation. The setup I don’t want to repeat for every new idea.
+  <a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" alt="DeployLatch logo"></picture></a>
+  <strong>Java · Bash · Ubuntu · systemd</strong><br>
+  DeployLatch started as my Operating Systems course project. It manages versioned releases of a Java service, checks its health after deployment, and restores the previous working version if an update fails. I tested successful deployments and automatic recovery on an Ubuntu VM.<br>
+  <a href="https://github.com/codewithmahad/deploylatch/blob/main/scripts/deploylatch.sh">Deployment&nbsp;script</a> · <a href="https://github.com/codewithmahad/deploylatch#deployment-demo">Rollback&nbsp;demo&nbsp;→</a>
+  <br clear="right">
 </p>
 
-<details>
-<summary>Inside the starter</summary>
+<h3 id="derivify"><a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit">Derivify&nbsp;↗︎</a></h3>
 
-**Spring Boot Starter:** Java, Spring Boot, Flyway, MapStruct, and OpenAPI. It brings together the project structure, migration setup, mapping, and documentation I want ready before starting the next backend.
+<p>
+  <a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/projects/derivify-dark.svg"><img src="assets/profile/projects/derivify-light.svg" align="right" width="12%" alt="Derivify calculus mark."></picture></a>
+  <strong>Kotlin · Jetpack Compose</strong><br>
+  A calculus toolkit built around a custom symbolic differentiation engine. It parses expressions, applies differentiation rules, and computes partial derivatives and gradients. I built it for a university calculus project, with practice quizzes alongside the calculator.<br>
+  <a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit/blob/master/app/src/main/java/com/codewithmahad/derivativecalculator/core/Differentiate.kt">Math engine</a> · <a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit/blob/master/screenshots/calculator.png">Calculator screenshot →</a>
+  <br clear="right">
+</p>
 
-**What I’m paying attention to:** where controller, service, and repository responsibilities meet; what data crosses those boundaries; and how access and validation rules fit into the request flow.
+<h3 id="quizzler"><a href="https://github.com/codewithmahad/Quizzler-App">Quizzler&nbsp;↗︎</a></h3>
 
-The repository has its own setup instructions and implementation details.
-
-</details>
+<p>
+  <a href="https://github.com/codewithmahad/Quizzler-App"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/projects/quizzler-dark.svg"><img src="assets/profile/projects/quizzler-light.svg" align="right" width="12%" alt="Quizzler Q and checked-answer mark."></picture></a>
+  <strong>Kotlin · Jetpack Compose</strong><br>
+  An Android quiz app for practising object-oriented programming. It uses MVVM to keep quiz state separate from the interface, with instant answer feedback and score tracking. Java/Kotlin, C++, and Python question sets share a common data-source interface.<br>
+  <a href="https://github.com/codewithmahad/Quizzler-App/blob/master/app/src/main/java/com/codewithmahad/oopquizapp/viewmodel/QuizViewModel.kt">Quiz state logic</a> · <a href="https://github.com/codewithmahad/Quizzler-App/blob/master/screenshots/quiz_feedback.png">Quiz screenshot →</a>
+  <br clear="right">
+</p>
 
 <h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="left" width="104" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
 
@@ -88,15 +102,6 @@ The repository has its own setup instructions and implementation details.
   <a href="https://github.com/codewithmahad/JAVA_LAB"><strong>Java</strong></a> ·
   <a href="https://github.com/codewithmahad/SQL_LAB"><strong>SQL</strong></a> ·
   <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data structures & algorithms</strong></a>
-</p>
-
-<h2 id="practical-projects"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="88" alt="DeployLatch logo"></picture></a>Practical projects</h2>
-
-<p>
-  <a href="https://github.com/codewithmahad/deploylatch"><strong>DeployLatch ↗︎</strong></a><br>
-  A Bash tool that deploys a Java service on Ubuntu, verifies the release, and rolls back failed updates. I built it for my Operating Systems course to put the Linux and scripting work from <a href="https://github.com/codewithmahad/LINUX_LAB">LINUX_LAB</a> into practice.<br>
-  <a href="https://github.com/codewithmahad/deploylatch#deployment-demo">See the Ubuntu rollback demo →</a>
-  <br clear="right">
 </p>
 
 <h2 id="some-things-are-better-shared">The UBIT Hub</h2>

@@ -3,6 +3,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { out, source, sans, bold, introText, introNameFont, lettering, svg } from './design.mjs';
+import { buildProjectMarks } from './project-marks.mjs';
 
 await mkdir(out, { recursive: true });
 
@@ -60,6 +61,8 @@ for (const [slug, label, width, iconSize] of coreStack) {
   }
 }
 
+await buildProjectMarks();
+
 // One row of social profiles, using original marks and brand accents.
 const contactOut = path.join(out, 'contact');
 await mkdir(contactOut, { recursive: true });
@@ -116,4 +119,4 @@ const typingProfile = [
 ].join('');
 await writeFile(path.join(practiceOut, 'monkeytype-profile-inline.svg'), svg(160, 20, 'My Monkeytype profile', typingProfile));
 
-console.log('Built profile artwork, headers, connection buttons, and typing shortcut.');
+console.log('Built profile artwork, headers, project marks, connection buttons, and typing shortcut.');
