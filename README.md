@@ -11,14 +11,14 @@
 
 I started programming with C++ in school. What kept me interested was the problem-solving: getting stuck, tracking down a mistake, and finally understanding why something works. That same curiosity eventually drew me toward what happens behind an application.
 
-My focus is **Java, Spring Boot, REST APIs, and relational databases**. I like tracing a request through business logic, security checks, and database queries. I’m also interested in **system design**: where responsibilities belong, how components communicate, and the trade-offs behind those decisions. I use the projects, experiments, and notes here to work through those questions.
+My focus is **Java, Spring Boot, REST APIs, and relational databases**. I like tracing a request through business logic, security checks, and database queries. I’m also interested in **system design**: where responsibilities belong and how components communicate. Before adopting a pattern, I want to understand the problem it solves and the trade-offs it introduces.
 
 <details>
 <summary>A little more about me</summary>
 
-Not everything I put on GitHub is a finished project. Some repositories are places to try something out, practise a concept, or keep an explanation I know I'll want to revisit.
+Most of my work so far has been in repositories I started myself. I’d like to contribute to **open-source Java projects** and learn how maintainers organize code, review changes, and decide what belongs.
 
-I'm especially interested in **open-source development**, particularly in the Java ecosystem. I'd like to spend more time working with code I didn't write, understanding why things were built a certain way, and contributing changes that other developers can use. There's a lot to learn from building something yourself, but also from working on something other people have built together.
+I also enjoy the conversations that come with sharing work. If someone spots a simpler solution or asks why I made a particular choice, I want to understand their reasoning, explain mine, and improve the result.
 
 </details>
 
@@ -34,7 +34,7 @@ I'm especially interested in **open-source development**, particularly in the Ja
   <a href="https://git-scm.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/git-lockup-dark.svg"><img src="assets/profile/stack/git-lockup-light.svg" width="72" height="88" align="top" alt="Git"></picture></a>
 </p>
 
-Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay attention to validation, error handling, and the queries an endpoint depends on.
+Java and Spring Boot are my main backend tools, with PostgreSQL for relational data. I pay attention to how an endpoint handles invalid input, what its errors tell the caller, and the queries it runs to produce a response.
 
 <details>
 <summary>More from my toolkit</summary>
@@ -54,7 +54,7 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 ## Selected projects
 
-<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" height="96" vspace="20" alt="DeployLatch logo"></picture>DeployLatch&nbsp;↗︎</a></h3>
+<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" height="112" alt="DeployLatch logo"></picture>DeployLatch&nbsp;↗︎</a></h3>
 
 <p>
   <strong>Java · Bash · Ubuntu · systemd</strong><br>
@@ -97,11 +97,10 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
   <br clear="right">
 </p>
 
-<h2 id="the-notebook-stays-open"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="right" width="72" alt="A penguin studying an open notebook.">Learning notes</h2>
+<h2 id="the-notebook-stays-open"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="right" width="112" alt="A penguin studying an open notebook.">Learning notes</h2>
 
 <p>
-  Some things are worth keeping even when they aren't part of a larger project. I use these repositories for practice, experiments, and notes I can return to when I need to refresh a concept.
-  <br clear="right">
+  These repositories hold Java exercises, SQL queries, DSA problems, and Linux and Bash scripts from my OS labs. I try to leave enough explanation alongside the code that, when I come back weeks or months later, I can remember what I tried and why.
 </p>
 
 <p>
@@ -109,16 +108,17 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
   <a href="https://github.com/codewithmahad/SQL_LAB"><strong>SQL</strong></a> ·
   <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data Structures &amp; Algorithms</strong></a> ·
   <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Linux &amp; Bash</strong></a>
+  <br clear="right">
 </p>
 
-<h2 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" vspace="24" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h2>
+<h2 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-typing-layout.svg" align="right" width="16%" height="160" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h2>
 
 I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
 <br clear="right">
 
 <h2 id="lets-connect">Let’s connect</h2>
 
-If something in my projects, notes, [articles](https://medium.com/@codewithmahad), or experiments helped you, I’d be glad to hear about it. Reach out with feedback, questions, or a project you’d like to work on together.
+I’d be glad to hear your thoughts on something I’ve built, especially if you’d approach it differently. I’m also up for a conversation about what you’re building or an idea you’d like to try. I share [articles](https://medium.com/@codewithmahad) when I have something longer to write about.
 
 <p>
   <a href="https://shaikhmahad.vercel.app/"><img src="assets/profile/contact/portfolio-card.svg" width="146" height="40" alt="mahad.dev: visit my portfolio"></a>

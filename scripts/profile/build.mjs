@@ -5,6 +5,7 @@ import sharp from 'sharp';
 import { out, source, sans, bold, introText, introNameFont, lettering, svg } from './design.mjs';
 import { buildProjectMarks } from './project-marks.mjs';
 import { buildBackendStack } from './backend-stack.mjs';
+import { buildTypingIllustration } from './typing-illustration.mjs';
 
 await mkdir(out, { recursive: true });
 
@@ -46,6 +47,7 @@ await sharp(path.join(source, 'chai-mug-flat-v2.png'))
 await buildBackendStack();
 
 await buildProjectMarks();
+await buildTypingIllustration();
 
 // One row of social profiles, using original marks and brand accents.
 const contactOut = path.join(out, 'contact');
