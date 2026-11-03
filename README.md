@@ -1,6 +1,6 @@
 <!-- You found the source. The penguin insists this counts as code review. -->
 <h1 id="top">
-  <img src="assets/profile/chai-mug-flat-v2.webp" align="right" width="20%" alt="Illustrated blue chai mug with a flowing heart and three curved steam lines.">
+  <img src="assets/profile/chai-mug-flat-v2.webp" align="right" width="20%" alt="">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-title-dark.svg">
     <img src="assets/profile/intro-title-light.svg" width="60%" height="42" align="texttop" alt="Hi, I’m Mahad.">
@@ -54,7 +54,7 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 ## Selected projects
 
-<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" height="96" vspace="32" alt="DeployLatch logo"></picture>DeployLatch&nbsp;↗︎</a></h3>
+<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" height="96" vspace="20" alt="DeployLatch logo"></picture>DeployLatch&nbsp;↗︎</a></h3>
 
 <p>
   <strong>Java · Bash · Ubuntu · systemd</strong><br>
@@ -86,6 +86,17 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 </details>
 
+<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="100" hspace="12" vspace="6" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>The UBIT Hub</h2>
+
+<p>
+  I founded and run <strong>The UBIT Hub</strong>, a WhatsApp community connecting <strong>900+ students at UBIT</strong>. Between course updates, shared notes, assignment questions, and exam preparation, there's usually someone looking for help. I keep the groups organized, answer questions when I can, and share useful resources. The best part is seeing students help each other too.
+</p>
+
+<p>
+  Good material can disappear quickly in a busy chat. That's why I maintain <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>The UBIT Hub Resources</strong></a>, a growing collection of notes and guides that students can return to long after a semester ends. I also built the <a href="https://github.com/codewithmahad/ubit-semester-result-dashboard"><strong>UBIT Semester Results Dashboard</strong></a>, with GPA calculations, class rankings, and downloadable transcripts. Both came from problems I saw students dealing with firsthand.
+  <br clear="right">
+</p>
+
 <h2 id="the-notebook-stays-open"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="right" width="72" alt="A penguin studying an open notebook.">Learning notes</h2>
 
 <p>
@@ -100,20 +111,10 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
   <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Linux &amp; Bash</strong></a>
 </p>
 
-<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="100" hspace="12" vspace="6" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>The UBIT Hub</h2>
-
-<p>
-  I founded and run <strong>The UBIT Hub</strong>, a WhatsApp community connecting <strong>900+ students at UBIT</strong>. Between course updates, shared notes, assignment questions, and exam preparation, there's usually someone looking for help. I keep the groups organized, answer questions when I can, and share useful resources. The best part is seeing students help each other too.
-</p>
-
-<p>
-  Good material can disappear quickly in a busy chat. That's why I maintain <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>The UBIT Hub Resources</strong></a>, a growing collection of notes and guides that students can return to long after a semester ends. I also built the <a href="https://github.com/codewithmahad/ubit-semester-result-dashboard"><strong>UBIT Semester Results Dashboard</strong></a>, with GPA calculations, class rankings, and downloadable transcripts. Both came from problems I saw students dealing with firsthand.
-  <br clear="right">
-</p>
-
-<h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" vspace="24" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
+<h2 id="a-keyboard-habit">From 60 to 130+ WPM<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="96" vspace="26" alt="Monkeytype’s typing monkey."></a></h2>
 
 I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
+<br clear="right">
 
 <h2 id="lets-connect">Let’s connect</h2>
 
