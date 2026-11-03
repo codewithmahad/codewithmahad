@@ -100,10 +100,9 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
   <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Linux &amp; Bash</strong></a>
 </p>
 
-<h2 id="some-things-are-better-shared">The UBIT Hub</h2>
+<h2 id="some-things-are-better-shared"><a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="100" hspace="12" vspace="6" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>The UBIT Hub</h2>
 
 <p>
-  <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="100" hspace="12" vspace="6" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>
   I founded and run <strong>The UBIT Hub</strong>, a WhatsApp community connecting <strong>900+ students at UBIT</strong>. Between course updates, shared notes, assignment questions, and exam preparation, there's usually someone looking for help. I keep the groups organized, answer questions when I can, and share useful resources. The best part is seeing students help each other too.
 </p>
 
