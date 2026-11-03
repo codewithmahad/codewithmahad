@@ -5,13 +5,13 @@ import { out, svg, lettering, bold } from './design.mjs';
 // Learning status stays in accessible SVG titles and the README toolkit note.
 // Visible names share one baseline without a second caption.
 export const backendStack = [
-  { slug: 'java', label: 'Java', width: 70, icon: 48, source: 'java.svg', url: 'https://dev.java/' },
-  { slug: 'spring', label: 'Spring Boot', width: 100, icon: 42, source: 'spring.svg', url: 'https://spring.io/projects/spring-boot' },
-  { slug: 'postgresql', label: 'PostgreSQL', width: 106, icon: 46, source: 'postgresql.svg', url: 'https://www.postgresql.org/' },
-  { slug: 'rest-api', label: 'REST APIs', width: 72, icon: 46, url: 'https://developer.mozilla.org/en-US/docs/Glossary/REST' },
-  { slug: 'junit', label: 'JUnit', width: 72, icon: 44, source: { light: 'junit-light.svg', dark: 'junit-dark.svg' }, learning: true, url: 'https://junit.org/' },
-  { slug: 'spring-security', label: 'Spring Security', width: 128, icon: 48, source: 'spring-security.svg', learning: true, url: 'https://spring.io/projects/spring-security/' },
-  { slug: 'git', label: 'Git', width: 72, icon: 44, source: 'git.svg', url: 'https://git-scm.com/' },
+  { slug: 'java', label: 'Java', width: 70, icon: 62, source: 'java.svg', url: 'https://dev.java/' },
+  { slug: 'spring', label: 'Spring Boot', width: 100, icon: 56, source: 'spring.svg', url: 'https://spring.io/projects/spring-boot' },
+  { slug: 'postgresql', label: 'PostgreSQL', width: 106, icon: 60, source: 'postgresql.svg', url: 'https://www.postgresql.org/' },
+  { slug: 'rest-api', label: 'REST APIs', width: 72, icon: 60, url: 'https://developer.mozilla.org/en-US/docs/Glossary/REST' },
+  { slug: 'junit', label: 'JUnit', width: 72, icon: 58, source: { light: 'junit-light.svg', dark: 'junit-dark.svg' }, learning: true, url: 'https://junit.org/' },
+  { slug: 'spring-security', label: 'Spring Security', width: 128, icon: 62, source: 'spring-security.svg', learning: true, url: 'https://spring.io/projects/spring-security/' },
+  { slug: 'git', label: 'Git', width: 72, icon: 58, source: 'git.svg', url: 'https://git-scm.com/' },
 ];
 
 function restMark(theme) {
@@ -35,8 +35,8 @@ export async function buildBackendStack(directory = path.join(out, 'stack'), inp
       const mark = source ? await readFile(path.join(inputs, source)) : Buffer.from(restMark(theme));
       const labelSize = 14;
       const textWidth = text => bold.layout(text).positions.reduce((sum, p) => sum + p.xAdvance, 0) * labelSize / bold.unitsPerEm;
-      const body = '<image x="' + ((item.width - item.icon) / 2) + '" y="' + ((48 - item.icon) / 2) + '" width="' + item.icon + '" height="' + item.icon + '" xlink:href="data:image/svg+xml;base64,' + mark.toString('base64') + '"/>'
-        + lettering(item.label, (item.width - textWidth(item.label)) / 2, 66, labelSize, bold, c.ink);
+      const body = '<image x="' + ((item.width - item.icon) / 2) + '" y="' + ((64 - item.icon) / 2) + '" width="' + item.icon + '" height="' + item.icon + '" xlink:href="data:image/svg+xml;base64,' + mark.toString('base64') + '"/>'
+        + lettering(item.label, (item.width - textWidth(item.label)) / 2, 82, labelSize, bold, c.ink);
       await writeFile(path.join(directory, item.slug + '-lockup-' + theme + '.svg'), svg(item.width, 88, item.label + (item.learning ? ' — learning' : ''), body));
     }
   }
