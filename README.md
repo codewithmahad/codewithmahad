@@ -86,18 +86,18 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 </details>
 
-<h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="left" width="104" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
+<h2 id="the-notebook-stays-open"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="right" width="72" alt="A penguin studying an open notebook.">Learning notes</h2>
 
 <p>
-  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>LINUX_LAB ↗︎</strong></a> started in my Operating Systems lab. It’s where I work through commands, permissions, processes, and Bash scripts and write the explanation I wish I’d had when something didn’t make sense.
-  <br clear="left">
+  Some things are worth keeping even when they aren't part of a larger project. I use these repositories for practice, experiments, and notes I can return to when I need to refresh a concept.
+  <br clear="right">
 </p>
 
-<p align="center">
-  Other notebooks:
+<p>
   <a href="https://github.com/codewithmahad/JAVA_LAB"><strong>Java</strong></a> ·
   <a href="https://github.com/codewithmahad/SQL_LAB"><strong>SQL</strong></a> ·
-  <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data structures & algorithms</strong></a>
+  <a href="https://github.com/codewithmahad/DSA_LAB"><strong>Data Structures &amp; Algorithms</strong></a> ·
+  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Linux &amp; Bash</strong></a>
 </p>
 
 <h2 id="some-things-are-better-shared">The UBIT Hub</h2>
@@ -118,7 +118,7 @@ I started learning touch typing in 2023, when I was around 60 WPM and still look
 
 <h2 id="lets-connect">Let’s connect</h2>
 
-I’m learning Java backend development and sharing my projects, notes, [articles](https://medium.com/@codewithmahad), and experiments. If something here helped you, you have feedback, or you’d like to talk about what you’re building, I’d be glad to hear from you.
+If something in my projects, notes, [articles](https://medium.com/@codewithmahad), or experiments helped you, I’d be glad to hear about it. Reach out with feedback, questions, or a project you’d like to work on together.
 
 <p>
   <a href="https://shaikhmahad.vercel.app/"><img src="assets/profile/contact/portfolio-card.svg" width="146" height="40" alt="mahad.dev: visit my portfolio"></a>
