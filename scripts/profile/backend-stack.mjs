@@ -2,8 +2,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { out, svg, lettering, bold } from './design.mjs';
 
-// Keep learning labels until the skill is demonstrated in project work.
-// Removing a label does not change the shared canvas height or row alignment.
+// Learning status stays in accessible SVG titles and the README toolkit note.
+// Visible names share one baseline without a second caption.
 export const backendStack = [
   { slug: 'java', label: 'Java', width: 70, icon: 48, source: 'java.svg', url: 'https://dev.java/' },
   { slug: 'spring', label: 'Spring Boot', width: 100, icon: 42, source: 'spring.svg', url: 'https://spring.io/projects/spring-boot' },
@@ -11,7 +11,7 @@ export const backendStack = [
   { slug: 'rest-api', label: 'REST APIs', width: 72, icon: 46, url: 'https://developer.mozilla.org/en-US/docs/Glossary/REST' },
   { slug: 'junit', label: 'JUnit', width: 72, icon: 44, source: { light: 'junit-light.svg', dark: 'junit-dark.svg' }, learning: true, url: 'https://junit.org/' },
   { slug: 'spring-security', label: 'Spring Security', width: 128, icon: 48, source: 'spring-security.svg', learning: true, url: 'https://spring.io/projects/spring-security/' },
-  { slug: 'kotlin', label: 'Kotlin', width: 72, icon: 44, source: 'kotlin.svg', url: 'https://kotlinlang.org/' },
+  { slug: 'git', label: 'Git', width: 72, icon: 44, source: 'git.svg', url: 'https://git-scm.com/' },
 ];
 
 function restMark(theme) {
@@ -28,20 +28,15 @@ export async function buildBackendStack(directory = path.join(out, 'stack'), inp
   await mkdir(directory, { recursive: true });
   for (const item of backendStack) {
     for (const [theme, c] of Object.entries({
-      light: { ink: '#1f2328', muted: '#57606a' },
-      dark: { ink: '#f0f6fc', muted: '#a7b2bf' },
+      light: { ink: '#1f2328' },
+      dark: { ink: '#f0f6fc' },
     })) {
       const source = typeof item.source === 'string' ? item.source : item.source?.[theme];
       const mark = source ? await readFile(path.join(inputs, source)) : Buffer.from(restMark(theme));
       const labelSize = 14;
       const textWidth = text => bold.layout(text).positions.reduce((sum, p) => sum + p.xAdvance, 0) * labelSize / bold.unitsPerEm;
-      let body = '<image x="' + ((item.width - item.icon) / 2) + '" y="' + ((48 - item.icon) / 2) + '" width="' + item.icon + '" height="' + item.icon + '" xlink:href="data:image/svg+xml;base64,' + mark.toString('base64') + '"/>'
+      const body = '<image x="' + ((item.width - item.icon) / 2) + '" y="' + ((48 - item.icon) / 2) + '" width="' + item.icon + '" height="' + item.icon + '" xlink:href="data:image/svg+xml;base64,' + mark.toString('base64') + '"/>'
         + lettering(item.label, (item.width - textWidth(item.label)) / 2, 66, labelSize, bold, c.ink);
-      if (item.learning) {
-        const learningSize = 11;
-        const learningWidth = bold.layout('Learning').positions.reduce((sum, p) => sum + p.xAdvance, 0) * learningSize / bold.unitsPerEm;
-        body += lettering('Learning', (item.width - learningWidth) / 2, 82, learningSize, bold, c.muted);
-      }
       await writeFile(path.join(directory, item.slug + '-lockup-' + theme + '.svg'), svg(item.width, 88, item.label + (item.learning ? ' — learning' : ''), body));
     }
   }

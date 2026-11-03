@@ -31,7 +31,7 @@ I'm especially interested in **open-source development**, particularly in the Ja
   <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/rest-api-lockup-dark.svg"><img src="assets/profile/stack/rest-api-lockup-light.svg" width="72" height="88" align="top" alt="REST APIs"></picture></a>
   <a href="https://junit.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/junit-lockup-dark.svg"><img src="assets/profile/stack/junit-lockup-light.svg" width="72" height="88" align="top" alt="JUnit (learning)"></picture></a>
   <a href="https://spring.io/projects/spring-security/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/spring-security-lockup-dark.svg"><img src="assets/profile/stack/spring-security-lockup-light.svg" width="128" height="88" align="top" alt="Spring Security (learning)"></picture></a>
-  <a href="https://kotlinlang.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/kotlin-lockup-dark.svg"><img src="assets/profile/stack/kotlin-lockup-light.svg" width="72" height="88" align="top" alt="Kotlin"></picture></a>
+  <a href="https://git-scm.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/git-lockup-dark.svg"><img src="assets/profile/stack/git-lockup-light.svg" width="72" height="88" align="top" alt="Git"></picture></a>
 </p>
 
 Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay attention to validation, error handling, and the queries an endpoint depends on.
@@ -43,12 +43,12 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 | Area | Technologies & concepts |
 | :--- | :--- |
-| **Programming foundations** | C++ · DSA · OOP |
+| **Programming foundations** | C++ · Kotlin · DSA · OOP |
 | **APIs & persistence** | HTTP/REST · Spring Data JPA · Hibernate · MapStruct · OpenAPI |
 | **Data & migrations** | SQL · MySQL · Flyway |
 | **Development workflow** | Git · GitHub · Maven · Postman · IntelliJ IDEA |
 
-**Currently learning:** JUnit · Spring Security · Java internals · design patterns · SQL query performance.
+**Currently exploring:** JUnit · Spring Security · Java internals · design patterns · SQL query performance.
 
 </details>
 
