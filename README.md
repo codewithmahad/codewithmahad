@@ -34,6 +34,7 @@ These projects are a reminder of where I started. I'm now spending more time on 
   <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/rest-api-lockup-dark.svg"><img src="assets/profile/stack/rest-api-lockup-light.svg" width="72" height="88" align="top" alt="REST APIs"></picture></a>
   <a href="https://junit.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/junit-lockup-dark.svg"><img src="assets/profile/stack/junit-lockup-light.svg" width="72" height="88" align="top" alt="JUnit (learning)"></picture></a>
   <a href="https://spring.io/projects/spring-security/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/spring-security-lockup-dark.svg"><img src="assets/profile/stack/spring-security-lockup-light.svg" width="128" height="88" align="top" alt="Spring Security (learning)"></picture></a>
+  <a href="https://kotlinlang.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/kotlin-lockup-dark.svg"><img src="assets/profile/stack/kotlin-lockup-light.svg" width="72" height="88" align="top" alt="Kotlin"></picture></a>
 </p>
 
 Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay attention to validation, error handling, and the queries an endpoint depends on.

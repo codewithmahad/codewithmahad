@@ -11,6 +11,7 @@ export const backendStack = [
   { slug: 'rest-api', label: 'REST APIs', width: 72, icon: 46, url: 'https://developer.mozilla.org/en-US/docs/Glossary/REST' },
   { slug: 'junit', label: 'JUnit', width: 72, icon: 44, source: { light: 'junit-light.svg', dark: 'junit-dark.svg' }, learning: true, url: 'https://junit.org/' },
   { slug: 'spring-security', label: 'Spring Security', width: 128, icon: 48, source: 'spring-security.svg', learning: true, url: 'https://spring.io/projects/spring-security/' },
+  { slug: 'kotlin', label: 'Kotlin', width: 72, icon: 44, source: 'kotlin.svg', url: 'https://kotlinlang.org/' },
 ];
 
 function restMark(theme) {
