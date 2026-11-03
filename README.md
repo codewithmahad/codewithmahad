@@ -60,35 +60,37 @@ I use C++ for DSA practice. Alongside my projects, I’m studying Java internals
 
 ## Selected projects
 
-<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch">DeployLatch&nbsp;↗︎</a></h3>
+<h3 id="deploylatch"><a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" height="96" vspace="32" alt="DeployLatch logo"></picture>DeployLatch&nbsp;↗︎</a></h3>
 
 <p>
-  <a href="https://github.com/codewithmahad/deploylatch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark-on-dark.svg"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/deploylatch@5c9f7a45866382327fe0de5911df684a2674dec8/docs/assets/deploylatch-mark.svg" align="right" width="14%" alt="DeployLatch logo"></picture></a>
   <strong>Java · Bash · Ubuntu · systemd</strong><br>
   DeployLatch started as my Operating Systems course project. It manages versioned releases of a Java service, checks its health after deployment, and restores the previous working version if an update fails. I tested successful deployments and automatic recovery on an Ubuntu VM.<br>
   <a href="https://github.com/codewithmahad/deploylatch/blob/main/scripts/deploylatch.sh">Deployment&nbsp;script</a> · <a href="https://github.com/codewithmahad/deploylatch#deployment-demo">Rollback&nbsp;demo&nbsp;→</a>
   <br clear="right">
 </p>
 
-<h3 id="derivify"><a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit">Derivify&nbsp;↗︎</a></h3>
+<details>
+<summary>Earlier projects: Derivify &amp; Quizzler</summary>
+
+<h3 id="derivify"><a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/projects/derivify-dark.svg"><img src="assets/profile/projects/derivify-light.svg" align="right" width="12%" height="80" vspace="28" alt="Derivify calculus mark."></picture>Derivify&nbsp;↗︎</a></h3>
 
 <p>
-  <a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/projects/derivify-dark.svg"><img src="assets/profile/projects/derivify-light.svg" align="right" width="12%" alt="Derivify calculus mark."></picture></a>
   <strong>Kotlin · Jetpack Compose</strong><br>
   A calculus toolkit built around a custom symbolic differentiation engine. It parses expressions, applies differentiation rules, and computes partial derivatives and gradients. I built it for a university calculus project, with practice quizzes alongside the calculator.<br>
   <a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit/blob/master/app/src/main/java/com/codewithmahad/derivativecalculator/core/Differentiate.kt">Math engine</a> · <a href="https://github.com/codewithmahad/Derivify-Calculus-Toolkit/blob/master/screenshots/calculator.png">Calculator screenshot →</a>
   <br clear="right">
 </p>
 
-<h3 id="quizzler"><a href="https://github.com/codewithmahad/Quizzler-App">Quizzler&nbsp;↗︎</a></h3>
+<h3 id="quizzler"><a href="https://github.com/codewithmahad/Quizzler-App"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/projects/quizzler-dark.svg"><img src="assets/profile/projects/quizzler-light.svg" align="right" width="12%" height="80" vspace="28" alt="Quizzler Q and checked-answer mark."></picture>Quizzler&nbsp;↗︎</a></h3>
 
 <p>
-  <a href="https://github.com/codewithmahad/Quizzler-App"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/projects/quizzler-dark.svg"><img src="assets/profile/projects/quizzler-light.svg" align="right" width="12%" alt="Quizzler Q and checked-answer mark."></picture></a>
   <strong>Kotlin · Jetpack Compose</strong><br>
   An Android quiz app for practising object-oriented programming. It uses MVVM to keep quiz state separate from the interface, with instant answer feedback and score tracking. Java/Kotlin, C++, and Python question sets share a common data-source interface.<br>
   <a href="https://github.com/codewithmahad/Quizzler-App/blob/master/app/src/main/java/com/codewithmahad/oopquizapp/viewmodel/QuizViewModel.kt">Quiz state logic</a> · <a href="https://github.com/codewithmahad/Quizzler-App/blob/master/screenshots/quiz_feedback.png">Quiz screenshot →</a>
   <br clear="right">
 </p>
+
+</details>
 
 <h2 id="the-notebook-stays-open"><a href="https://github.com/codewithmahad/LINUX_LAB"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="left" width="104" hspace="12" alt="A little penguin reading a Linux notebook."></a>Learning notes</h2>
 
