@@ -23,11 +23,11 @@ Selected projects sits directly after Backend stack. It features DeployLatch, De
 
 The notebook is 104 pixels wide and the UBIT emblem is 100 pixels wide. Project image boxes use 14% width and a 96-pixel height for DeployLatch, and 12% width with an 80-pixel height for the Android marks. SVG aspect ratios are preserved. Vertical spacing is 32 pixels for DeployLatch and 28 pixels for the Android marks, balancing the graphics within their entries. The height caps prevent the marks from growing the project rows on wide screens; percentage widths keep them small on phones. Contact buttons are 40 pixels high and share one paragraph, wrapping on narrow screens. The typing monkey keeps its 16% width with 24 pixels of vertical spacing to lower it within the section. The typing note precedes the final connection section and copyright footer.
 
-The visible backend row contains Java, Spring Boot, and PostgreSQL as separate transparent SVG lockups, with original marks and 14-pixel Manrope labels. Its widths total 276 pixels before normal inline spaces, allowing the row to fit a narrow phone. There are no tiles or table borders. The single disclosure groups libraries, data and migrations, development tools, Linux/Bash, and foundations. C++ is recorded as DSA practice; Spring Security is a learning focus rather than a claim of completed project work.
+The visible backend row contains Java, Spring Boot, PostgreSQL, REST APIs, JUnit, and Spring Security. Names use the same 14-pixel Manrope lettering, with original marks preserved and a custom request/response icon for REST. All lockups share an 88-pixel canvas and wrap as complete items. JUnit and Spring Security carry visible 11-pixel Learning labels because they have not yet been used in projects. The disclosure is a compact four-row table covering programming foundations, APIs and persistence, data and migrations, and development workflow, followed by a current-learning line. Linux and Bash are demonstrated through DeployLatch rather than repeated here. Extend the table as real project work grows; change a learning flag only when the tool is demonstrated in a project.
 
 ## Editing and preview
 
-Edit profile wording and placement in [the main README](../../README.md). The build never overwrites it. Artwork geometry and button styling are in [build.mjs](../../scripts/profile/build.mjs); font setup and SVG helpers are in [design.mjs](../../scripts/profile/design.mjs).
+Edit profile wording and placement in [the main README](../../README.md). The build never overwrites it. Artwork geometry and button styling are in [build.mjs](../../scripts/profile/build.mjs); font setup and SVG helpers are in [design.mjs](../../scripts/profile/design.mjs). The backend row and learning labels are maintained in [backend-stack.mjs](../../scripts/profile/backend-stack.mjs).
 
 From the repository root:
 
@@ -45,7 +45,7 @@ npm --prefix scripts/profile run preview -- --screenshots
 
 Screenshots use Playwright Chromium or Chrome on Windows. `PROFILE_BROWSER` can select another Chromium executable. Dependencies and local previews are ignored by Git.
 
-The build generates the current greeting variants, notebook and mug display copies, six core-stack lockups, four project marks, six contact buttons, and inline Monkeytype button. Other current SVGs are edited directly. Full-resolution PNG originals stay in `source/`; the mug WebP is lossless and preserves transparency.
+The build generates the current greeting variants, notebook and mug display copies, twelve core-stack lockups, four project marks, six contact buttons, and inline Monkeytype button. Other current SVGs are edited directly. Full-resolution PNG originals stay in `source/`; the mug WebP is lossless and preserves transparency.
 
 ## Image links
 

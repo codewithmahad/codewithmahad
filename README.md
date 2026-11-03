@@ -28,33 +28,29 @@ These projects are a reminder of where I started. I'm now spending more time on 
 ## Backend stack
 
 <p>
-  <a href="https://dev.java/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/java-lockup-dark.svg"><img src="assets/profile/stack/java-lockup-light.svg" width="70" height="72" alt="Java"></picture></a>
-  <a href="https://spring.io/projects/spring-boot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/spring-lockup-dark.svg"><img src="assets/profile/stack/spring-lockup-light.svg" width="100" height="72" alt="Spring Boot"></picture></a>
-  <a href="https://www.postgresql.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/postgresql-lockup-dark.svg"><img src="assets/profile/stack/postgresql-lockup-light.svg" width="106" height="72" alt="PostgreSQL"></picture></a>
+  <a href="https://dev.java/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/java-lockup-dark.svg"><img src="assets/profile/stack/java-lockup-light.svg" width="70" height="88" align="top" alt="Java"></picture></a>
+  <a href="https://spring.io/projects/spring-boot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/spring-lockup-dark.svg"><img src="assets/profile/stack/spring-lockup-light.svg" width="100" height="88" align="top" alt="Spring Boot"></picture></a>
+  <a href="https://www.postgresql.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/postgresql-lockup-dark.svg"><img src="assets/profile/stack/postgresql-lockup-light.svg" width="106" height="88" align="top" alt="PostgreSQL"></picture></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/rest-api-lockup-dark.svg"><img src="assets/profile/stack/rest-api-lockup-light.svg" width="72" height="88" align="top" alt="REST APIs"></picture></a>
+  <a href="https://junit.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/junit-lockup-dark.svg"><img src="assets/profile/stack/junit-lockup-light.svg" width="72" height="88" align="top" alt="JUnit (learning)"></picture></a>
+  <a href="https://spring.io/projects/spring-security/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/stack/spring-security-lockup-dark.svg"><img src="assets/profile/stack/spring-security-lockup-light.svg" width="128" height="88" align="top" alt="Spring Security (learning)"></picture></a>
 </p>
 
-I build REST APIs and work on request validation, database access, and migrations.
+Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay attention to validation, error handling, and the queries an endpoint depends on.
 
 <details>
-<summary>Libraries, tools & learning</summary>
+<summary>More from my toolkit</summary>
 
-<!-- Add technologies here as they become part of actual projects or study. -->
+<!-- Add tools to the category where they are used; add a row when a new area needs one. -->
 
-**Frameworks & libraries**<br>
-Spring Data JPA · Hibernate · MapStruct · OpenAPI
+| Area | Technologies & concepts |
+| :--- | :--- |
+| **Programming foundations** | C++ · DSA · OOP |
+| **APIs & persistence** | HTTP/REST · Spring Data JPA · Hibernate · MapStruct · OpenAPI |
+| **Data & migrations** | SQL · MySQL · Flyway |
+| **Development workflow** | Git · GitHub · Maven · Postman · IntelliJ IDEA |
 
-**Data & migrations**<br>
-<a href="https://www.mysql.com/"><img src="assets/profile/stack/mysql.svg" width="18" height="18" align="middle" alt="">&nbsp;MySQL</a> · SQL · Flyway
-
-**Development tools**<br>
-<a href="https://git-scm.com/"><img src="assets/profile/stack/git.svg" width="18" height="18" align="middle" alt="">&nbsp;Git</a> &nbsp; <a href="https://maven.apache.org/"><img src="assets/profile/stack/maven.svg" width="18" height="18" align="middle" alt="">&nbsp;Maven</a><br>
-<a href="https://www.postman.com/"><img src="assets/profile/stack/postman.svg" width="18" height="18" align="middle" alt="">&nbsp;Postman</a> &nbsp; <a href="https://www.jetbrains.com/idea/"><img src="assets/profile/stack/intellij.svg" width="18" height="18" align="middle" alt="">&nbsp;IntelliJ&nbsp;IDEA</a>
-
-**Environment & scripting**<br>
-<a href="https://www.kernel.org/"><img src="assets/profile/stack/linux.svg" width="18" height="18" align="middle" alt="">&nbsp;Linux</a> &nbsp; <a href="https://www.gnu.org/software/bash/"><img src="assets/profile/stack/bash.svg" width="18" height="18" align="middle" alt="">&nbsp;Bash</a> — service management and deployment scripts in [DeployLatch](https://github.com/codewithmahad/deploylatch).
-
-**Foundations & current focus**<br>
-I use C++ for DSA practice. Alongside my projects, I’m studying Java internals, object-oriented design, design patterns, Spring Security, and SQL query performance.
+**Currently learning:** JUnit · Spring Security · Java internals · design patterns · SQL query performance.
 
 </details>
 
