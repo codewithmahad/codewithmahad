@@ -111,7 +111,7 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
   <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Linux &amp; Bash</strong></a>
 </p>
 
-<h2 id="a-keyboard-habit">From 60 to 130+ WPM<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="96" vspace="26" alt="Monkeytype’s typing monkey."></a></h2>
+<h2 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" vspace="24" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h2>
 
 I started learning touch typing in 2023, when I was around 60 WPM and still looking down at the keyboard. Getting past 130 WPM took plenty of practice, but what I appreciate most is not having to think about where the next key is. Whether I'm writing code, taking notes, or replying to someone, it's one less thing interrupting my focus. I still enjoy a [quick typing test](https://monkeytype.com/) now and then.&#8239;<a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="assets/profile/practice/monkeytype-profile-inline.svg" width="160" height="20" align="texttop" hspace="0" alt="My Monkeytype profile"></a>
 <br clear="right">
