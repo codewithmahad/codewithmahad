@@ -14,14 +14,11 @@ I started programming with C++ in school. What kept me interested was the proble
 My focus is **Java, Spring Boot, REST APIs, and relational databases**. I like tracing a request through business logic, security checks, and database queries. I’m also interested in **system design**: where responsibilities belong, how components communicate, and the trade-offs behind those decisions. I use the projects, experiments, and notes here to work through those questions.
 
 <details>
-<summary>A little more about my path</summary>
+<summary>A little more about me</summary>
 
-Before shifting my focus to backend development, I spent time building Android applications for university projects. Two of them are still part of my GitHub:
+Not everything I put on GitHub is a finished project. Some repositories are places to try something out, practise a concept, or keep an explanation I know I'll want to revisit.
 
-- [**Derivify**](https://github.com/codewithmahad/Derivify-Calculus-Toolkit) — A calculus toolkit I built with Kotlin and Jetpack Compose for my second-semester coursework.
-- [**Quizzler**](https://github.com/codewithmahad/Quizzler-App) — An Android quiz application I built to practise object-oriented programming concepts.
-
-These projects are a reminder of where I started. I'm now spending more time on Java, databases, Linux, and the backend side of application development.
+I'm especially interested in **open-source development**, particularly in the Java ecosystem. I'd like to spend more time working with code I didn't write, understanding why things were built a certain way, and contributing changes that other developers can use. There's a lot to learn from building something yourself, but also from working on something other people have built together.
 
 </details>
 
@@ -61,7 +58,7 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 <p>
   <strong>Java · Bash · Ubuntu · systemd</strong><br>
-  DeployLatch started as my Operating Systems course project. It manages versioned releases of a Java service, checks its health after deployment, and restores the previous working version if an update fails. I tested successful deployments and automatic recovery on an Ubuntu VM.<br>
+  A deployment and rollback tool for a Java service. It manages versioned releases, verifies application health after updates, and restores the previous working version when a deployment fails. I tested both successful updates and automatic recovery on an Ubuntu VM.<br>
   <a href="https://github.com/codewithmahad/deploylatch/blob/main/scripts/deploylatch.sh">Deployment&nbsp;script</a> · <a href="https://github.com/codewithmahad/deploylatch#deployment-demo">Rollback&nbsp;demo&nbsp;→</a>
   <br clear="right">
 </p>
@@ -107,24 +104,13 @@ Java and Spring Boot for REST APIs, PostgreSQL for the data behind them. I pay a
 
 <p>
   <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><img src="assets/profile/ubit-emblem.png" align="right" width="100" hspace="12" vspace="6" alt="Department of Computer Science, UBIT, University of Karachi emblem."></a>
-  I founded <strong>The UBIT Hub</strong>, a community connecting <strong>900+ UBIT students</strong> through course support, academic discussion, and peer learning.
+  I founded and run <strong>The UBIT Hub</strong>, a WhatsApp community connecting <strong>900+ students at UBIT</strong>. Between course updates, shared notes, assignment questions, and exam preparation, there's usually someone looking for help. I keep the groups organized, answer questions when I can, and share useful resources. The best part is seeing students help each other too.
 </p>
 
 <p>
-  Good notes shouldn’t disappear into an old group chat after finals. <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>Our shared resources</strong></a> collect notes, assignments, and lab material for the next person who needs them.
+  Good material can disappear quickly in a busy chat. That's why I maintain <a href="https://github.com/codewithmahad/the-ubit-hub-resources"><strong>The UBIT Hub Resources</strong></a>, a growing collection of notes and guides that students can return to long after a semester ends. I also built the <a href="https://github.com/codewithmahad/ubit-semester-result-dashboard"><strong>UBIT Semester Results Dashboard</strong></a>, with GPA calculations, class rankings, and downloadable transcripts. Both came from problems I saw students dealing with firsthand.
   <br clear="right">
 </p>
-
-<details>
-<summary>The resources and tools behind the community</summary>
-
-The resource repository gives course material a place people can return to. It’s the same reason I keep my own learning notes: something that took time to understand should be easier for the next person to find.
-
-I also built the **[UBIT Semester Results Dashboard](https://github.com/codewithmahad/ubit-semester-result-dashboard)** using **Next.js and TypeScript**, with GPA calculations, rankings, and PDF exports.
-
-These projects connect the two parts of my GitHub: learning how things work, and making something useful with what I learn.
-
-</details>
 
 <h3 id="a-keyboard-habit"><a href="https://monkeytype.com/profile/CodeWithMahad1"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/practice/monkeytype-monkey.png" align="right" width="16%" vspace="24" alt="Monkeytype’s typing monkey."></a>From 60 to 130+ WPM</h3>
 
