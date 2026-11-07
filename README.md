@@ -100,10 +100,10 @@ Java and Spring Boot are my main backend tools, with PostgreSQL for relational d
 </p>
 
 <p>
-  <a href="https://github.com/codewithmahad/JAVA_LAB"><strong>Java Lab</strong></a> ·
-  <a href="https://github.com/codewithmahad/SQL_LAB"><strong>SQL Lab</strong></a> ·
-  <a href="https://github.com/codewithmahad/DSA_LAB"><strong>DSA Practice</strong></a> ·
-  <a href="https://github.com/codewithmahad/LINUX_LAB"><strong>Linux &amp; Bash</strong></a>
+  <a href="https://github.com/codewithmahad/JAVA_LAB"><img src="assets/profile/labs/java.svg" width="99" height="32" alt="Java Lab: my learning repository"></a>
+  <a href="https://github.com/codewithmahad/SQL_LAB"><img src="assets/profile/labs/sql.svg" width="96" height="32" alt="SQL Lab: my learning repository"></a>
+  <a href="https://github.com/codewithmahad/DSA_LAB"><img src="assets/profile/labs/dsa.svg" width="96" height="32" alt="DSA Lab: my learning repository"></a>
+  <a href="https://github.com/codewithmahad/LINUX_LAB"><img src="assets/profile/labs/linux.svg" width="102" height="32" alt="Linux Lab: my learning repository"></a>
   <br clear="right">
 </p>
 
