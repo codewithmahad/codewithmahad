@@ -96,7 +96,7 @@ Java and Spring Boot are my main backend tools, with PostgreSQL for relational d
 <h2 id="the-notebook-stays-open"><img src="https://cdn.jsdelivr.net/gh/codewithmahad/codewithmahad@70c53829fb871ceaafae30382591dc2632aa0525/assets/profile/linux-notebook.webp" align="right" width="112" alt="A penguin studying an open notebook.">Learning notes</h2>
 
 <p>
-  These repositories hold Java exercises, SQL queries, DSA problems, and Linux and Bash scripts from my OS labs. I try to leave enough explanation alongside the code that, when I come back weeks or months later, I can remember what I tried and why.
+  I keep separate workspaces for Java language study, DSA practice in Java, SQL queries, and Linux and Bash coursework. I try to leave enough explanation alongside the code that, when I come back weeks or months later, I can remember what I tried and why.
 </p>
 
 <p>
